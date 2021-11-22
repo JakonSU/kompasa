@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = GRE
-		add_core_of = GRE
+		owner = RWC
+		add_core_of = RWC
 		buildings = {
 			infrastructure = 6
 

@@ -5,8 +5,8 @@ state = {
 	state_category = state_level_7
 	
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		owner = BIA
+		add_core_of = BIA
 		buildings = {
 			infrastructure = 5
 			air_base = 1

@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = SWI
+		owner = WKL
+		add_core_of = WKL
 		buildings = {
 			infrastructure = 5
 			air_base = 3

@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = UAN
-		add_core_of = UAN
+		owner = FRA
+		add_core_of = FRA
 		add_core_of = WLN
 		victory_points = {
 			3516 5 
