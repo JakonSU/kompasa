@@ -1,0 +1,171 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2000.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "USA"
+		default = yes
+		
+		"OWO"={
+			history = "OWO_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas={
+				}
+			focuses = {
+			}
+		}
+		"WKL"={
+			history = "WKL_GATHERING_STORM_DESC"
+			ideology = market_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RZS"={
+			history = "RZS_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"WOL"={
+			history = "Machno Femboy"
+			ideology = market_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ERY"={
+			history = "ERY_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"UAN"={
+			history = "UAN_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"IMN"={
+			history = "IMN_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"WFL"={
+			minor = yes
+			history = "WFL_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BIA"={
+			minor = yes
+			history = "BIA_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ELP"={
+			minor = yes
+			history = "ELP_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ICE"={
+			minor = yes
+			history = "ICE_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+			}
+			focuses = {
+				ICE_approach_the_eu
+				ICE_the_militarization_of_iceland
+				ICE_leave_nato
+			}
+		}
+		"SCO"={
+			minor = yes
+			history = "SCO_GATHERING_STORM_DESC"
+			ideology = democratic_socialist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"HNZ"={
+			minor = yes
+			history = "HNZ_GATHERING_STORM_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {y
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RWC"={
+			minor = yes
+			history = "RWC_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"WTI"={
+			minor = yes
+			history = "WTI_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"WEN"={
+			minor = yes
+			history = "WEN_GATHERING_STORM_DESC"
+			ideology = reactionary
+			ideas = {
+			}
+			focuses = {
+			}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

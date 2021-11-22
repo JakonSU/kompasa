@@ -1,0 +1,17 @@
+state={
+	id=1244
+	name="STATE_1244"
+	history={
+		owner = SEN
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		7972 13702 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

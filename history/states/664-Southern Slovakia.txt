@@ -1,0 +1,27 @@
+
+state={
+	id=664
+	name="STATE_664"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = WEN
+		add_core_of = WEN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		3716 6561 11679 
+	}
+	manpower=427150
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

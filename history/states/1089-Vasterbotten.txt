@@ -1,0 +1,20 @@
+state={
+	id=1089
+	name="STATE_1089"
+	history={
+		owner = IMN
+		add_core_of = IMN
+		victory_points = {
+			6132 1 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		11 109 118 145 182 3003 3062 3100 3113 3138 3173 6024 6083 6132 6161 6200 9093 9143 9211 9220 11067 11069 11190 11201 
+	}
+	manpower=268067
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

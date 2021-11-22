@@ -1,0 +1,17 @@
+state={
+	id=992
+	name="STATE_992"
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		11009 
+	}
+	manpower=173432
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

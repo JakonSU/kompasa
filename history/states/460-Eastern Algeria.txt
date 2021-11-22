@@ -1,0 +1,25 @@
+
+state={
+	id=460
+	name="STATE_460"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		1160 4046 4131 7065 7081 7166 10078 11939 12051 
+	}
+	manpower=11643837
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

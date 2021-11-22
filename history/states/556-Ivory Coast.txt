@@ -1,0 +1,22 @@
+
+state={
+	id=556
+	name="STATE_556"
+
+	history={
+		owner = IVO
+		add_core_of = IVO
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		5070 8065 13684 13688 13691 13692 
+	}
+	manpower=2814635
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=127
+	name="STATE_127"
+	resources={
+		tungsten=3.000
+	}
+
+	history={
+		owner = UAN
+		add_core_of = UAN
+		victory_points = {
+			9458 15 
+		}
+		buildings = {
+			infrastructure = 6
+			9458 = {
+				naval_base = 10
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		507 6489 9458 
+	}
+	manpower=1596691
+	buildings_max_level_factor=1.000
+	state_category=state_level_9
+}

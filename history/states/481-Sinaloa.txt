@@ -1,0 +1,27 @@
+
+state={
+	id=481
+	name="STATE_481"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		4946 7921 8003 10853 10871  
+	}
+	manpower=5751206
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

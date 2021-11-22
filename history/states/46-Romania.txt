@@ -1,0 +1,25 @@
+
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		steel=26.000
+	}
+
+	history={
+		owner = BIA
+		add_core_of = BIA
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		674 6677 9651 11603 11636 
+	}
+	manpower=1987133
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

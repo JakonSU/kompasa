@@ -1,0 +1,22 @@
+
+state={
+	id=1232
+	name="STATE_1232"
+
+	history={
+		owner = TOG
+		add_core_of = TOG
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		12843 13241 13642 
+	}
+	manpower=2133416
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

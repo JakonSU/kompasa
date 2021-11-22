@@ -1,0 +1,17 @@
+state={
+	id=1083
+	name="STATE_1083"
+	history={
+		owner = IMN
+		add_core_of = IMN
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		3141 6084 6164 6188 9054 9209 9218 11044 
+	}
+	manpower=208376
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

@@ -1,0 +1,9607 @@
+
+
+
+
+shared_focus = {
+		id = LEX_a_new_economy_for_a_new_millenium
+		icon = destroy_society
+		x = 5
+		y = 7
+		cost = 5
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = industry
+			}	
+		}
+	ai_will_do = {
+			factor = 200
+		}
+	}
+
+shared_focus = {
+		id = LEX_automoative_mines
+		icon = GFX_goal_continuous_non_factory_construct
+		x = -3
+		y = 2
+		relative_position_id = LEX_a_new_economy_for_a_new_millenium
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_centraly_planned_economy
+		focus = LEX_a_free_market_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_automative_mines_idea
+		add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = excavation_tech
+			
+		}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_our_cars
+		icon = truck
+		x = 3
+		y = 2
+		relative_position_id = LEX_a_new_economy_for_a_new_millenium
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_centraly_planned_economy
+		focus = LEX_a_free_market_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_our_cars_supported
+		random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_modern_construction_methods
+		icon = construction3
+		x = 0
+		y = 2
+		relative_position_id = LEX_a_new_economy_for_a_new_millenium
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_centraly_planned_economy
+		focus = LEX_a_free_market_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = construction_tech
+			
+		}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_develop_national_arms_industry
+		icon = industry_military
+		x = -1
+		y = 1
+		relative_position_id = LEX_modern_construction_methods
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_modern_construction_methods
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_developed_arms_industry
+		custom_effect_tooltip = country_size_tt
+		if = {
+		limit = { 
+		check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_armement
+		icon = industry_military
+		x = 0
+		y = 1
+		relative_position_id = LEX_develop_national_arms_industry
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_develop_national_arms_industry
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = {
+		check_variable = { max_manpower_k > 20000 
+		}
+		NOT = { has_idea = national_development_undeveloped }		
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_civilian_build_up
+		icon = industry_civilian
+		x = 1
+		y = 1
+		relative_position_id = LEX_modern_construction_methods
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_modern_construction_methods
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_expanded_consumer_goods_industry
+		custom_effect_tooltip = country_size_tt
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+	
+shared_focus = {
+		id = LEX_civilian_build_up2
+		icon = industry_civilian
+		x = 0
+		y = 1
+		relative_position_id = LEX_civilian_build_up
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_civilian_build_up
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_develop_consumer_goods_industry
+		icon = industry_civilian
+		x = -1
+		y = 1
+		relative_position_id = LEX_civilian_build_up2
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_civilian_build_up2
+		}
+		prerequisite = {
+		focus = LEX_armement
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_expanded_consumer_goods_industry
+					add_idea = building_civs
+				}
+				custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_fill_the_road_gaps
+		icon = infrastructure
+		x = 0
+		y = 1
+		relative_position_id = LEX_our_cars
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_modern_construction_methods
+		}
+			prerequisite = {
+		focus = LEX_our_cars
+		}
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+	}
+ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_encourage_urbanization
+		icon = urbanization
+		x = 0
+		y = 1
+		relative_position_id = LEX_fill_the_road_gaps
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_fill_the_road_gaps
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+	}
+ai_will_do = {
+			factor = 40
+		}
+}
+
+
+shared_focus = {
+		id = LEX_an_industry_for_planes
+		icon = industry_aluminium
+		x = 0
+		y = 1
+		relative_position_id = LEX_automoative_mines
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_automoative_mines
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+				add_resource = { type = aluminium amount = 4 }
+				add_resource = { type = chromium amount = 2 }
+				add_resource = { type = tungsten amount = 2 }
+		}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+		random_owned_state = {
+				add_resource = { type = aluminium amount = 4 }
+				add_resource = { type = chromium amount = 2 }
+				add_resource = { type = tungsten amount = 2 }
+			}
+		}
+		if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+		random_owned_state = {
+				add_resource = { type = aluminium amount = 4 }
+				add_resource = { type = chromium amount = 2 }
+				add_resource = { type = tungsten amount = 2 }
+			}
+		}
+		
+		
+		
+		
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+
+
+shared_focus = {
+		id = LEX_root_steel_works
+		icon = industry_steel
+		x = 0
+		y = 1
+		relative_position_id = LEX_an_industry_for_planes
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_an_industry_for_planes
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		capital_scope = {
+				add_resource = { type = steel amount = 7 }
+				add_extra_state_shared_building_slots = 1
+		}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+		capital_scope = {
+				add_resource = { type = steel amount = 7 }
+			}
+		}
+		if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+		capital_scope = {
+				add_resource = { type = steel amount = 7 }
+			}
+		}
+		
+		
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+	
+shared_focus = {
+		id = LEX_export_minerals
+		icon = infrastructure
+		x = 0
+		y = 1
+		relative_position_id = LEX_root_steel_works
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_modern_construction_methods
+		}
+			prerequisite = {
+		focus = LEX_root_steel_works
+		}
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+	}
+ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_subside_our_farmers
+		icon = agriculture
+		x = 0
+		y = 1
+		relative_position_id = LEX_encourage_urbanization
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_encourage_urbanization
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_ideas = happy_countryside
+		}
+	}
+		
+	
+	shared_focus = {
+		id = LEX_capital_suburbs
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = -1
+		y = 1
+		relative_position_id = LEX_develop_consumer_goods_industry
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_develop_consumer_goods_industry
+		}
+		prerequisite = {
+		focus = LEX_Autarky
+		focus = LEX_learn_from_china
+		focus = LEX_the_Austrian_school
+		focus = LEX_Institutional_economic_school
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		if = {
+		limit = {
+		capital_scope = {
+		infrastructure < 9
+			}
+		}
+		capital_scope = {
+			add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		if = {
+		limit = {
+		capital_scope = {
+		infrastructure > 8 
+			}
+		}
+		capital_scope = {
+			add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		
+		
+		
+		custom_effect_tooltip = country_size_tt
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k < 500
+			}
+					}
+					
+			capital_scope = {
+				add_manpower = 100000
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 500
+					state_population_k < 1000
+			}
+					}
+					
+			capital_scope = {
+				add_manpower = 125000			
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 1000
+					state_population_k < 2000
+			}
+					}
+					
+			capital_scope = {
+				add_manpower = 175000				
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 2000
+			}
+					}
+					
+			capital_scope = {
+				add_manpower = 250000				
+			}
+		} ####### little country finished
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k < 1000
+			}
+					}
+					
+			capital_scope = {
+				add_manpower = 150000				
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 1000
+					state_population_k < 2000
+			}
+					}
+					
+			capital_scope = {
+			add_manpower = 200000				
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 2000
+					state_population_k < 4000
+			}
+					}
+					
+			capital_scope = {
+			add_manpower = 300000			
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 4000
+					state_population_k < 6000
+			}
+					}
+					
+			capital_scope = {
+			add_manpower = 400000
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 15000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 6000
+			}
+					}
+					
+			capital_scope = {
+				add_manpower = 500000				
+			}
+		}
+		
+		
+		
+		
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+
+
+shared_focus = {
+		id = LEX_our_capital
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 1
+		y = 1
+		relative_position_id = LEX_develop_consumer_goods_industry
+		cost = 10
+		
+		available = {
+		
+		}
+		
+		prerequisite = {
+		focus = LEX_develop_consumer_goods_industry
+		}
+		prerequisite = {
+		focus = LEX_Autarky
+		focus = LEX_learn_from_china
+		focus = LEX_the_Austrian_school
+		focus = LEX_Institutional_economic_school
+		}
+		
+			
+		
+		
+	    completion_reward = {
+		#capital_scope = {
+		#add_state_modifier = {
+		#modifier = {
+        #recruitable_population_factor = 0.2
+		#local_resources_factor = 0.3
+		#		}
+		#	}	
+		#}
+			
+		custom_effect_tooltip = country_size_tt
+		capital_scope = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 10000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k < 500
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 100000
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 10000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 500
+					state_population_k < 1000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 125000
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 10000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 1000
+					state_population_k < 2000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 175000
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k < 10000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 2000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 250000
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		} ####### little country finished
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 20000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k < 1000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 150000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 20000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 1000
+					state_population_k < 2000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 200000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 20000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 2000
+					state_population_k < 4000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 300000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 20000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 4000
+					state_population_k < 6000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 400000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		if = {
+			limit = { 		
+			check_variable = { max_manpower_k > 20000 }
+			capital_scope = { 
+					is_controlled_by = ROOT
+					state_population_k > 6000
+			}
+					}
+					
+			capital_scope = {
+				#add_manpower = 500000
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	
+				
+	}
+ai_will_do = {
+			factor = 80
+		}
+}
+
+shared_focus = {
+		id = LEX_expand_university
+		icon = research
+		x = -1
+		y = 1
+		relative_position_id = LEX_our_capital
+		cost = 10
+		
+		available = {
+			amount_research_slots < 5
+		}
+		
+		prerequisite = {
+		focus = LEX_our_capital
+		}	
+		prerequisite = {
+		focus = LEX_capital_suburbs
+		}			
+		
+		
+	    completion_reward = {
+		add_research_slot = 1
+		custom_effect_tooltip = CZE_war_college_effect_tt
+	}
+ai_will_do = {
+			factor = 400
+		}
+}
+
+shared_focus = {
+		id = LEX_centraly_planned_economy
+		icon = industry_communist
+		x = -7
+		y = 1
+		relative_position_id = LEX_a_new_economy_for_a_new_millenium
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_a_free_market_economy
+		}
+		
+		prerequisite = {
+		focus = LEX_a_new_economy_for_a_new_millenium
+		}
+		
+		available = {
+		OR = {
+		has_completed_focus = LEX_ideology_socialist 
+		has_completed_focus = LEX_ideology_nationalist
+		has_completed_focus = LEX_values_of_equality
+		has_completed_focus = LEX_ideology_fascist
+		has_completed_focus = LEX_ideology_nationalist
+		has_completed_focus = LEX_islam_is_the_way
+		} 
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_economy_central_planned	
+		}
+	ai_will_do = {
+			factor = 120
+			modifier = {
+			factor = 0.5
+			has_government = nationalist		
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_fund_public_schools
+		icon = GFX_focus_generic_military_academy
+		x = -1
+		y = 1
+		relative_position_id = LEX_centraly_planned_economy
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_centraly_planned_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_funding_public_schools
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_support_goverments_business
+		icon = consumer_goods
+		x = 0
+		y = 1
+		relative_position_id = LEX_fund_public_schools
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_fund_public_schools
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_offsite_building = { type = industrial_complex level = 3 }
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+	
+	
+	shared_focus = {
+		id = LEX_state_owned_armories
+		icon = industry_military
+		x = 1
+		y = 1
+		relative_position_id = LEX_centraly_planned_economy
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_centraly_planned_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_take_their_land
+		icon = seize_property
+		x = 0
+		y = 1
+		relative_position_id = LEX_state_owned_armories
+		cost = 10
+		
+		
+		prerequisite = {
+		focus = LEX_state_owned_armories
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+	
+	
+
+shared_focus = {
+		id = LEX_increase_investments_over_industry
+		icon = money_communism
+		x = -1
+		y = 1
+		relative_position_id = LEX_take_their_land
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_take_their_land
+		}
+		prerequisite = {
+		focus = LEX_support_goverments_business
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+
+
+
+shared_focus = {
+		id = LEX_learn_from_china
+		icon = maoism
+		x = 1
+		y = 1
+		relative_position_id = LEX_increase_investments_over_industry
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_Autarky
+		}
+		
+		prerequisite = {
+		focus = LEX_increase_investments_over_industry
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_economy_central_planned
+					add_idea = LEX_socialist_market_economy
+				}
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+
+shared_focus = {
+		id = LEX_Autarky
+		icon = construction4
+		x = -1
+		y = 1
+		relative_position_id = LEX_increase_investments_over_industry
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_learn_from_china
+		}
+		
+		prerequisite = {
+		focus = LEX_increase_investments_over_industry
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_economy_central_planned
+					add_idea = LEX_economy_central_planned_2 
+				}
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+
+shared_focus = {
+		id = LEX_a_free_market_economy
+		icon = industry_democratic2
+		x = 7
+		y = 1
+		relative_position_id = LEX_a_new_economy_for_a_new_millenium
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_a_new_economy_for_a_new_millenium
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_centraly_planned_economy
+		}
+		
+		available = {
+		NOT = {
+		has_completed_focus = LEX_ideology_socialist 
+		has_completed_focus = LEX_ideology_nationalist
+		has_completed_focus = LEX_values_of_equality
+		has_completed_focus = LEX_ideology_fascist
+		has_completed_focus = LEX_islam_is_the_way
+		} 
+	}
+		
+	    completion_reward = {
+		add_ideas = LEX_free_market_based_economy	
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+
+shared_focus = {
+		id = LEX_free_trade
+		icon = trade_deal
+		x = -1
+		y = 1
+		relative_position_id = LEX_a_free_market_economy
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_a_free_market_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_political_power = 70
+		add_stability = 0.05		
+		custom_effect_tooltip = country_size_tt
+		add_offsite_building = { type = industrial_complex level = 1 }
+			if = {
+			limit = { check_variable = { max_manpower_k > 20000 }
+			NOT = { has_idea = national_development_undeveloped }
+			}
+			add_offsite_building = { type = industrial_complex level = 1 }
+			}
+			
+			if = {
+			limit = { check_variable = { max_manpower_k > 50000 }
+			}
+			add_offsite_building = { type = industrial_complex level = 1 }
+			}
+		add_ideas = LEX_free_trade 
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_anti_monopoly_laws
+		icon = renounce_treaty
+		x = 0
+		y = 1
+		relative_position_id = LEX_free_trade
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_free_trade
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_free_market_based_economy
+					add_idea = LEX_free_market_based_economy_2 
+				}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+	
+
+shared_focus = {
+		id = LEX_invite_foreign_investors
+		icon = concessions
+		x = 1
+		y = 1
+		relative_position_id = LEX_a_free_market_economy
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_a_free_market_economy
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_foreign_arms_manufacturers
+		icon = industry_military
+		x = 0
+		y = 1
+		relative_position_id = LEX_invite_foreign_investors
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_invite_foreign_investors
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_sell_goverment_shares_in_companies
+		icon = money
+		x = 1
+		y = 1
+		relative_position_id = LEX_anti_monopoly_laws
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_anti_monopoly_laws
+		}
+		
+		prerequisite = {
+		focus = LEX_foreign_arms_manufacturers
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		add_timed_idea = {
+				idea = LEX_sold_shares
+				days = 365
+			}
+		}
+	ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_the_Austrian_school 
+		icon = libertarianism
+		x = -1
+		y = 1
+		relative_position_id = LEX_sell_goverment_shares_in_companies
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_Institutional_economic_school
+		}
+		
+		prerequisite = {
+		focus = LEX_sell_goverment_shares_in_companies
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_free_market_based_economy_2 
+					add_idea = LEX_the_teachings_of_the_austrain_shcool 
+				}
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+	
+shared_focus = {
+		id = LEX_Institutional_economic_school
+		icon = tech_sharing
+		x = 1
+		y = 1
+		relative_position_id = LEX_sell_goverment_shares_in_companies
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_the_Austrian_school
+		}
+		
+		prerequisite = {
+		focus = LEX_sell_goverment_shares_in_companies
+		}
+		
+		available = {
+		
+	}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_free_market_based_economy_2 
+					add_idea = LEX_the_teachings_of_the_Institutional_shcool 
+				}
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}	
+
+shared_focus = {
+		id = LEX_focus_on_diplomacy
+		icon = alliance
+		x = -9
+		y = 7
+		cost = 5
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_political_power = 50	
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+
+shared_focus = {
+		id = LEX_defend_our_nation
+		icon = defence
+		x = -2
+		y = 1
+		relative_position_id = LEX_focus_on_diplomacy 
+		cost = 10
+	
+		prerequisite = {
+		    focus = LEX_focus_on_diplomacy
+		}
+		
+		completion_reward = {
+		add_ideas = LEX_defend_our_lands
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_neutrality
+		icon = neutrality
+		x = 2
+		y = 1
+		relative_position_id = LEX_focus_on_diplomacy 
+		cost = 10
+	
+	    #mutually_exclusive = {
+		#focus = LEX_we_rule
+		#}
+	 
+	    mutually_exclusive = {
+		focus = LEX_hire_more_diplomats 
+		}
+	
+	    available = {
+		is_in_faction = no
+		is_subject = no
+		}
+	
+		prerequisite = {
+		    focus = LEX_focus_on_diplomacy 
+		}
+		
+		completion_reward = {
+		if = {
+				limit = { 
+					has_idea = neutrality_idea 
+				}
+				add_political_power = 100
+				add_war_support = 0.05
+			}
+			if = {
+				limit = { 
+					NOT = { has_idea = neutrality_idea }
+					NOT = { has_idea = austrian_neutrality }
+				}
+				add_ideas = neutrality_idea
+			}
+			if = {	#Pretty much specific to Austria.
+				limit = {
+					has_idea = austrian_neutrality
+				}
+				remove_ideas = austrian_neutrality
+				add_ideas = neutrality_idea
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+shared_focus = {
+		id = LEX_build_more_forts
+		icon = city_fort
+		x = 0
+		y = 1
+		relative_position_id = LEX_neutrality 
+		cost = 10
+	
+	    available = {
+		is_in_faction = no
+		is_subject = no
+		}
+	
+		prerequisite = {
+		    focus = LEX_neutrality
+		}
+		
+		completion_reward = {
+		add_ideas = ENG_defensive_constructions_idea
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_armed_neutrality
+		icon = GFX_goal_generic_military_sphere #small_arms2
+		x = 0
+		y = 1
+		relative_position_id = LEX_build_more_forts 
+		cost = 10
+	
+	    available = {
+		is_in_faction = no
+		is_subject = no
+		}
+	
+		prerequisite = {
+		    focus = LEX_build_more_forts
+		}
+		
+		completion_reward = {
+		swap_ideas = { 
+					remove_idea = ENG_defensive_constructions_idea
+					add_idea =  armed_neutrality 
+				}
+		
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_our_skies
+		icon = air_defense
+		x = 0
+		y = 1
+		relative_position_id = LEX_armed_neutrality
+		cost = 7.2
+		
+		prerequisite = {
+			focus = LEX_armed_neutrality
+		}
+		
+		completion_reward = {
+				every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		capital_scope = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_hire_more_diplomats
+		icon = GFX_goal_generic_improve_relations
+		x = 0
+		y = 1
+		relative_position_id = LEX_focus_on_diplomacy 
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_neutrality
+		}
+		
+		
+		prerequisite = {
+		    focus = LEX_focus_on_diplomacy
+		}
+		
+		completion_reward = {
+		add_ideas = LEX_more_diplomats
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+shared_focus = {
+		id = LEX_represent_our_nation
+		icon = national_greatness
+		x = -2
+		y = 1
+		relative_position_id = LEX_hire_more_diplomats 
+		cost = 10
+		
+		available = {
+			num_of_military_factories > 20
+			}
+		prerequisite = {
+		    focus = LEX_hire_more_diplomats			
+		}
+		
+		completion_reward = {
+		set_rule = { can_create_factions = yes }
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+	
+	
+
+shared_focus = {
+		id = LEX_military_cooperation
+		icon = entente
+		x = 0
+		y = 1
+		relative_position_id = LEX_represent_our_nation 
+		cost = 10
+	
+	    available = {
+		is_in_faction = yes
+		is_faction_leader = yes
+		}
+	
+		prerequisite = {
+		    focus = LEX_represent_our_nation
+		}
+		
+		completion_reward = {
+		army_experience = 70
+		every_country = {
+				limit = { is_in_faction_with = ROOT }
+				army_experience = 70
+			}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_invest_in_other_members
+		icon = money
+		x = 0
+		y = 1
+		relative_position_id = LEX_military_cooperation 
+		cost = 10
+	
+	    available = {
+		is_in_faction = yes
+		is_faction_leader = yes
+		}
+	
+		prerequisite = {
+		    focus = LEX_military_cooperation
+		}
+		
+		completion_reward = {
+		every_country = {
+				limit = {
+					NOT = { original_tag = ROOT }
+					is_in_faction_with = ROOT
+				}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_one_of_many
+		icon = major_alliance
+		x = 0
+		y = 1
+		relative_position_id = LEX_hire_more_diplomats 
+		cost = 10
+	
+	    #mutually_exclusive = {
+		#focus = LEX_we_rule
+		#}
+	
+	    #mutually_exclusive = {
+		#focus = LEX_neutrality
+		#}
+	
+	    available = {
+		is_in_faction = yes
+		#is_faction_leader = no
+		}
+	
+		prerequisite = {
+		    focus = LEX_hire_more_diplomats
+		}
+		
+		completion_reward = {
+		add_stability = 0.1
+		add_ideas = not_alone
+		every_country = {
+				limit = { is_in_faction_with = ROOT }
+				add_opinion_modifier = { target = ROOT modifier = recent_actions_positive }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_foreign_military_advisors
+		icon = military_mission
+		x = 0
+		y = 1
+		relative_position_id = LEX_one_of_many 
+		cost = 10
+	
+	    available = {
+		is_in_faction = yes
+		#is_faction_leader = no
+		}
+	
+		prerequisite = {
+		    focus = LEX_one_of_many
+		}
+		
+		completion_reward = {
+		swap_ideas = { 
+					remove_idea = not_alone
+					add_idea = not_alone2
+				}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_airbases_for_us_and_our_allies
+		icon = air_production
+		x = 0
+		y = 1
+		relative_position_id = LEX_foreign_military_advisors
+		cost = 10
+	
+	    available = {
+		is_in_faction = yes
+		#is_faction_leader = no
+		}
+	
+		prerequisite = {
+		    focus = LEX_foreign_military_advisors
+		}
+		
+		completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+		random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+	
+shared_focus = {
+		id = LEX_we_rule
+		icon = GFX_focus_generic_support_the_left_right #military_deal
+		x = 0
+		y = 1
+		relative_position_id = LEX_airbases_for_us_and_our_allies
+		cost = 10
+	
+	
+		prerequisite = {
+		    focus = LEX_invest_in_other_members
+		    focus = LEX_airbases_for_us_and_our_allies
+		    focus = LEX_our_skies
+		}
+		
+		completion_reward = {
+		add_stability = 0.1
+		add_ideas = masters_destiny
+		}
+		
+		ai_will_do = {
+			factor = 120
+		}
+	}
+
+shared_focus = {
+		id = LEX_focus_on_political_matters
+		icon = home_defense
+		x = 1
+		y = 0
+		cost = 5
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_political_power = 50	
+		}
+	ai_will_do = {
+			factor = 160
+		}
+	}
+
+shared_focus = {
+		id = LEX_individual_freedoms
+		text = generic_individual_freedoms
+		icon = democracy
+		x = -2
+		y = 1
+		relative_position_id = LEX_focus_on_political_matters
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_focus_on_political_matters
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_national_strength
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_individual_freedom
+				days = 365
+			}
+			if = {
+				limit = { has_democratic_form_of_government = yes }
+				add_stability = 0.03
+			}
+			if = {
+				limit = { has_democratic_form_of_government = no }
+				add_stability = -0.03
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			
+			modifier = {
+				add = 150
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = FIVE_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 10
+				is_historical_focus_on = no
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = FIVE_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 0
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = FIVE_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 75
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TEN_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 10
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TEN_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 34
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TWENTY_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 10
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TWENTY_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 20
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = THIRTY_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 10
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = THIRTY_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_ideology_progressive
+		text = generic_ideology_progressive
+		icon = leftism
+		x = -10
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_socialist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_democrat
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_liberal
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_libertarian
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_reactionary
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_conservative
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_progressive_doctrine
+				days = 1095
+			}
+			fourth_estate_progressive_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = progressive
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = progressive
+					has_government = nationalist
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_save_the_world
+		icon = in_the_world_stage
+		x = -1
+		y = 1
+		relative_position_id = LEX_ideology_progressive 
+		cost = 10
+	
+		prerequisite = {
+		    focus = LEX_ideology_progressive
+		    focus = LEX_ideology_social_democrat
+		}
+		
+		completion_reward = {
+		add_stability = 0.1
+		add_ideas = fight_climate_change
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_fight_with_pollution
+		icon = fight_pollution
+		x = 0
+		y = 1
+		relative_position_id = LEX_save_the_world 
+		cost = 10
+	
+		prerequisite = {
+		    focus = LEX_save_the_world
+		}
+		
+		completion_reward = {
+				swap_ideas = { 
+					remove_idea = fight_climate_change
+					add_idea = LEX_pollution_tax
+				}
+			}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_reeckless_progress
+		icon = research
+		x = -2
+		y = 1
+		relative_position_id = LEX_fight_with_pollution 
+		cost = 10
+	
+		prerequisite = {
+		focus = LEX_protect_workers_rigths
+		focus = LEX_fight_with_pollution
+		focus = LEX_mass_nationalization
+		}
+		
+		completion_reward = {
+		add_ideas = idea_focus_generic_reckless_progress
+			}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_ideology_socialist
+	    text = generic_ideology_socialist
+	    icon = democracy
+		x = -15
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_democrat
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_progressive
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_liberal
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_libertarian
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_reactionary
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_conservative
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_leftist_doctrine
+				days = 1095
+			}
+			fourth_estate_democratic_socialist_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = democratic_socialist
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = democratic_socialist
+					has_government = communist
+					has_government = fascist
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_true_socialism
+		icon = communism2
+		x = 0
+		y = 1
+		relative_position_id = LEX_ideology_socialist 
+		cost = 10
+	
+		prerequisite = {
+		focus = LEX_ideology_socialist
+		}
+		
+		completion_reward = {
+		add_ideas = LEX_Socialism
+		add_stability = 0.05
+		fourth_estate_democratic_socialist_increase = yes
+			}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_mass_nationalization
+		icon = industry_communist
+		x = 0
+		y = 1
+		relative_position_id = LEX_true_socialism 
+		cost = 10
+	
+		prerequisite = {
+		focus = LEX_true_socialism
+		}
+		
+		completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_ideology_social_democrat
+		text = generic_ideology_social_democrat
+		icon = Social_democracy
+		x = -13
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_socialist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_progressive
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_liberal
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_libertarian
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_reactionary
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_conservative
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_social_democrat_doctrine
+				days = 1095
+			}
+			fourth_estate_social_democrat_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = social_democrat
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				has_government = social_democrat
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_limit_corporatinos_power
+		icon = capitalist_attack
+		x = 0
+		y = 1
+		relative_position_id = LEX_ideology_social_democrat
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_social_democrat
+		focus = LEX_ideology_socialist
+		focus = LEX_ideology_progressive
+		}
+		
+		
+	    completion_reward = {
+		add_country_leader_trait = economic_intervensionalist
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_protect_workers_rigths
+		icon = work_red
+		x = 0
+		y = 1
+		relative_position_id = LEX_limit_corporatinos_power
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_limit_corporatinos_power
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_protect_workers_rigths_idea
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_ideology_social_liberal
+		text = generic_ideology_social_liberal
+		icon = libertarianism
+		x = -7
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_socialist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_progressive
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_democrat
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_libertarian
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_reactionary
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_conservative
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_liberal_doctrine
+				days = 1095
+			}
+			fourth_estate_social_liberal_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = social_liberal
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = social_liberal
+					has_government = nationalist
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_some_liberal_reforms
+		icon = money
+		x = 0
+		y = 1
+		relative_position_id = LEX_ideology_social_liberal
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_social_liberal
+		focus = LEX_ideology_libertarian
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_liberal_economics_idea
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+	
+shared_focus = {
+		id = LEX_some_leftist_reforms
+		icon = industry_democratic3
+		x = 0
+		y = 1
+		relative_position_id = LEX_some_liberal_reforms
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_some_liberal_reforms
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_reformed_welfare
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}	
+	
+shared_focus = {
+		id = LEX_commerce_efficiency 
+		icon = GFX_goal_generic_positive_trade_relations #industry_democratic3
+		x = 1
+		y = 1
+		relative_position_id = LEX_some_leftist_reforms
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_some_leftist_reforms
+		}
+		
+		prerequisite = {
+		focus = LEX_allow_privite_gun
+		}
+		
+		
+	    completion_reward = {
+			add_ideas = idea_focus_generic_commerce_efficiency
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}	
+	
+shared_focus = {
+		id = LEX_invite_more_immigrants
+		icon = nordic_resistance_movement
+		x = -2
+		y = 1
+		relative_position_id = LEX_ideology_social_liberal
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_social_liberal
+		focus = LEX_ideology_social_democrat
+		focus = LEX_ideology_progressive
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_imigrants
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_jobs_for_the_immigrants
+		icon = industry_communist2
+		x = 0
+		y = 1
+		relative_position_id = LEX_invite_more_immigrants
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_invite_more_immigrants
+		}
+		
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}	
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_ideology_reactionary
+		text = generic_ideology_reactionary
+		icon = democracy
+		x = 1
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_socialist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_progressive
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_democrat
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_liberal
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_libertarian
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_conservative
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_reactionary_doctrine
+				days = 1095
+			}
+			fourth_estate_reactionary_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = reactionary
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = reactionary
+					has_government = market_liberal
+					has_government = nationalist
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_deals_with_the_oligarchy
+		icon = destroy_society
+		x = 0
+		y = 1
+		relative_position_id = LEX_ideology_reactionary
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_reactionary
+		focus = LEX_ideology_nationalist
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_oligarchic_support
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+	shared_focus = {
+		id = LEX_old_heroes
+		icon = attack_democracy
+		x = 2
+		y = 1
+		relative_position_id = LEX_ideology_reactionary
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_nationalist
+		focus = LEX_ideology_fascist
+		focus = LEX_ideology_reactionary
+		}
+		
+		
+	    completion_reward = {
+	    add_political_power = 100
+		army_experience = 75
+		air_experience = 40
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+
+shared_focus = {
+		id = LEX_national_security
+		icon = entente
+		x = 0
+		y = 1
+		relative_position_id = LEX_old_heroes
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_old_heroes
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = national_sovereignty
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_ideology_conservative
+		text = generic_ideology_conservative
+		icon = democracy
+		x = -1
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_socialist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_progressive
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_democrat
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_liberal
+		}
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_reactionary
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_libertarian
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_conservative_doctrine
+				days = 1095
+			}
+			fourth_estate_conservative_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = conservative
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = conservative
+					has_government = market_liberal
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 40
+		}
+	}
+
+shared_focus = {
+		id = LEX_fight_with_progress
+		icon = destroy_establishment
+		x = 0
+		y = 1
+		relative_position_id = LEX_ideology_conservative
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_conservative
+		focus = LEX_ideology_reactionary
+		}
+		
+		
+	    completion_reward = {
+		add_stability = -0.1
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_traditional_values
+		icon = demand_territory2
+		x = 0
+		y = 1
+		relative_position_id = LEX_fight_with_progress
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_fight_with_progress
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_traditional_values_idea
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_ideology_libertarian
+		text = generic_ideology_libertarian
+		icon = libertarianism
+		x = -4
+		y = 1
+		relative_position_id = LEX_individual_freedoms
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_socialist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_progressive
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_democrat
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_social_liberal
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_reactionary
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_ideology_conservative
+		}
+		
+		prerequisite = {
+			focus = LEX_individual_freedoms
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_capitalist_doctrine
+				days = 1095
+			}
+			fourth_estate_market_liberal_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = market_liberal
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = market_liberal
+					has_government = reactionary
+					has_government = conservative
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_legalize_more_things
+		icon = industry_democratic
+		x = -1
+		y = 1
+		relative_position_id = LEX_ideology_libertarian
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_libertarian
+		focus = LEX_ideology_social_liberal
+		}
+		
+		
+	    completion_reward = {
+	    add_political_power = -100
+		add_stability = 0.1
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_allow_privite_gun
+		text = LEX_allow_privite_gun
+		icon = small_arms2
+		x = 0
+		y = 1
+		relative_position_id = LEX_legalize_more_things
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_legalize_more_things
+		}
+		
+		
+	    completion_reward = {
+	    add_ideas = LEX_privite_gun_ownership_allowed
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_privatization_efforts
+		icon = industry_democratic2
+		x = 1
+		y = 1
+		relative_position_id = LEX_ideology_libertarian
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_conservative
+		focus = LEX_ideology_libertarian
+		}
+		
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+	   random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_lower_goverment_spendings
+		icon = attack_monarchy
+		x = 0
+		y = 1
+		relative_position_id = LEX_privatization_efforts
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_privatization_efforts
+		}
+		
+		
+	    completion_reward = {
+	   add_ideas = LEX_lowerd_goverment_spendings
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_realpolitik
+		icon = demand_sudetenland
+		text = generic_realpolitik
+		x = 1
+		y = 1
+		relative_position_id = LEX_traditional_values
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_traditional_values
+		}
+		#prerequisite = {
+		#focus = LEX_forever_in_power
+		#}
+		
+		
+	    completion_reward = {
+	    add_ideas = LEX_realpolitik_idea
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_national_strength
+		text = generic_national_strength
+		icon = political_pressure
+		x = 2
+		y = 1
+		relative_position_id = LEX_focus_on_political_matters
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_focus_on_political_matters
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_individual_freedoms
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_national_strength
+				days = 365
+			}
+			if = {
+				limit = { has_democratic_form_of_government = no }
+				add_stability = 0.03
+			}
+			if = {
+				limit = { has_democratic_form_of_government = yes }
+				add_stability = -0.03
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			
+			modifier = {
+				add = 10
+				is_historical_focus_on = no
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = FIVE_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 0
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = FIVE_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 150
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = FIVE_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 10
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TEN_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 75
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TEN_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 10
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TWENTY_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 34
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = TWENTY_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+				add = 10
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = THIRTY_PERCENT
+				}
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 20
+				has_game_rule = {
+					rule = XXX_AI_BEHAVIOR
+					option = THIRTY_PERCENT
+				}
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_ideology_fascist
+		text = generic_ideology_fascist
+        icon = fascism
+		x = 2
+		y = 1
+		relative_position_id = LEX_national_strength
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_national_strength
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_nationalist
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_good_old_days
+		}
+		mutually_exclusive = {
+			focus = LEX_values_of_equality
+		}
+		mutually_exclusive = {
+			focus = LEX_islam_is_the_way
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_neo_fascist_doctrine
+				days = 1095
+			}
+			fourth_estate_fascist_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = fascist
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = fascist
+					has_government = reactionary
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+		
+	}
+	
+	shared_focus = {
+		id = LEX_ideology_nationalist
+		text = generic_ideology_nationalist
+		icon = fascism2
+		x = -1
+		y = 1
+		relative_position_id = LEX_national_strength
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_national_strength
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_fascist
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_good_old_days
+		}
+		mutually_exclusive = {
+			focus = LEX_values_of_equality
+		}
+		mutually_exclusive = {
+			focus = LEX_islam_is_the_way
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_nationalist_doctrine
+				days = 1095
+			}
+			fourth_estate_nationalist_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 3
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = nationalist
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = nationalist
+					has_government = conservative
+					has_government = market_liberal
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+		}
+	}
+	
+
+	
+	shared_focus = {
+		id = LEX_forever_in_power
+		icon = dangerous_laws
+		x = 0
+		y = 1
+		relative_position_id = LEX_deals_with_the_oligarchy
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_deals_with_the_oligarchy
+		}
+		
+		
+	    completion_reward = {
+		custom_effect_tooltip = forever_in_power_tt
+		if = {
+			limit = {
+			has_government = reactionary
+				}	
+		hidden_effect = {
+		set_politics = {
+		ruling_party = reactionary
+        elections_allowed = no
+					}
+		}
+		}
+		
+		add_country_leader_trait = emergency_powers
+		
+	
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+	
+	shared_focus = {
+		id = LEX_pro_war_propaganda
+		icon = propaganda
+		x = -1
+		y = 1
+		relative_position_id = LEX_ideology_fascist
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_nationalist
+		focus = LEX_ideology_fascist
+		}
+		
+		available = {
+		OR = {
+			has_government = fascist
+			has_government = nationalist
+			}
+		}
+		
+	    completion_reward = {
+		add_named_threat = { 
+			threat = 3 
+			name = LEX_war_preps
+				}
+		add_war_support = 0.2
+		custom_effect_tooltip = country_size_tt
+	   		random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	   
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_support_paramilitary_organizations
+		icon = wolf_packs
+		x = 0
+		y = 1
+		relative_position_id = LEX_pro_war_propaganda
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_pro_war_propaganda
+		}
+		
+		available = {
+		OR = {
+			has_government = fascist
+			has_government = nationalist
+			}
+		}
+		
+	    completion_reward = {
+	    add_ideas = LEX_paramilizm
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_cult_of_personality
+		icon = fascism2
+		x = 1
+		y = 1
+		relative_position_id = LEX_ideology_fascist
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_ideology_fascist
+		}
+		
+		available = {
+		has_government = fascist
+		}
+		
+	    completion_reward = {
+	    add_country_leader_trait = nationalist_symbol
+	    add_country_leader_trait = emergency_powers
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_corporatism
+		icon = production2
+		x = 0
+		y = 1
+		relative_position_id = LEX_cult_of_personality
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_cult_of_personality
+		}
+		
+		available = {
+		has_government = fascist
+		}
+		
+	    completion_reward = {
+	    add_ideas = LEX_corporatism
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_unity_and_nation
+		icon = entente
+		x = 0
+		y = 1
+		relative_position_id = LEX_support_paramilitary_organizations
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_support_paramilitary_organizations
+		}
+		
+		prerequisite = {
+		focus = LEX_corporatism
+		focus = LEX_national_security
+		}
+		
+		available = {
+		has_government = fascist
+		}
+		
+	    completion_reward = {
+			fourth_estate_nationalist_increase = yes
+			fourth_estate_fascist_increase = yes
+			add_war_support = 0.05
+			add_ideas = LEX_united_nation
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_good_old_days
+		icon = monarchy
+		x = 6
+		y = 1
+		relative_position_id = LEX_national_strength
+		cost = 10
+		
+		prerequisite = {
+			focus = LEX_national_strength
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_nationalist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_fascist
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_values_of_equality
+		}
+		mutually_exclusive = {
+			focus = LEX_islam_is_the_way
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_royal_doctrine
+				days = 1095
+			}
+			fourth_estate_monarchist_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 0
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = monarchist
+			}
+			modifier = {
+				add = 3
+				OR = {
+					has_government = monarchist
+					monarchist > 0
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = monarchist
+					monarchist > 0.24
+				}
+			}
+			modifier = {
+				add = 3
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10 
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_more_power_to_the_king
+		icon = monarchy5
+		x = 1
+		y = 1
+		relative_position_id = LEX_good_old_days
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_good_old_days
+		}
+		
+		available = {
+		has_government = monarchist
+		}
+		
+	    completion_reward = {
+	    add_political_power = 100
+		custom_effect_tooltip = country_size_tt
+				capital_scope = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			capital_scope = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			capital_scope = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_expand_the_royal_guard
+		text = LEX_create_Royal_guard
+		icon = special_forces
+		x = 0
+		y = 1
+		relative_position_id = LEX_more_power_to_the_king
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_more_power_to_the_king
+		}
+		
+		available = {
+		has_government = monarchist
+		}
+		
+	    completion_reward = {		
+		add_ideas = LEX_royal_guard
+		custom_effect_tooltip = country_size_tt
+		if = {
+		limit = { check_variable = { max_manpower_k < 10000 } }
+		custom_effect_tooltip = Guard_division_tt1
+			hidden_effect = {
+					division_template = {
+						name = "Guard Division"
+						priority = 2
+						#division_names_group = ROOT_INF_01
+						regiments = {
+							light_mechanized = { x = 0 y = 0 }
+							light_mechanized = { x = 0 y = 1 }
+							light_mechanized = { x = 0 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 1 y = 0 }
+							light_mechanized = { x = 1 y = 1 }
+							light_mechanized = { x = 1 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 2 y = 0 }
+							light_mechanized = { x = 2 y = 1 }
+							light_mechanized = { x = 2 y = 2 }
+							light_mechanized = { x = 2 y = 3 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+							mot_recon = { x = 0 y = 1 }
+						}
+					}
+	
+	capital_scope = {
+					create_unit = {
+						division = "name = \"1. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+	}
+	}
+	
+	if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 10000 } 
+		check_variable = { max_manpower_k < 20000 } 
+		}
+		}
+		custom_effect_tooltip = Guard_division_tt2
+			hidden_effect = {
+					division_template = {
+						name = "Guard Division"
+						priority = 2
+						#division_names_group = ROOT_INF_01
+						regiments = {
+							light_mechanized = { x = 0 y = 0 }
+							light_mechanized = { x = 0 y = 1 }
+							light_mechanized = { x = 0 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 1 y = 0 }
+							light_mechanized = { x = 1 y = 1 }
+							light_mechanized = { x = 1 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 2 y = 0 }
+							light_mechanized = { x = 2 y = 1 }
+							light_mechanized = { x = 2 y = 2 }
+							light_mechanized = { x = 2 y = 3 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+							mot_recon = { x = 0 y = 1 }
+						}
+					}
+	
+	capital_scope = {
+					create_unit = {
+						division = "name = \"1. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+	}
+	}
+	
+	
+	if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 20000 } 
+		check_variable = { max_manpower_k < 50000 } 
+		}
+		}
+		custom_effect_tooltip = Guard_division_tt3
+			hidden_effect = {
+					division_template = {
+						name = "Guard Division"
+						priority = 2
+						#division_names_group = ROOT_INF_01
+						regiments = {
+							light_mechanized = { x = 0 y = 0 }
+							light_mechanized = { x = 0 y = 1 }
+							light_mechanized = { x = 0 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 1 y = 0 }
+							light_mechanized = { x = 1 y = 1 }
+							light_mechanized = { x = 1 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 2 y = 0 }
+							light_mechanized = { x = 2 y = 1 }
+							light_mechanized = { x = 2 y = 2 }
+							light_mechanized = { x = 2 y = 3 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+							mot_recon = { x = 0 y = 1 }
+						}
+					}
+	
+	capital_scope = {
+					create_unit = {
+						division = "name = \"1. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+	}
+	}
+	
+	
+	if = {
+		limit = { 
+		check_variable = { max_manpower_k > 50000 } 
+		}
+		custom_effect_tooltip = Guard_division_tt4
+			hidden_effect = {
+					division_template = {
+						name = "Guard Division"
+						priority = 2
+						#division_names_group = ROOT_INF_01
+						regiments = {
+							light_mechanized = { x = 0 y = 0 }
+							light_mechanized = { x = 0 y = 1 }
+							light_mechanized = { x = 0 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 1 y = 0 }
+							light_mechanized = { x = 1 y = 1 }
+							light_mechanized = { x = 1 y = 2 }
+				
+		    	   		 	light_mechanized = { x = 2 y = 0 }
+							light_mechanized = { x = 2 y = 1 }
+							light_mechanized = { x = 2 y = 2 }
+							light_mechanized = { x = 2 y = 3 }
+						}
+						support = {
+							engineer = { x = 0 y = 0 }
+							mot_recon = { x = 0 y = 1 }
+						}
+					}
+	
+	capital_scope = {
+					create_unit = {
+						division = "name = \"1. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"4. Guard Division\" division_template = \"Guard Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+	}
+	}
+	
+	
+	
+	
+	}
+ai_will_do = {
+			factor = 40
+		}
+}
+shared_focus = {
+		id = LEX_support_from_the_nobility
+		icon = destroy_society
+		x = -1
+		y = 1
+		relative_position_id = LEX_good_old_days
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_good_old_days
+		}
+		
+		available = {
+		has_government = monarchist
+		}
+		
+	    completion_reward = {
+	    add_ideas = LEX_nobility 
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_cult_of_the_king
+		icon = monarchy3
+		x = 0
+		y = 1
+		relative_position_id = LEX_support_from_the_nobility
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_support_from_the_nobility
+		}
+		
+		available = {
+		has_government = monarchist
+		}
+		
+	    completion_reward = {
+	     add_country_leader_trait = nationalist_symbol
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_the_values_of_old
+		text = generic_the_values_of_old
+		icon = monarchy2
+		x = 1
+		y = 1
+		relative_position_id = LEX_cult_of_the_king
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_expand_the_royal_guard
+		}
+		
+		prerequisite = {
+		focus = LEX_cult_of_the_king
+		}
+		
+		available = {
+		has_government = monarchist
+		}
+		
+	    completion_reward = {
+	    fourth_estate_monarchist_increase = yes
+			add_ideas = idea_focus_generic_national_heritage
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_values_of_equality
+		icon = communism4
+		x = 10
+		y = 1
+		relative_position_id = LEX_national_strength
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_fascist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_nationalist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_good_old_days
+		}
+		
+		prerequisite = {
+			focus = LEX_national_strength
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_islam_is_the_way
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_path_of_equality
+				days = 730
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = 0.05
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = communist
+			}
+			modifier = {
+				add = 10
+				has_government = communist
+			}
+			modifier = {
+				add = 3
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+				}
+			}
+			modifier = {
+				add = 3
+				OR = {
+					has_government = reactionary
+					has_government = conservative
+					has_government = social_liberal
+					has_government = market_liberal
+				}
+			}
+			modifier = {
+				add = 10
+				OR = {
+					has_government = social_democrat
+					has_government = progressive
+					has_government = democratic_socialist
+				}
+			}
+			modifier = {
+			factor = 10 
+			}
+		}
+	}
+
+shared_focus = {
+		id = LEX_agricultural_collectiviation
+		icon = agrarian_socialism
+		x = 1
+		y = 1
+		relative_position_id = LEX_values_of_equality
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_values_of_equality
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		    	every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_liberated_workers
+		icon = communism9
+		x = 0
+		y = 1
+		relative_position_id = LEX_agricultural_collectiviation
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_agricultural_collectiviation
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+	    add_ideas = LEX_liberated_workers
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_goverment_controled_trade_unions
+		text = LEX_protect_workers_rigths
+		icon = work_red
+		x = -1
+		y = 1
+		relative_position_id = LEX_values_of_equality
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_values_of_equality
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_protect_workers_rigths_idea
+			
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_communist_industry
+		icon = industry_communist
+		x = 0
+		y = 1
+		relative_position_id = LEX_goverment_controled_trade_unions
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_goverment_controled_trade_unions
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_communist_industry_idea
+			
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_will_of_the_people
+		text = generic_will_of_the_people
+		icon = communism5
+		x = 1
+		y = 1
+		relative_position_id = LEX_communist_industry
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_liberated_workers
+		}
+		
+		prerequisite = {
+		focus = LEX_communist_industry
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		fourth_estate_communist_increase = yes
+		add_ideas = idea_focus_generic_will_of_the_people
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_islam_is_the_way
+		icon = align_to_pakistan
+		x = 14
+		y = 1
+		relative_position_id = LEX_national_strength
+		cost = 10
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_fascist
+		}
+		
+		prerequisite = {
+			focus = LEX_national_strength
+		}
+		
+		available = {
+			islamist > 0.2
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_ideology_nationalist
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_good_old_days
+		}
+		
+		mutually_exclusive = {
+			focus = LEX_values_of_equality
+		}
+		
+		completion_reward = {
+			add_timed_idea = {
+				idea = idea_focus_generic_path_of_allah
+				days = 1095
+			}
+			fourth_estate_islamist_increase = yes
+		}
+		
+		ai_will_do = {
+			factor = 0
+			
+			modifier = {
+				add = 5
+				is_historical_focus_on = yes
+				has_government = islamist
+			}
+			modifier = {
+				add = 3
+				OR = {
+					has_government = islamist
+					islamist > 0
+				}
+			}
+			modifier = {
+				add = 7
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_ORDER
+				}
+				OR = {
+					has_government = islamist
+					islamist > 0.24
+				}
+			}
+			modifier = {
+				add = 3
+				has_game_rule = {
+					rule = ZZZ_AI_BEHAVIOR
+					option = LOGIC_DISORDER
+				}
+			}
+			modifier = {
+			factor = 10
+			}
+			
+		}
+		
+	}
+
+shared_focus = {
+		id = LEX_sharia_law
+		text = generic_shariah_lawcode
+		icon = constitution
+		x = 1
+		y = 1
+		relative_position_id = LEX_islam_is_the_way
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_islam_is_the_way
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_sharia_law_idea
+		fourth_estate_islamist_increase = yes
+			if = {
+				limit = { NOT = { has_government = islamist } }
+				add_stability = -0.15
+			}
+			add_popularity = {
+				ideology = islamist
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = islamist
+				elections_allowed = no
+		}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_unity_in_religion
+		icon = islamic_people
+		x = 0
+		y = 1
+		relative_position_id = LEX_sharia_law
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_sharia_law
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		fourth_estate_islamist_increase = yes
+		add_stability = 0.1
+			add_popularity = {
+				ideology = islamist
+				popularity = 0.15
+			}
+			
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_islamic_guns
+		icon = ak_47 #small_arms5
+		x = -1
+		y = 1
+		relative_position_id = LEX_islam_is_the_way
+		cost = 10
+		
+		available = {
+		has_government = islamist
+		}
+		
+		prerequisite = {
+		focus = LEX_islam_is_the_way
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_Islamic_militia
+		icon = military_sphere
+		x = 0
+		y = 1
+		relative_position_id = LEX_islamic_guns
+		cost = 10
+		
+		available = {
+		has_government = islamist
+		}
+		
+		prerequisite = {
+		focus = LEX_islamic_guns
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = islamic_militia
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_Jihad
+		text = generic_jihad
+		icon = jihad
+		x = 1
+		y = 1
+		relative_position_id = LEX_Islamic_militia
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_Islamic_militia
+		}
+		
+		prerequisite = {
+		focus = LEX_unity_in_religion
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		fourth_estate_islamist_increase = yes
+			add_ideas = idea_focus_generic_jihad
+			#Trigger the global news event.
+			news_event = news.2
+			#If the faction is not ideal, leave it.
+			if = {
+				limit = {
+					is_in_faction = yes
+					is_faction_leader = no
+					any_country = {
+						is_in_faction_with = ROOT
+						OR = {
+							NOT = { has_government = islamist }
+							islamist < 0.25
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						is_in_faction_with = ROOT
+						is_faction_leader = yes
+					}
+					remove_from_faction = ROOT
+				}
+			}
+			#Everybody should hate them; except for Islamists of their confession
+			if = {
+				limit = { 
+					OR = {
+						has_country_flag = sunni_islam 
+						AND = {	#The rare case of Ibadi or Bug.
+							NOT = { has_country_flag = sunni_islam }
+							NOT = { has_country_flag = shia_islam }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						OR = {
+							has_country_flag = shia_islam
+							NOT = { has_government = islamist }
+						}
+					}
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = terrorist_menace
+					}
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = terrorist_menace_trade
+					}
+				}
+			}
+			if = {
+				limit = { 
+					has_country_flag = shia_islam 
+				}
+				every_country = {
+					limit = {
+						OR = {
+							has_country_flag = sunni_islam
+							NOT = { has_government = islamist }
+						}
+					}
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = terrorist_menace
+					}
+					add_opinion_modifier = {
+						target = ROOT
+						modifier = terrorist_menace_trade
+					}
+				}
+			}
+	}
+	ai_will_do = {
+			factor = 40
+		}
+}
+
+shared_focus = {
+		id = LEX_bolster_the_army
+		icon = infantry_allies
+		x = 30
+		y = 0
+		cost = 5
+		offset = {
+		x = -12
+		y = 0
+		trigger = {
+			tag = ICE
+		}
+	}
+		
+		
+		available = {		
+		}
+		
+	    completion_reward = {
+		army_experience = 35
+		add_manpower = 5000	
+		}
+	ai_will_do = {
+			factor = 80
+		}
+	}
+
+shared_focus = {
+		id = LEX_retire_the_old_guns
+		icon = small_arms3
+		x = -1
+		y = 1
+		relative_position_id = LEX_bolster_the_army
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_bolster_the_army
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_keep_the_old_guns
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = infantry_tech
+				bonus = 0.4
+				uses = 1
+				technology= infantry_weapons1
+				technology= upgraded_infantry_weapons1
+				technology= infantry_weapons2
+				technology= upgraded_infantry_weapons2
+				technology= infantry_weapons3
+				technology= upgraded_infantry_weapons3
+				technology= infantry_weapons4
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_keep_the_old_guns
+		icon = small_arms5
+		x = -3
+		y = 1
+		relative_position_id = LEX_bolster_the_army
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_bolster_the_army
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_retire_the_old_guns
+		}
+		
+		available = {			
+		}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		if = {
+		limit = { check_variable = { 
+		max_manpower_k < 5000 
+						} 		
+				}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 500
+			producer = ROOT
+					}
+				}
+				
+		if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 5000 }
+		check_variable = { max_manpower_k < 10000 }
+						} 		
+						} 						
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1000
+			producer = ROOT
+					}
+				}
+				
+		if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 10000 }
+		check_variable = { max_manpower_k < 20000 }
+						} 		
+						} 					
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 2000
+			producer = ROOT
+					}
+				}
+				
+		if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 20000 }
+		check_variable = { max_manpower_k < 70000 }
+						} 		
+						} 		
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 3000
+			producer = ROOT
+					}
+				}
+				
+		if = {
+		limit = { check_variable = { 
+		max_manpower_k > 70000 
+						} 		
+				}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 4000
+			producer = ROOT
+					}
+				}
+	}
+ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_revalue_our_tactics
+		icon = GFX_focus_generic_military_academy 
+		x = 1
+		y = 1
+		relative_position_id = LEX_bolster_the_army
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_bolster_the_army
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_dont_revalue_our_tactics
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		custom_effect_tooltip = doctrine_chosen_tt
+		if = { limit = { has_tech =  mobile_warfare }
+			add_tech_bonus = {
+				name = LEX_revalue_our_tactics
+				bonus = 1.0
+				uses = 1  
+				category = cat_superior_firepower 
+				category = cat_grand_battle_plan
+				category = cat_mass_assault 
+			}
+		}
+		
+		if = { limit = { has_tech =  superior_firepower }
+			add_tech_bonus = {
+				name = LEX_revalue_our_tactics
+				bonus = 1.0
+				uses = 1
+				category = cat_mobile_warfare  
+				category = cat_grand_battle_plan
+				category = cat_mass_assault 
+			}
+		}
+		
+		if = { limit = { has_tech =  trench_warfare }
+			add_tech_bonus = {
+				name = LEX_revalue_our_tactics
+				bonus = 1.0
+				uses = 1
+				category = cat_mobile_warfare  
+				category = cat_superior_firepower 
+				category = cat_mass_assault 
+			}
+		}
+		
+		if = { limit = { has_tech =  mass_assault }
+			add_tech_bonus = {
+				name = LEX_revalue_our_tactics
+				bonus = 1.0
+				uses = 1
+				category = cat_mobile_warfare  
+				category = cat_superior_firepower 
+				category = cat_grand_battle_plan
+			}
+		}
+		if = { limit = {
+		NOT = {
+		has_tech =  mobile_warfare 
+		has_tech =  superior_firepower
+		has_tech =  trench_warfare
+		has_tech =  mass_assault
+		}
+		}
+			add_tech_bonus = {
+				name = LEX_revalue_our_tactics
+				bonus = 1.0
+				uses = 1
+				category = cat_mobile_warfare  
+				category = cat_superior_firepower 
+				category = cat_grand_battle_plan
+				category = cat_mass_assault
+			}
+		}
+	}
+ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_dont_revalue_our_tactics
+		icon = army_logistics
+		x = 3
+		y = 1
+		relative_position_id = LEX_bolster_the_army
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_bolster_the_army
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_revalue_our_tactics
+		}
+		
+		available = {
+		OR = {
+		has_tech =  mobile_warfare 
+		has_tech =  superior_firepower
+		has_tech =  trench_warfare
+		has_tech =  mass_assault
+		}
+		}
+		
+	    completion_reward = {
+		custom_effect_tooltip = doctrine_chosen_tt
+		if = { limit = { has_tech =  mobile_warfare }
+		add_tech_bonus = {
+				name = LEX_dont_revalue_our_tactics
+				bonus = 0.4
+				uses = 1
+				category = cat_mobile_warfare
+			}
+		}
+		
+		if = { limit = { has_tech =  superior_firepower }
+		add_tech_bonus = {
+				name = LEX_dont_revalue_our_tactics
+				bonus = 0.4
+				uses = 1
+				category = cat_superior_firepower
+			}
+		}
+		
+		if = { limit = { has_tech =  trench_warfare }
+		add_tech_bonus = {
+				name = LEX_dont_revalue_our_tactics
+				bonus = 0.4
+				uses = 1
+				category = cat_grand_battle_plan
+			}
+		}
+		
+		if = { limit = { has_tech =  mass_assault }
+		add_tech_bonus = {
+				name = LEX_dont_revalue_our_tactics
+				bonus = 0.4
+				uses = 1
+				category = cat_mass_assault
+			}
+		}
+		
+		
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_innovations_in_warfare
+		icon = license_production
+		x = 4
+		y = 1
+		relative_position_id = LEX_revalue_our_tactics
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_retire_the_old_guns
+		focus = LEX_keep_the_old_guns
+		}
+		prerequisite = {
+		focus = LEX_dont_revalue_our_tactics
+		focus = LEX_revalue_our_tactics
+		}
+		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = FRA_innovation_of_warfare
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_MBT
+		icon = GFX_focus_generic_tank_production
+		x = 0
+		y = 1
+		relative_position_id = LEX_innovations_in_warfare
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_innovations_in_warfare
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_light_tank
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tank_bonus
+				bonus = 0.4
+				uses = 1
+				technology = main_battle_tank1
+				technology = main_battle_tank2
+				technology = main_battle_tank3
+				technology = main_battle_tank4
+				technology = main_battle_tank5
+				technology = main_battle_tank6
+				technology = main_battle_tank7
+				technology = main_battle_tank8
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_light_tank
+		icon = tank
+		x = 2
+		y = 1
+		relative_position_id = LEX_innovations_in_warfare
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_innovations_in_warfare
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_MBT
+		}
+				
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = cat_light_armor
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+shared_focus = {
+		id = LEX_mass_tanks
+		icon = GFX_focus_generic_tank_production
+		x = 0
+		y = 1
+		relative_position_id = LEX_light_tank
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_light_tank
+		focus = LEX_MBT
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_tank_quality_upgrade
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_mass_tanks
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+shared_focus = {
+		id = LEX_motorization_efforts
+		icon = truck
+		x = -2
+		y = 1
+		relative_position_id = LEX_innovations_in_warfare
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_innovations_in_warfare
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = motorized_equipment
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+
+
+
+shared_focus = {
+		id = LEX_mechanization
+		text = LEX_mechanization
+		icon = tank
+		x = 0
+		y = 1
+		relative_position_id = LEX_motorization_efforts
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_motorization_efforts
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+			    category = cat_mechanized_equipment
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+shared_focus = {
+		id = LEX_tank_quality_upgrade
+		icon = license_production
+		x = 0
+		y = 1
+		relative_position_id = LEX_MBT
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_MBT
+		focus = LEX_light_tank
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_mass_tanks
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_tank_quality_upgrade
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+shared_focus = {
+		id = LEX_armor_excellence
+		icon = production
+		x = 0
+		y = 1
+		relative_position_id = LEX_tank_quality_upgrade
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_tank_quality_upgrade
+		}		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+					swap_ideas = { 
+					remove_idea = FRA_innovation_of_warfare 
+					add_idea = LEX_armor_excellence
+					
+				}
+
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+shared_focus = {
+		id = LEX_tactical_superiority
+		icon = GFX_focus_generic_combined_arms
+		x = 0
+		y = 1
+		relative_position_id = LEX_armor_excellence
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_armor_excellence
+		}		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_armor_excellence
+					add_idea = LEX_tactical_superiority
+				}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_mass_motorized
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 1
+		relative_position_id = LEX_mass_tanks
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_mass_tanks
+		}
+		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_mass_tanks
+					add_idea = LEX_mass_mobile_corps
+				}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+shared_focus = {
+		id = LEX_deep_battle
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 0
+		y = 1
+		relative_position_id = LEX_mass_motorized
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_mass_motorized
+		}		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = FRA_innovation_of_warfare
+					add_idea = LEX_deep_battle
+				}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_doctrinal_development3		
+		text = LEX_doctrinal_development			
+		icon = army_doctrine
+		x = 1
+		y = 1
+		relative_position_id = LEX_tactical_superiority
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_tactical_superiority
+		focus = LEX_deep_battle
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = LEX_doctrinal_development
+				bonus = 0.4 #1.0
+				uses = 1
+				category = land_doctrine
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+shared_focus = {
+		id = LEX_modernize_our_weponary
+		icon = small_arms2
+		x = 1
+		y = 1
+		relative_position_id = LEX_retire_the_old_guns
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_retire_the_old_guns
+		focus = LEX_keep_the_old_guns
+		}
+		prerequisite = {
+		focus = LEX_dont_revalue_our_tactics
+		focus = LEX_revalue_our_tactics
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = infantry_weapons
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_genie
+		icon = construction2
+		x = 0
+		y = 1
+		relative_position_id = LEX_mechanization
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_mechanization
+		focus = LEX_support
+		}
+		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4 #1
+				uses = 1
+				category = engineers_tech
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+
+
+
+shared_focus = {
+		id = LEX_training_soldiers
+		icon = GFX_focus_generic_manpower
+		x = 1
+		y = 1
+		relative_position_id = LEX_modernize_our_weponary
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_modernize_our_weponary
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_training_soldiers
+		army_experience = 20
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_support
+		icon = construction2
+		x = 0
+		y = 1
+		relative_position_id = LEX_training_soldiers
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_training_soldiers
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.25 #1
+				uses = 2
+				category = support_tech
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+shared_focus = {
+		id = LEX_hospitals_in_the_field
+		icon = support_wepons #industry_democratic3
+		x = 0
+		y = 1
+		relative_position_id = LEX_support
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_support
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		#add_ideas = LEX_hospitals_in_the_field
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4 #1
+				uses = 1
+				category = hospital_tech
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_begin_conscription_reforms
+		icon = entente
+		x = -1
+		y = 1
+		relative_position_id = LEX_modernize_our_weponary
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_modernize_our_weponary
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_begin_conscription_reforms
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+shared_focus = {
+		id = LEX_special_forces
+		icon = special_forces
+		x = 0
+		y = 1
+		relative_position_id = LEX_begin_conscription_reforms
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_begin_conscription_reforms
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = marine_tech
+				category = mountaineers_tech
+				category = para_tech
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+shared_focus = {
+		id = LEX_increase_wepons_production
+		text = LEX_increase_wepons_production
+		icon = GFX_focus_focus_fra_maquis #small_arms5
+		x = 1
+		y = 1
+		relative_position_id = LEX_hospitals_in_the_field
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_genie
+		}
+		
+		prerequisite = {
+		focus = LEX_hospitals_in_the_field
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_increased_wepons_production
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_doctrinal_development
+		icon = army_doctrine
+		x = -2
+		y = 1
+		relative_position_id = LEX_increase_wepons_production
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_increase_wepons_production
+		focus = LEX_officer_corps
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = LEX_doctrinal_development
+				bonus = 0.4 #1.0
+				uses = 1
+				category = land_doctrine
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+shared_focus = {
+		id = LEX_light_infantry_divisions_doctrine
+		icon = infantry_japan
+		x = 0
+		y = 1
+		relative_position_id = LEX_special_forces
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_special_forces
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		if = {
+		limit = { check_variable = { max_manpower_k < 10000 } }
+			custom_effect_tooltip = Ranger_division_tt1
+			hidden_effect = { set_technology = { tech_rangers  = 1 } }
+			hidden_effect = {
+				if = {
+					limit = { 
+					AND = {
+					has_tech = tech_engineers 
+					has_tech = tech_recon
+					}
+					}
+					division_template = {
+						name = "Ranger Division"
+						#division_names_group = ROOT_INF_01
+						priority = 2
+		
+						regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+						}
+						support = {
+							recon = { x = 0 y = 0 }
+							artillery = { x = 0 y = 1 }
+							engineer = { x = 0 y = 1 }
+						}
+					}
+					else = {
+						division_template = {
+							name = "Ranger Division"
+							#division_names_group = LEX_INF_01
+							priority = 2
+			
+							regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+							}
+							support = {
+								artillery = { x = 0 y = 0 }
+							}
+						}					
+					}
+				}	
+				capital_scope = {
+					create_unit = {
+						division = "name = \"1. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+			}
+		}
+		
+		if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 10000 } 
+		check_variable = { max_manpower_k < 20000 } 
+		}
+		}
+			custom_effect_tooltip = Ranger_division_tt2
+			hidden_effect = { set_technology = { tech_rangers  = 1 } }
+			hidden_effect = {
+				if = {
+					limit = { 
+					AND = {
+					has_tech = tech_engineers 
+					has_tech = tech_recon
+					}
+					}
+					division_template = {
+						name = "Ranger Division"
+						#division_names_group = ROOT_INF_01
+						priority = 2
+		
+						regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+						}
+						support = {
+							recon = { x = 0 y = 0 }
+							artillery = { x = 0 y = 1 }
+							engineer = { x = 0 y = 1 }
+						}
+					}
+					else = {
+						division_template = {
+							name = "Ranger Division"
+							#division_names_group = LEX_INF_01
+							priority = 2
+			
+							regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+							}
+							support = {
+								artillery = { x = 0 y = 0 }
+							}
+						}					
+					}
+				}	
+				capital_scope = {
+					create_unit = {
+						division = "name = \"1. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+			}
+		}
+		
+		if = {
+		limit = { 
+		AND = {
+		check_variable = { max_manpower_k > 20000 } 
+		check_variable = { max_manpower_k < 50000 } 
+		}
+		}
+			custom_effect_tooltip = Ranger_division_tt3
+			hidden_effect = { set_technology = { tech_rangers  = 1 } }
+			hidden_effect = {
+				if = {
+					limit = { 
+					AND = {
+					has_tech = tech_engineers 
+					has_tech = tech_recon
+					}
+					}
+					division_template = {
+						name = "Ranger Division"
+						#division_names_group = ROOT_INF_01
+						priority = 2
+		
+						regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+						}
+						support = {
+							recon = { x = 0 y = 0 }
+							artillery = { x = 0 y = 1 }
+							engineer = { x = 0 y = 1 }
+						}
+					}
+					else = {
+						division_template = {
+							name = "Ranger Division"
+							#division_names_group = LEX_INF_01
+							priority = 2
+			
+							regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+							}
+							support = {
+								artillery = { x = 0 y = 0 }
+							}
+						}					
+					}
+				}	
+				capital_scope = {
+					create_unit = {
+						division = "name = \"1. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+			}
+		}
+		
+		if = {
+		limit = { 
+		check_variable = { max_manpower_k > 50000 } 
+		}
+			custom_effect_tooltip = Ranger_division_tt4
+			hidden_effect = { set_technology = { tech_rangers  = 1 } }
+			hidden_effect = {
+				if = {
+					limit = { 
+					AND = {
+					has_tech = tech_engineers 
+					has_tech = tech_recon
+					}
+					}
+					division_template = {
+						name = "Ranger Division"
+						#division_names_group = ROOT_INF_01
+						priority = 2
+		
+						regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+						}
+						support = {
+							recon = { x = 0 y = 0 }
+							artillery = { x = 0 y = 1 }
+							engineer = { x = 0 y = 1 }
+						}
+					}
+					else = {
+						division_template = {
+							name = "Ranger Division"
+							#division_names_group = LEX_INF_01
+							priority = 2
+			
+							regiments = {
+							rangers = { x = 0 y = 0 }
+							rangers = { x = 0 y = 1 }
+							rangers = { x = 0 y = 2 }
+				
+		    	   		 	rangers = { x = 1 y = 0 }
+							rangers = { x = 1 y = 1 }
+							rangers = { x = 1 y = 2 }
+							
+							rangers = { x = 2 y = 0 }
+							rangers = { x = 2 y = 1 }
+							rangers = { x = 2 y = 2 }
+							rangers = { x = 2 y = 3 }
+							}
+							support = {
+								artillery = { x = 0 y = 0 }
+							}
+						}					
+					}
+				}	
+				capital_scope = {
+					create_unit = {
+						division = "name = \"1. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"2. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"3. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+					create_unit = {
+						division = "name = \"4. Ranger Division\" division_template = \"Ranger Division\" start_experience_factor = 1.0" 
+						owner = ROOT
+					}
+				}
+			}
+		}
+		
+		
+		
+		
+		
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_officer_corps
+		icon = military_mission
+		x = 0
+		y = 1
+		relative_position_id = LEX_light_infantry_divisions_doctrine
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_light_infantry_divisions_doctrine
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+				swap_ideas = { 
+					remove_idea = LEX_training_soldiers
+					add_idea = LEX_officer_corps_idea
+				}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+shared_focus = {
+		id = LEX_standarized_artillery
+		icon = artillery2
+		x = -4
+		y = 1
+		relative_position_id = LEX_retire_the_old_guns
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_retire_the_old_guns
+		focus = LEX_keep_the_old_guns
+		}
+		prerequisite = {
+		focus = LEX_dont_revalue_our_tactics
+		focus = LEX_revalue_our_tactics
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				uses = 2
+				bonus = 0.4  #0.8
+				category = artillery
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_bring_out_the_big_guns
+		icon = artillery3
+		x = 0
+		y = 1
+		relative_position_id = LEX_standarized_artillery
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_standarized_artillery
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_bring_out_the_big_guns
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_destroy_their_tanks 
+		icon = artillery
+		x = 1
+		y = 1
+		relative_position_id = LEX_bring_out_the_big_guns
+		cost = 7.2
+		
+		
+		prerequisite = {
+		focus = LEX_bring_out_the_big_guns
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				uses = 2
+				bonus = 0.4  #0.8
+				category = cat_anti_tank
+		
+		}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_AT_IFV
+		icon = tank
+		x = 1
+		y = 1
+		relative_position_id = LEX_destroy_their_tanks
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_destroy_their_tanks
+		}
+		
+		available = {
+		has_tech = antitank1
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_AT_IFV
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+	shared_focus = {
+		id = LEX_develop_anti_air_artillery	
+		icon = air_defense
+		x = -1
+		y = 1
+		relative_position_id = LEX_bring_out_the_big_guns
+		cost = 7.2
+		
+		prerequisite = {
+			focus = LEX_bring_out_the_big_guns
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				technology = interwar_antiair
+			    technology = antiair1
+			    technology = antiair2
+			    technology = antiair3
+			    technology = antiair4
+			    technology = antiair5
+			    technology = antiair6
+			    technology = antiair7
+			    technology = antiair8
+			}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		ai_will_do = {
+			factor = 45
+		}
+	}
+
+shared_focus = {
+		id = LEX_rocket_artillery_experiments 
+		icon = rocketry
+		x = -1
+		y = 1
+		relative_position_id = LEX_develop_anti_air_artillery	
+		cost = 7.2
+		
+		
+		prerequisite = {
+		focus = LEX_develop_anti_air_artillery	
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				uses = 1
+				bonus = 0.4  #0.8
+				category = rocketry
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+shared_focus = {
+		id = LEX_conceal_the_guns
+		icon = GFX_goal_generic_occupy_start_war
+		x = 0
+		y = 2
+		relative_position_id = LEX_bring_out_the_big_guns
+		cost = 7.2
+		
+		
+		prerequisite = {
+		focus = LEX_develop_anti_air_artillery
+		}
+		
+		prerequisite = {
+		focus = LEX_destroy_their_tanks
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_bring_out_the_big_guns 
+					add_idea = LEX_concealed_guns
+				}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_doctrinal_development2
+		text = LEX_doctrinal_development
+		icon = army_doctrine
+		x = 0
+		y = 2
+		relative_position_id = LEX_conceal_the_guns
+		cost = 7.2
+		
+		prerequisite = {
+		focus = LEX_conceal_the_guns
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_tech_bonus = {
+				name = LEX_doctrinal_development
+				bonus = 0.4 #1.0
+				uses = 1
+				category = land_doctrine
+			}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_conscription_reforms
+		icon = entente
+		x = 0
+		y = 1
+		relative_position_id = LEX_doctrinal_development
+		cost = 14.4
+		
+		prerequisite = {
+		focus = LEX_doctrinal_development
+		}
+		prerequisite = {
+		focus = LEX_doctrinal_development2
+		}
+		prerequisite = {
+		focus = LEX_doctrinal_development3
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_begin_conscription_reforms
+					add_idea = LEX_conscription_reforms
+				}
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_reform_the_general_staff
+		icon = army_officers
+		x = 0
+		y = 1
+		relative_position_id = LEX_conscription_reforms
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_conscription_reforms
+		}
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_reformed_the_general_staff
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+shared_focus = {
+		id = LEX_military_research_institute
+		icon = research
+		x = 0
+		y = 1
+		relative_position_id = LEX_reform_the_general_staff
+		cost = 10
+		
+		available = {
+			amount_research_slots < 5
+		}
+		
+		prerequisite = {
+		focus = LEX_reform_the_general_staff
+		}
+		
+		
+		available = {
+		
+		}
+		
+	    completion_reward = {
+		add_research_slot = 1
+		custom_effect_tooltip = CZE_war_college_effect_tt
+	}
+	ai_will_do = {
+			factor = 45
+		}
+}
+
+
+
+
+shared_focus = {
+		id = LEX_modernize_the_navy
+		icon = navy
+		x = 58
+		y =0
+		cost = 5
+		
+		offset = {
+		x = -11
+		y = 0
+		trigger = {
+			tag = ICE
+		}
+	}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+	    completion_reward = {
+			navy_experience = 35
+		}
+	ai_will_do = {
+			factor = 15
+		}
+	}
+	
+
+shared_focus = {
+		id = LEX_test_the_admirals
+		icon = naval_doctrine
+		x = 1
+		y = 1 
+		relative_position_id = LEX_modernize_the_navy
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_modernize_the_navy
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4 # 0.5
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+shared_focus = {
+		id = LEX_analize_our_ships
+		icon = Blueprints
+		x = -1
+		y = 1 
+		relative_position_id = LEX_modernize_the_navy
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_modernize_the_navy
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.25 # 0.5
+				uses = 3
+				category = naval_equipment
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+
+
+shared_focus = {
+		id = LEX_frigates
+		text = LEX_frigate_research
+		icon = battleships
+		x = 4
+		y = 2
+		relative_position_id = LEX_analize_our_ships
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_test_the_admirals
+		}
+		
+		prerequisite = {
+		focus = LEX_analize_our_ships
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = cl_tech
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	
+	shared_focus = {
+		id = LEX_projection_navy
+		icon = battleships2
+		x = 0
+		y = 2
+		relative_position_id = LEX_frigates
+		cost = 7.2
+		
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_frigates
+		}
+		mutually_exclusive = {
+		focus = LEX_defensive_navy
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_projection_navy
+		}
+		ai_will_do = {
+			factor = 15
+			modifier = {
+			factor = 10
+			dockyard > 4
+			}
+		}
+	}
+
+
+
+
+shared_focus = {
+		id = LEX_our_first_carriers
+		icon = carriers
+		x = 0
+		y = 1 
+		relative_position_id = LEX_projection_navy
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_projection_navy
+		}
+		
+	    completion_reward = {
+		if = {
+		limit = { has_tech = early_ship_hull_carrier }		
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4
+				uses = 1
+				category = cv_tech
+			}
+		}
+		if = {
+		limit = {NOT = { has_tech = early_ship_hull_carrier }	}
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 1.0
+				uses = 1
+				category = cv_tech
+			}
+		}
+		
+		
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	
+	shared_focus = {
+		id = LEX_dockyard_expansions_scheme2
+		text = LEX_dockyard_expansions_scheme
+		icon = naval_dockyards
+		x = 0
+		y = 1
+		relative_position_id = LEX_our_first_carriers
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus =  LEX_our_first_carriers
+		}
+		
+		
+		
+	    completion_reward = {			
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+			
+			
+			
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_cv_fighter
+		icon = fighter
+		x = 0
+		y = 1 
+		relative_position_id = LEX_dockyard_expansions_scheme2
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_dockyard_expansions_scheme2
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tank_bonus
+				bonus = 0.4
+				uses = 2
+				technology = cv_fighter1
+				technology = cv_fighter2
+				technology = cv_fighter3
+				technology = cv_fighter4
+				technology = cv_fighter5
+				technology = cv_fighter6
+				technology = cv_fighter7
+				technology = cv_fighter8
+			}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	
+		shared_focus = {
+		id = LEX_cv_cas
+		icon = fighter
+		x = -2
+		y = 1 
+		relative_position_id = LEX_dockyard_expansions_scheme2
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_dockyard_expansions_scheme2
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tank_bonus
+				bonus = 0.4
+				uses = 4
+				technology = cv_CAS1
+				technology = cv_CAS2
+				technology = cv_CAS3
+				technology = cv_naval_bomber1
+				technology = cv_naval_bomber2
+				technology = cv_naval_bomber3
+				technology = cv_naval_bomber4
+				technology = cv_naval_bomber5
+				technology = cv_naval_bomber6
+			}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+	}
+	
+shared_focus = {
+		id = LEX_VTOL_carrier
+		icon = carriers
+		x = 1
+		y = 1 
+		relative_position_id = LEX_cv_fighter
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_cv_fighter
+		}
+		prerequisite = {
+		focus = LEX_cv_cas
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_VTOL_carrier
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	
+shared_focus = {
+		id = LEX_oceanic_navy
+		icon = navy2
+		x = -1
+		y = 1
+		relative_position_id = LEX_cv_fighter
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_cv_fighter
+		}
+		prerequisite = {
+		focus = LEX_cv_cas
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_projection_navy
+					add_idea = LEX_oceanic_navy
+				}	
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4
+				uses = 1
+				category = cv_tech
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+
+
+
+shared_focus = {
+		id = LEX_corrvete_development
+		icon = GFX_focus_generic_destroyer
+		x = -2
+		y = 2
+		relative_position_id = LEX_analize_our_ships
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_analize_our_ships
+		}
+		prerequisite = {
+		focus = LEX_test_the_admirals
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = dd_tech
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}	
+	
+shared_focus = {
+		id = LEX_defensive_navy
+		icon = cruisers
+		x = 0
+		y = 2
+		relative_position_id = LEX_corrvete_development
+		cost = 7.2
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+
+		prerequisite = {
+		focus = LEX_corrvete_development
+		}
+		mutually_exclusive = {
+		focus = LEX_projection_navy
+		}
+		
+	    completion_reward = {
+			add_ideas = LEX_defensive_navy
+		}
+		ai_will_do = {
+			factor = 15
+			modifier = {
+			factor = 10
+			dockyard < 5
+			}
+		}
+	}	
+	
+shared_focus = {
+		id = LEX_defend_shores
+		icon = GFX_focus_generic_coastal_fort
+		x = -2
+		y = 1
+		relative_position_id = LEX_defensive_navy
+		cost = 10
+	
+		prerequisite = {
+		    focus = LEX_defensive_navy
+		}
+		
+		completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_defensive_navy
+					add_idea = LEX_defensive_navy2
+				}
+		}
+		
+		ai_will_do = {
+			factor = 15
+		}
+		}
+		
+		
+		
+	shared_focus = {
+		id = LEX_nav_bomber_range
+		icon = escort_fighters
+		x = 0
+		y = 1 
+		relative_position_id = LEX_defend_shores
+		cost = 7.2
+		
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_defend_shores
+		}
+		
+	    completion_reward = {
+			swap_ideas = { 
+					remove_idea = LEX_defensive_navy2
+					add_idea = LEX_defensive_navy3
+				}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	
+	shared_focus = {
+		id = LEX_short_range
+		icon = cruisers
+		x = 0
+		y = 1 
+		relative_position_id = LEX_nav_bomber_range
+		cost = 7.2
+		
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_nav_bomber_range
+		}
+		
+	    completion_reward = {
+			swap_ideas = { 
+					remove_idea = LEX_defensive_navy3
+					add_idea = LEX_defensive_navy4
+				}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+	}
+	
+	
+	
+shared_focus = {
+		id = LEX_attacks_from_under_the_sea
+		icon = submarines
+		x = 0
+		y = 1 
+		relative_position_id = LEX_defensive_navy
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_defensive_navy
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = ss_tech
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+
+shared_focus = {
+		id = LEX_a_merchant_fleet
+		icon = merchant_fleet
+		x = 1
+		y = 1
+		relative_position_id = LEX_analize_our_ships
+		cost = 7.2
+		
+
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_analize_our_ships
+		}
+		
+	    completion_reward = {
+		add_ideas = LEX_a_merchant_fleet
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	shared_focus = {
+		id = LEX_degauss_ship_hulls
+		text = CAN_degauss_ship_hulls
+		icon = anti_submarine
+		x = 1
+		y = 1 
+		relative_position_id = LEX_a_merchant_fleet
+		cost = 7.2
+		
+
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_a_merchant_fleet
+		}
+		
+		
+	    completion_reward = {
+			add_ideas = LEX_degauss_ship_hulls
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				if = {
+					limit = {
+						has_tech = degaussing
+					}
+					add_tech_bonus = {
+						name = CAN_degauss_ship_hulls
+						bonus = 0.4 # 0.5
+						uses = 2
+						category = naval_mines
+					}
+					else = {
+						set_technology = {
+						    degaussing = 1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+shared_focus = {
+		id = LEX_anti_submarine_warfare
+		icon = anti_submarine
+		x = -1
+		y = 1
+		relative_position_id = LEX_a_merchant_fleet
+		cost = 7.2
+		
+
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_a_merchant_fleet
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = asw_tech
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+shared_focus = {
+		id = LEX_a_merchant_fleet2
+		icon = merchant_fleet
+		x = 1
+		y = 1
+		relative_position_id = LEX_anti_submarine_warfare
+		cost = 7.2
+		
+
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_anti_submarine_warfare
+		}
+		prerequisite = {
+		focus = LEX_degauss_ship_hulls
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_a_merchant_fleet
+					add_idea = LEX_a_merchant_fleet2
+				}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+shared_focus = {
+		id = LEX_torpedos
+		icon = bombs2
+		x = 0
+		y = 1 
+		relative_position_id = LEX_attacks_from_under_the_sea
+		cost = 7.2
+		
+
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_attacks_from_under_the_sea
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				technology = basic_torpedo
+			    technology = magnetic_detonator
+			    technology = homing_torpedo
+			    technology = electric_torpedo
+			    technology = improved_ship_torpedo_launcher
+			    technology = advanced_ship_torpedo_launcher
+			    technology = modern_ship_torpedo_launcher
+			    technology = near_future_ship_torpedo_launcher
+			    technology = future_ship_torpedo_launcher
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+shared_focus = {
+		id = LEX_attack_and_run_tactics
+		text = LEX_attack_and_run_tactics
+		icon = wolf_packs
+		x = 0
+		y = 1
+		relative_position_id = LEX_torpedos
+		cost = 7.2
+		
+
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_torpedos
+		}
+		
+		
+	    completion_reward = {
+		add_ideas = LEX_attack_and_run_tactics
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+shared_focus = {
+		id = LEX_improved_landing_crafts
+		icon = battleships2
+		x = 2
+		y = 1 
+		relative_position_id = LEX_projection_navy
+		cost = 7.2
+
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_projection_navy
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = tp_tech
+			}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+}
+shared_focus = {
+		id = LEX_our_own_marine_corps
+		icon = amphibious_assault
+		x = 0
+		y = 1 
+		relative_position_id = LEX_improved_landing_crafts
+		cost = 7.2
+		
+
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_improved_landing_crafts
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = marine_tech
+			}
+			add_ideas = LEX_marine_corps
+	}
+	ai_will_do = {
+			factor = 15
+		}
+}
+
+
+
+shared_focus = {
+		id = LEX_tanks_from_the_sea
+		icon = amphibius_tank
+		x = 0
+		y = 1 
+		relative_position_id = LEX_our_own_marine_corps
+		cost = 7.2
+		
+
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_our_own_marine_corps
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				technology = amphibious_tank1
+			    technology = amphibious_tank2
+				technology = amphibious_tank3
+			}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+}
+
+
+shared_focus = {
+		id = LEX_dockyard_expansions_scheme
+		icon = naval_dockyards
+		x = 0
+		y = 2
+		relative_position_id = LEX_a_merchant_fleet2
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_defensive_navy
+		focus = LEX_projection_navy
+		}
+		prerequisite = {
+		focus = LEX_a_merchant_fleet2
+		}
+		
+		
+		
+	    completion_reward = {			
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+		limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+				if = {
+		limit = { check_variable = { max_manpower_k > 50000 }
+		}
+			random_owned_state = {
+			limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+			
+			
+			
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	
+
+shared_focus = {
+		id = LEX_bb
+		icon = battleships2
+		x = 0
+		y = 1 
+		relative_position_id = LEX_dockyard_expansions_scheme
+		cost = 7.2
+		
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_dockyard_expansions_scheme
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = bb_tech
+			}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+}
+
+shared_focus = {
+		id = LEX_hire_ship_makers
+		icon = create_submarine
+		x = -1
+		y = 1 
+		relative_position_id = LEX_bb
+		cost = 7.2
+		
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_bb
+		}
+		
+		
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_a_merchant_fleet2
+					add_idea = LEX_a_merchant_fleet3
+				}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+}
+
+shared_focus = {
+		id = LEX_naval_doctrine
+		icon = naval_doctrine
+		x = 0
+		y = 1 
+		relative_position_id = LEX_hire_ship_makers
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+		any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+				is_controlled_by = ROOT
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_hire_ship_makers
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4 # 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+
+shared_focus = {
+		id = LEX_a_great_navy
+		icon = army_officers
+		x = -2
+		y = 1 
+		relative_position_id = LEX_oceanic_navy
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_oceanic_navy
+		}	
+		prerequisite = {
+		focus = LEX_naval_doctrine
+		}			
+		
+		
+	    completion_reward = {
+			swap_ideas = { 
+					remove_idea = LEX_oceanic_navy
+					add_idea = LEX_oceanic_navy2
+				}
+	}
+	ai_will_do = {
+			factor = 15
+		}
+}
+
+shared_focus = {
+		id = LEX_modernize_the_airforce
+		icon = airforce
+		x = 46
+		y = 0
+		cost = 5
+		
+		offset = {
+		x = -10
+		y = 0
+		trigger = {
+			tag = ICE
+		}
+	}
+		
+	    completion_reward = {
+			air_experience = 35
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_american_planes
+		icon = american_plane
+		x = -1
+		y = 1 
+		relative_position_id = LEX_modernize_the_airforce
+		cost = 7.2
+		
+		bypass = {
+		OR = {
+		USA = {
+			exists = no
+			}
+		has_war_with = USA 
+		}		
+		}
+		mutually_exclusive = {
+		focus = LEX_Russian_planes
+		}
+		mutually_exclusive = {
+		focus = LEX_Chinese_planes
+		}
+		
+		available = {
+			NOT = { has_war_with = USA }
+			USA = {
+			exists = yes
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_modernize_the_airforce
+		}
+		
+	    completion_reward = {
+		add_timed_idea = {
+		idea = LEX_payments
+		days = 180
+		}
+		custom_effect_tooltip = country_size_tt
+			if = {
+			limit = { check_variable = { max_manpower_k < 10000 } }
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 50
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 30
+				producer = USA
+			}
+			}
+			
+			if = {
+			limit = { 
+			AND = {
+			check_variable = { max_manpower_k > 10000 } 
+			check_variable = { max_manpower_k < 20000 } 
+			}
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 100
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 60
+				producer = USA
+			}
+			}
+			
+			if = {
+			limit = { 
+			AND = {
+			check_variable = { max_manpower_k > 20000 } 
+			check_variable = { max_manpower_k < 50000 } 
+			}
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 200
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 120
+				producer = USA
+			}
+			}
+			if = {
+			limit = { check_variable = { max_manpower_k > 50000 } }
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 300
+				producer = USA
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 180
+				producer = USA
+			}
+			}
+			
+			
+			
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_Russian_planes
+		icon = Russian_plane
+		x = -3
+		y = 1 
+		relative_position_id = LEX_modernize_the_airforce
+		cost = 7.2
+		
+		bypass = {
+		OR = {
+		SOV = {
+			exists = no
+			}
+		has_war_with = SOV 
+		}
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_american_planes
+		}
+		mutually_exclusive = {
+		focus = LEX_Chinese_planes
+		}
+		
+		available = {
+			NOT = { has_war_with = SOV }
+			SOV = {
+			exists = yes
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_modernize_the_airforce
+		}
+		
+	    completion_reward = {
+		add_timed_idea = {
+		idea = LEX_payments
+		days = 180
+		}
+		custom_effect_tooltip = country_size_tt
+			if = {
+			limit = { check_variable = { max_manpower_k < 10000 } }
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 50
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 30
+				producer = SOV
+			}
+			}
+			
+			if = {
+			limit = { 
+			AND = {
+			check_variable = { max_manpower_k > 10000 } 
+			check_variable = { max_manpower_k < 20000 } 
+			}
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 100
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 60
+				producer = SOV
+			}
+			}
+			
+			if = {
+			limit = { 
+			AND = {
+			check_variable = { max_manpower_k > 20000 } 
+			check_variable = { max_manpower_k < 50000 } 
+			}
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 200
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 120
+				producer = SOV
+			}
+			}
+			if = {
+			limit = { check_variable = { max_manpower_k > 50000 } }
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 300
+				producer = SOV
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 180
+				producer = SOV
+			}
+			}
+			
+			
+			
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_Chinese_planes
+		icon = Chinese_plane
+		x = 1
+		y = 1 
+		relative_position_id = LEX_modernize_the_airforce
+		cost = 7.2
+		
+		bypass = {
+		OR = {
+		PRC = {
+			exists = no
+			}
+		has_war_with = PRC 
+		}
+		}
+		mutually_exclusive = {
+		focus = LEX_Russian_planes
+		}
+		mutually_exclusive = {
+		focus = LEX_american_planes
+		}
+		
+		available = {
+			NOT = { has_war_with = PRC }
+			PRC = {
+			exists = yes
+			}
+		}
+		
+		prerequisite = {
+		focus = LEX_modernize_the_airforce
+		}
+		
+	    completion_reward = {
+		add_timed_idea = {
+		idea = LEX_payments
+		days = 180
+		}
+		custom_effect_tooltip = country_size_tt
+			if = {
+			limit = { check_variable = { max_manpower_k < 10000 } }
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 50
+				producer = PRC
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 30
+				producer = PRC
+			}
+			}
+			
+			if = {
+			limit = { 
+			AND = {
+			check_variable = { max_manpower_k > 10000 } 
+			check_variable = { max_manpower_k < 20000 } 
+			}
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 100
+				producer = PRC
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 60
+				producer = PRC
+			}
+			}
+			
+
+			if = {
+			limit = { 
+			AND = {
+			check_variable = { max_manpower_k > 20000 } 
+			check_variable = { max_manpower_k < 50000 } 
+			}
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 200
+				producer = PRC
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 120
+				producer = PRC
+			}
+			}
+			if = {
+			limit = { check_variable = { max_manpower_k > 50000 } }
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_3 
+				amount = 300
+				producer = PRC
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_2 
+				amount = 180
+				producer = PRC
+			}
+			}
+			
+			
+			
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_analize_new_planes
+		icon = Blueprints
+		x = 3
+		y = 1 
+		relative_position_id = LEX_modernize_the_airforce
+		cost = 7.2		
+		
+		available = {	
+		}
+		
+		prerequisite = {
+		focus = LEX_modernize_the_airforce
+		}
+		
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.2 # 0.5
+				uses = 2
+				category = air_equipment
+			}
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_utilize_the_new_planes
+		icon = air_doctrine
+		x = 1
+		y = 1 
+		relative_position_id = LEX_american_planes
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_Chinese_planes
+		focus = LEX_Russian_planes
+		focus = LEX_american_planes
+		focus = LEX_analize_new_planes
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4 # 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	
+	
+	shared_focus = {
+		id = LEX_UCAVs
+		icon = bombs
+		x = 1
+		y = 1 
+		relative_position_id = LEX_utilize_the_new_planes
+		cost = 7.2
+		
+		mutually_exclusive = {
+		focus = LEX_closer_air_support
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_utilize_the_new_planes
+		}
+		
+
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = tactical_bomber
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	shared_focus = {
+		id = LEX_closer_air_support
+		icon = escort_fighters
+		x = 3
+		y = 1 
+		relative_position_id = LEX_utilize_the_new_planes
+		cost = 7.2
+		
+		mutually_exclusive = {
+		focus = LEX_UCAVs
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_utilize_the_new_planes
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = cas_bomber
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_heavy_bombers
+		icon = Bomber2
+		x = 0
+		y = 1 
+		relative_position_id = LEX_UCAVs
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_UCAVs
+		focus = LEX_closer_air_support
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = cat_strategic_bomber
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	
+	shared_focus = {
+		id = LEX_Bomb_the_sea
+		icon = naval_bomber
+		x = 2
+		y = 1
+		relative_position_id = LEX_UCAVs
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_UCAVs
+		focus = LEX_closer_air_support
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = naval_bomber
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_bomb_everything
+		icon = bombs2
+		x = -1
+		y = 1
+		relative_position_id = LEX_Bomb_the_sea
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		
+		prerequisite = {
+		focus = LEX_Bomb_the_sea
+		focus = LEX_heavy_bombers
+		}
+		
+	    completion_reward = {
+			add_ideas = LEX_bomb_everything
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_fight_them_with_fighters
+		icon = fighter2
+		x = -3
+		y = 1 
+		relative_position_id = LEX_utilize_the_new_planes
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		
+		prerequisite = {
+		focus = LEX_utilize_the_new_planes
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = light_fighter
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+
+	
+	shared_focus = {
+		id = LEX_scout_the_skies
+		icon = fighter
+		x = 0
+		y = 1 
+		relative_position_id = LEX_fight_them_with_fighters
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_fight_them_with_fighters
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tank_bonus
+				bonus = 0.4
+				uses = 1
+				technology = scout_plane1
+				technology = scout_plane2
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_see_everything
+		icon = radar
+		x = 0
+		y = 1
+		relative_position_id = LEX_scout_the_skies
+		cost = 7.2
+		
+		bypass = {
+		
+		}
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_scout_the_skies
+		}
+		
+	    completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 2
+				category = radar_tech
+			}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	
+	
+	shared_focus = {
+		id = LEX_strategic_air_base_locations
+		icon = air_production
+		x = -1
+		y = 1 
+		relative_position_id = LEX_utilize_the_new_planes
+		cost = 7.2
+		
+		
+		available = {
+			
+		}
+		
+		prerequisite = {
+		focus = LEX_utilize_the_new_planes
+		}
+		
+		
+	    completion_reward = {
+		custom_effect_tooltip = country_size_tt
+		random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		if = {
+		limit = { check_variable = { max_manpower_k > 20000 }
+		NOT = { has_idea = national_development_undeveloped }
+		}
+		random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = air_base
+						size > 1
+						include_locked = yes
+					}
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+					state_population_k > 500
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	
+
+	
+	shared_focus = {
+		id = LEX_increase_local_airplane_production_light
+		icon = air_production
+		x = 0
+		y = 1
+		relative_position_id = LEX_see_everything
+		cost = 7.2
+				
+		prerequisite = {
+			focus = LEX_see_everything
+		}
+		prerequisite = {
+			focus = LEX_air_safety_reforms
+		}
+		
+		
+		completion_reward = {
+			if = {
+			limit = { has_idea = LEX_air_force_safety_reforms } 
+			swap_ideas = { 
+					remove_idea = LEX_air_force_safety_reforms
+					add_idea = airplane_production_light
+				}
+			}
+			
+			if = {
+			limit = { has_idea = airplane_production_heavy } 
+			swap_ideas = { 
+					remove_idea = airplane_production_heavy
+					add_idea = airplane_production_both
+				}
+			}
+			
+			if = {
+			limit = { 
+			NOT = {			 	
+			has_completed_focus = LEX_increase_local_airplane_production_heavy
+			} 
+			}
+					add_ideas = airplane_production_light
+				}
+			
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+		shared_focus = {
+		id = LEX_increase_local_airplane_production_heavy
+		icon = air_production
+		x = 1
+		y = 1
+		relative_position_id = LEX_bomb_everything
+		cost = 7.2
+		
+		prerequisite = {
+		    focus = LEX_bomb_everything
+		}
+		
+		prerequisite = {
+			focus = LEX_air_safety_reforms
+		}
+		
+		
+		completion_reward = {
+			if = {
+			limit = { has_idea = LEX_air_force_safety_reforms } 
+			swap_ideas = { 
+					remove_idea = LEX_air_force_safety_reforms
+					add_idea = airplane_production_heavy
+				}
+			}
+			
+			if = {
+			limit = { has_idea = airplane_production_light } 
+			swap_ideas = { 
+					remove_idea = airplane_production_light
+					add_idea = airplane_production_both
+				}
+			}
+			
+			if = {
+			limit = { 
+			NOT = {
+			has_completed_focus = LEX_increase_local_airplane_production_light
+			} 
+			}
+					add_ideas = airplane_production_heavy
+				}
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	shared_focus = {
+		id = LEX_air_force_military_school
+		icon = airforce
+		x = 3
+		y = 1
+		relative_position_id = LEX_see_everything
+		cost = 7.2
+		
+		
+		prerequisite = {
+		    focus = LEX_bomb_everything
+		}
+		
+		prerequisite = {
+			focus = LEX_see_everything
+		}
+		prerequisite = {
+			focus = LEX_air_safety_reforms
+		}
+		
+		
+		completion_reward = {
+		add_ideas = LEX_air_force_military_school
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	
+	shared_focus = {
+		id = LEX_troops_from_the_air
+		icon = paratroopers
+		x = 0
+		y = 1
+		relative_position_id = LEX_increase_local_airplane_production_heavy
+		cost = 7.2
+		
+		prerequisite = {
+			focus = LEX_air_force_military_school
+		}
+		prerequisite = {
+			focus = LEX_increase_local_airplane_production_heavy
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4  #0.8
+				uses = 1
+				category = para_tech
+			}
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+
+	
+		shared_focus = {
+		id = LEX_best_aces
+		icon = military_mission
+		x = 0
+		y = 1
+		relative_position_id = LEX_increase_local_airplane_production_light
+		cost = 7.2		
+		
+		available = {
+			
+		}		
+		
+		prerequisite = {
+		focus = LEX_increase_local_airplane_production_light
+		}
+		prerequisite = {
+		focus = LEX_air_force_military_school
+		}
+		
+	    completion_reward = {
+		swap_ideas = { 
+					remove_idea = LEX_air_force_military_school
+					add_idea = LEX_aces
+				}
+	}
+	ai_will_do = {
+			factor = 20
+		}
+	}
+	
+	
+	
+	shared_focus = {
+		id = LEX_pilot_traning_program
+		icon = air_traning
+		x = 0
+		y = 1
+		relative_position_id = LEX_strategic_air_base_locations
+		cost = 7.2
+		
+		prerequisite = {
+			focus = LEX_strategic_air_base_locations
+		}
+		
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.4 #1.0
+				uses = 1
+				category = air_doctrine
+			}
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+		shared_focus = {
+		id = LEX_air_safety_reforms
+		icon = production
+		x = 0
+		y = 1
+		relative_position_id = LEX_pilot_traning_program
+		cost = 7.2
+		
+		
+		prerequisite = {
+			focus = LEX_pilot_traning_program
+		}
+		
+		completion_reward = {
+			add_ideas = LEX_air_force_safety_reforms
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	
+		shared_focus = {
+		id = LEX_nuclear_quest
+		icon = 	focus_generic_chemical_research	#nuclear_weapons
+		x = 28
+		y = 0
+		relative_position_id = LEX_focus_on_diplomacy
+		cost = 10
+			
+		available = {
+		NOT = {has_tech = nukes}
+		}
+					
+		
+		completion_reward = {
+		add_political_power = -100
+		add_ideas =  LEX_nuclear_quest
+		}
+		
+		ai_will_do = {
+			factor = 10
+			
+				modifier = {
+				factor = 0.5
+				industrial_complex < 10
+				}
+				
+				
+				
+				modifier = {
+				factor = 2
+				OR = {
+					has_government = islamist
+					has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = communist
+				}		
+				}
+				
+				modifier = {
+				factor = 3
+				OR = {
+				tag = PRK
+				tag = PAK
+				tag = PER
+				}			
+				}
+
+				modifier = {
+				factor = 0.01
+				tag = PER
+				date < 2010.01.01			
+				}
+				
+				modifier = {
+				factor = 1.5
+				OR = {
+				tag = SAF
+				tag = UKR
+				tag = SAU
+				}			
+				}
+		}
+	}
+
+		shared_focus = {
+		id = LEX_ask_for_nuclear
+		icon = GFX_goal_generic_scientific_exchange
+		x = -1
+		y = 1
+		relative_position_id = LEX_nuclear_quest
+		cost = 10
+		
+		prerequisite = {
+		focus = LEX_nuclear_quest
+		}
+		
+		available = {
+		any_country = {
+				AND = {
+				is_in_faction_with = ROOT 
+				has_tech = nukes
+				}
+			}
+		}
+		
+		mutually_exclusive = {
+		focus = LEX_nuclear_alone
+		}
+		
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.25
+				ahead_reduction = 4.0
+				uses = 1
+				technology = atomic_research
+
+			}
+		}
+		
+		ai_will_do = {
+			factor = 160
+		}
+} 
+	
+		shared_focus = {
+		id = LEX_nuclear_alone
+		icon = tech_sharing
+		x = 1
+		y = 1
+		relative_position_id = LEX_nuclear_quest
+		cost = 10
+			
+		prerequisite = {
+		focus = LEX_nuclear_quest
+		}	
+
+		mutually_exclusive = {
+		focus = LEX_ask_for_nuclear
+		}		
+		
+		completion_reward = {
+		
+			add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.10
+				ahead_reduction = 3.0
+				uses = 1
+				technology = atomic_research
+
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+} 
+
+
+	
+
+	shared_focus = {
+		id = LEX_civilian_atom
+		icon = focus_generic_chemical_research
+		x = -1
+		y = 1
+		relative_position_id = LEX_nuclear_alone
+		cost = 10
+				
+		prerequisite = {
+			focus = LEX_nuclear_alone
+			focus = LEX_ask_for_nuclear
+		}
+		
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.10
+				ahead_reduction = 8.0
+				uses = 1
+				technology = nuclear_reactor
+
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+} 
+
+	shared_focus = {
+		id = LEX_nuclear_ship
+		icon = carriers
+		x = 1
+		y = 1
+		relative_position_id = LEX_civilian_atom
+		cost = 10
+				
+		prerequisite = {
+			focus = LEX_civilian_atom
+		}
+		
+		
+		completion_reward = {
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.40
+				uses = 1
+				technology = basic_nuclear_reactors
+				technology = improved_nuclear_reactors
+
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+}
+
+shared_focus = {
+		id = LEX_weaponize_atom
+		icon = Generic_Chemical_Warfare #nuclear_weapons
+		x = -1
+		y = 1
+		relative_position_id = LEX_civilian_atom
+		cost = 10
+				
+		prerequisite = {
+			focus = LEX_civilian_atom
+		}
+		
+		
+		completion_reward = {
+		news_event = {
+			id = news.174
+			days = 10
+			random_days = 45
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+} 
+
+	shared_focus = {
+		id = LEX_nuclear_test
+		icon = nuclear_weapons
+		x = 0
+		y = 1
+		relative_position_id = LEX_weaponize_atom
+		cost = 10
+				
+		prerequisite = {
+			focus = LEX_weaponize_atom
+		}
+		
+		
+		completion_reward = {
+		remove_ideas = {LEX_nuclear_quest }
+		news_event = {
+			id = nuke_dropped.2
+			days = 0
+			}
+			
+		add_tech_bonus = {
+				name = tech_bonus
+				bonus = 0.10
+				ahead_reduction = 12.0
+				uses = 1
+				technology = nukes
+
+			}
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+} 
+
+	

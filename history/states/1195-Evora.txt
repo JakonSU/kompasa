@@ -1,0 +1,17 @@
+state={
+	id=1195
+	name="STATE_1195"
+	history={
+		owner = ELP
+		add_core_of = ELP
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces={
+		844 970 3846 3886 3926 6986 9869 11768 
+	}
+	manpower=1166100
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

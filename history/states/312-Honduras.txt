@@ -1,0 +1,33 @@
+
+state={
+	id=312
+	name="STATE_312"
+
+	history={
+		owner = HON
+		add_core_of = HON
+		victory_points = {
+			12865 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 1
+			12865 = {
+				naval_base = 1
+
+			}
+			
+
+		}
+
+	}
+
+	provinces={
+		12865 
+	}
+	manpower=7199733
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

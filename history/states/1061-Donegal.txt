@@ -1,0 +1,20 @@
+state={
+	id=1061
+	name="STATE_1061"
+	history={
+		owner = WTI
+		add_core_of = WTI
+		victory_points = {
+			337 2 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		337 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=state_level_4
+}

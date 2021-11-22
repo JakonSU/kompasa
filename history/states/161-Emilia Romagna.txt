@@ -1,0 +1,34 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = ELP
+		add_core_of = ELP
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			air_base = 2
+			782 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		782 6606 6793 6985 9582 9924 11734 
+	}
+	manpower=4302401
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

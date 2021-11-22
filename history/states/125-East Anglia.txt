@@ -1,0 +1,27 @@
+
+state={
+	id=125
+	name="STATE_125"
+
+	history={
+		owner = UAN
+		add_core_of = UAN
+		victory_points = {
+			11253 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			air_base = 5
+
+		}
+
+	}
+
+	provinces={
+		221 296 11221 11253 
+	}
+	manpower=881587
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1155
+	name="STATE_1155"
+
+	history={
+		owner = WOL
+		add_core_of = WOL
+		buildings = {
+			infrastructure = 7
+
+		}
+
+	}
+
+	provinces={
+		442 466 3410 6499 6522 11507 
+	}
+	manpower=1950767
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

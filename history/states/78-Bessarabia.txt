@@ -1,0 +1,31 @@
+
+state={
+	id=78
+	name="STATE_78"
+
+	history={
+		owner = WOL
+		add_core_of = WOL
+		victory_points = {
+			3707 3 
+		}
+		victory_points = {
+			3724 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		3707 3724 6743 9683 11686 
+	}
+	manpower=1431700
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=166
+	name="STATE_166"
+
+	history={
+		owner = BIA
+		add_core_of = BIA
+		victory_points = {
+			3816 1 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		 948 3816 6901 7213 9812 9813 9840 9842 11737 11838 
+	}
+	manpower=1027865
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

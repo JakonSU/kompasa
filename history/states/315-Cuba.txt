@@ -1,0 +1,28 @@
+
+state={
+	id=315
+	name="STATE_315"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = CUB
+		add_core_of = CUB
+		victory_points = {
+			7590 1 
+		}
+		buildings = {
+			infrastructure = 4
+			
+		}
+
+	}
+
+	provinces={
+		7451 10374  
+	}
+	manpower=3032667
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

@@ -1,0 +1,22 @@
+focus_tree = {
+
+	id = generic_focus
+	
+	country = {
+		factor = 5
+	}
+
+
+	shared_focus = LEX_focus_on_diplomacy
+	shared_focus = LEX_a_new_economy_for_a_new_millenium
+	shared_focus = LEX_focus_on_political_matters
+	shared_focus = LEX_modernize_the_airforce
+	shared_focus = LEX_modernize_the_navy
+	shared_focus = LEX_bolster_the_army
+	shared_focus = LEX_nuclear_quest
+		continuous_focus_position = { x = 1 y = 1800 }
+		initial_show_position = {
+        focus = LEX_focus_on_political_matters
+    }
+
+}

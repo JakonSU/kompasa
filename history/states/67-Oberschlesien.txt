@@ -1,0 +1,31 @@
+
+state={
+	id=67
+	name="STATE_67"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = RZS
+		add_core_of = RZS
+		victory_points = {
+			11467 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		479 6512 9457 9511 11467 
+	}
+	manpower=4953103
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

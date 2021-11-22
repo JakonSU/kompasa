@@ -1,0 +1,22 @@
+
+state={
+	id=1196
+	name="STATE_1196"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		5046 13272 13273 13274 
+	}
+	manpower=433757
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

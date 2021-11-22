@@ -1,0 +1,22 @@
+
+state={
+	id=1217
+	name="STATE_1217"
+
+	history={
+		owner = LBA
+		add_core_of = LBA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1057 10104 13399 13403 13404 13406 13410 13411 13413 13417 13423 13427 13430 13432 13434 13441 
+	}
+	manpower=36709
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

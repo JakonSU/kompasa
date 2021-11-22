@@ -1,0 +1,27 @@
+
+state={
+	id=185
+	name="STATE_185"
+
+	history={
+		owner = ELP
+		add_core_of = ELP
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			9805 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		841 3914 3980 9805 9916 10203 11786 
+	}
+	manpower=760900
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

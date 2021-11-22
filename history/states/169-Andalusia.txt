@@ -1,0 +1,40 @@
+
+state={
+	id=169
+	name="STATE_169"
+	resources={
+		tungsten=5.000
+		oil=4.000
+		steel=6.000
+	}
+
+	history={
+		owner = ELP
+		add_core_of = ELP
+		victory_points = {
+			1048 3 
+		}
+		victory_points = {
+			7183 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			1048 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1048 3940 4080 7098 7183 9815 10094 11749 12070 13232 
+	}
+	manpower=2087581
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

@@ -1,0 +1,17 @@
+state={
+	id=1027
+	name="STATE_1027"
+	history={
+		owner = COS
+		add_core_of = COS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		12878 
+	}
+	manpower=134400
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

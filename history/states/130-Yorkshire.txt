@@ -1,0 +1,38 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		oil=9.000
+	}
+
+	history={
+		owner = SCO
+		add_core_of = UAN
+		add_core_of = SCO
+		victory_points = {
+			9379 15 
+		}
+		victory_points = {
+			9315 5 
+		}
+		victory_points = {
+			11382 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 10
+
+		}
+
+	}
+
+	provinces={
+		6268 9315 9379 9397 11382 
+	}
+	manpower=2781247
+	buildings_max_level_factor=1.000
+	state_category=state_level_12
+}

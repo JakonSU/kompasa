@@ -1,0 +1,19 @@
+state={
+	id=1012
+	name="STATE_1012"
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PRU
+
+	}
+	provinces={
+		8213 10970 
+	}
+	manpower=550551
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

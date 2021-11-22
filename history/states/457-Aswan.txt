@@ -1,0 +1,29 @@
+
+state={
+	id=457
+	name="STATE_457"
+	resources={
+		oil=43.000
+	}
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+
+		}
+		victory_points = {
+			12002 3 
+		}
+
+	}
+
+	provinces={
+		1080 9957 10126 12002 12889 13489 13493 
+	}
+	manpower=686097
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

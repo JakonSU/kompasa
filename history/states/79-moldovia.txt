@@ -1,0 +1,28 @@
+
+state={
+	id=79
+	name="STATE_79"
+	resources={
+		steel=8.000
+		oil=7.000
+	}
+
+	history={
+		owner = WOL
+		add_core_of = WOL
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		723 6706 6729 6747 9701 11652 11655 11672 
+	}
+	manpower=1653200
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

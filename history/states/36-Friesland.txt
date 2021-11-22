@@ -1,0 +1,27 @@
+
+state={
+	id=36
+	name="STATE_36"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = UAN
+		add_core_of = UAN
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		6241 6286  
+	}
+	manpower=3871833
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

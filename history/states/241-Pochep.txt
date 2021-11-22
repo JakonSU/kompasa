@@ -1,0 +1,26 @@
+
+state={
+	id=241
+	name="STATE_241"
+
+	history={
+		owner = BIA
+		add_core_of = BIA
+		victory_points = {
+			9288 10 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		6344 9288 9342 11355 
+	}
+	manpower=471711
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

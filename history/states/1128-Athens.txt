@@ -1,0 +1,30 @@
+state={
+	id=1128
+	name="STATE_1128"
+	history={
+		owner = ELP
+		add_core_of = ELP
+		victory_points = {
+			4109 20 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			4109 = {
+				naval_base = 9
+
+			}
+
+		}
+
+	}
+	provinces={
+		1109 3988 4109 7127 
+	}
+	manpower=4209375
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

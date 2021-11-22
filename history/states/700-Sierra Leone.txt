@@ -1,0 +1,33 @@
+
+state={
+	id=700
+	name="STATE_700"
+	resources={
+		rubber=7.000
+	}
+
+	history={
+		owner = SIE
+		victory_points = {
+			2038 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			13776 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2038 13776 
+	}
+	manpower=1737550
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

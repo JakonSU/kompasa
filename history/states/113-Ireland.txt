@@ -1,0 +1,30 @@
+
+state={
+	id=113
+	name="STATE_113"
+
+	history={
+		owner = WTI
+		add_core_of = WTI
+		victory_points = {
+			285 3 
+		}
+		victory_points = {
+			7377 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		285 303 3342 7377 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=state_level_9
+}

@@ -1,0 +1,51 @@
+﻿#FROM pursues nuclear technology
+news_event = {
+	id = news.174
+	title = news.174.t
+	picture = GFX_news_event_069
+	desc = news.174.d
+
+	major = yes
+
+	is_triggered_only = yes
+
+	#We surely support sanctions against [From.GetName]
+	option = {
+		name = news.174.a
+		trigger = {
+			NOT = {
+				is_in_faction_with = FROM
+				has_war_with = FROM
+				tag = FROM
+			}
+		}
+	}
+
+	#Let us hope their research bears fruit.
+	option = {
+		name = news.174.b
+		trigger = {
+			is_in_faction_with = FROM
+			NOT = {
+				tag = FROM
+			}
+		}
+	}
+
+	#It will never amount to anything.
+	option = {
+		name = news.174.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+
+	#The best scientists we have to offer are currently working on it.
+	option = {
+		name = news.174.e
+		trigger = {
+			tag = FROM
+		} 
+			add_threat = 2
+	}
+}

@@ -1,0 +1,11 @@
+on_actions = {
+
+	#FROM is state #ROOT is broken as hell
+	on_nuke_drop = {
+		effect = {			
+			news_event = { id = nuke_dropped.1 days = 1}
+		}
+	}
+
+	
+}

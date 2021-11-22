@@ -1,0 +1,26 @@
+
+state={
+	id=475
+	name="STATE_475"
+	resources={
+		oil=49.000
+	}
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		1900 12753 
+	}
+	manpower=2010642
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

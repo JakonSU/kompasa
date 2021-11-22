@@ -1,0 +1,26 @@
+
+state={
+	id=666
+	name="STATE_666"
+	resources={
+		steel=29.000
+	}
+
+	history={
+		owner = IMN
+		add_core_of = IMN
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		58 101 151 190 3044 3095 3179 6055 6074 6152 6155 6206 9083 9095 9134 9175 9178 11026 11058 11060 11102 11112 11152 13119 
+	}
+	manpower=278549
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

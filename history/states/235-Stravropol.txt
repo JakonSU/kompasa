@@ -1,0 +1,26 @@
+
+state={
+	id=235
+	name="STATE_235"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = WFL
+		add_core_of = WFL
+		buildings = {
+			infrastructure = 4
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		714 731 748 3748 6718 6733 6750 6753 9688 9705 9707 9722 9726 9742 11633 11661 11678 11694 11696 11727 
+	}
+	manpower=658258
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

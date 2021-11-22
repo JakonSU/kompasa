@@ -1,0 +1,33 @@
+
+state={
+	id=134
+	name="STATE_134"
+
+	history={
+		owner = WTI
+		add_core_of = WTI
+		victory_points = {
+			3396 5 
+		}
+		victory_points = {
+			11371 2 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			3396 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3396 9255 9303 9321 9369 11238 11287 11371 
+	}
+	manpower=567100
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

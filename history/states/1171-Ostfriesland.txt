@@ -1,0 +1,20 @@
+state={
+	id=1171
+	name="STATE_1171"
+	history={
+		owner = WKL
+		add_core_of = WKL
+		victory_points = {
+			11233 1 
+		}
+		buildings = {
+			infrastructure = 7
+		}
+	}
+	provinces={
+		336 6622 9281 11233 11264 11346 11360 
+	}
+	manpower=5054666
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

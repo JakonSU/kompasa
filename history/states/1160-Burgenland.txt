@@ -1,0 +1,17 @@
+state={
+	id=1160
+	name="STATE_1160"
+	history={
+		owner = WEN
+		add_core_of = WEN
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		3700 9661 11630 
+	}
+	manpower=293433
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

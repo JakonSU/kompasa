@@ -1,0 +1,27 @@
+
+state={
+	id=154
+	name="STATE_154"
+
+	history={
+		owner = WEN
+		add_core_of = WEN
+		victory_points = {
+			11659 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		730 3730 6735 9706 11659 
+	}
+	manpower=911795
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

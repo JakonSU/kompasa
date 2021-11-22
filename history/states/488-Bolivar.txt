@@ -1,0 +1,25 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		oil=182.000
+	}
+
+	history={
+		owner = VEN
+		add_core_of = VEN
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		7915 10849 
+	}
+	manpower=4153820
+	buildings_max_level_factor=1.000
+	state_category=state_level_3
+}

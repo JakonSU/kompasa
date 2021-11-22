@@ -1,0 +1,17 @@
+state={
+	id=1054
+	name="STATE_1054"
+	history={
+		owner = ICE
+		add_core_of = ICE
+		victory_points = {
+			12689 1 
+		}
+	}
+	provinces={
+		12689 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

@@ -1,0 +1,17 @@
+state={
+	id=1200
+	name="STATE_1200"
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1194 4097 7100 7173 10013 11987 12042 
+	}
+	manpower=4236892
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=190
+	name="STATE_190"
+
+	history={
+		owner = HNZ
+		add_core_of = HNZ
+		victory_points = {
+			9262 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			9262 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3194 3296 3319 6322 9262 11246 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

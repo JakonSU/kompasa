@@ -1,0 +1,9 @@
+
+supply_area={
+	id=443
+	name="SUPPLYAREA_443"
+	value=4
+	states={
+		1009 1006 1010 
+	}
+}

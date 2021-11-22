@@ -1,0 +1,12 @@
+LEX_tree_cat = {
+	icon = pulling_the_strings_cat
+	priority = {
+		base = 90
+	}
+	allowed = {
+		always = yes
+	}
+	visible = {
+		is_ai = no
+	}
+}

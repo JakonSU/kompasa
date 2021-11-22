@@ -1,0 +1,22 @@
+
+state={
+	id=1249
+	name="STATE_1249"
+
+	history={
+		owner = MLI
+		add_core_of = MLI
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1115 10725 13742 13743 13750 13759 13760 13763 13764 13768 
+	}
+	manpower=87626
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

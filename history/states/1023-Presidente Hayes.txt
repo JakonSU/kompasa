@@ -1,0 +1,19 @@
+state={
+	id=1023
+	name="STATE_1023"
+	history={
+		owner = PAR
+		buildings = {
+		    infrastructure = 3
+			}
+		add_core_of = PAR
+		add_claim_by = BOL
+
+	}
+	provinces={
+		2209 
+	}
+	manpower=127951
+	buildings_max_level_factor=1.000
+	state_category=state_level_4
+}

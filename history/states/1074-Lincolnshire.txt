@@ -1,0 +1,30 @@
+state={
+	id=1074
+	name="STATE_1074"
+	history={
+		owner = SCO
+		add_core_of = UAN
+		add_core_of = SCO
+		victory_points = {
+			11297 10 
+		}
+		victory_points = {
+			9269 5 
+		}
+		buildings = {
+			infrastructure = 6
+			11297 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+	provinces={
+		9269 9332 11297 11317 
+	}
+	manpower=2781247
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

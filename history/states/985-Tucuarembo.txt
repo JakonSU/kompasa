@@ -1,0 +1,19 @@
+state={
+	id=985
+	name="STATE_985"
+	history={
+		owner = URG
+		add_core_of = URG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1613 1626 10502 12440 12468 
+	}
+	manpower=1116833
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

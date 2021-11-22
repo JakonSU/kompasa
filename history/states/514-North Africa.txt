@@ -1,0 +1,26 @@
+
+state={
+	id=514
+	name="STATE_514"
+	resources={
+		oil=115.000
+	}
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		7041 13368 13371 13373 13374 13378 13379 13380 13381 13382 13384 13385 13387 13389 
+	}
+	manpower=799572
+	buildings_max_level_factor=1.000
+	state_category=state_level_1
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1231
+	name="STATE_1231"
+
+	history={
+		owner = DAH
+		add_core_of = DAH
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		12762 12874 13626 13628 
+	}
+	manpower=3433416
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

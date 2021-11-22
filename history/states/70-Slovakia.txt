@@ -1,0 +1,28 @@
+
+state={
+	id=70
+	name="STATE_70"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = WEN
+		add_core_of = WEN
+		victory_points = {
+			9551 1 
+		}
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		3484 3537 9551 11522 11539 
+	}
+	manpower=1430500
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
+}

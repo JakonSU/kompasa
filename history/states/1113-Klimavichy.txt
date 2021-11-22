@@ -1,0 +1,17 @@
+state={
+	id=1113
+	name="STATE_1113"
+	history={
+		owner = BIA
+		add_core_of = BIA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		289 6233 6354 9247 9371 9396 11230 11271 11383 
+	}
+	manpower=471711
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

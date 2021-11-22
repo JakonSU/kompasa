@@ -1,0 +1,31 @@
+
+state={
+	id=217
+	name="STATE_217"
+	resources={
+		steel=15.000
+	}
+
+	history={
+		owner = WFL
+		add_core_of = WFL
+		victory_points = {
+			3529 30 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		498 3529 3555 6503 6527 9442 9459 9474 9504 11447 
+	}
+	manpower=1135070
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

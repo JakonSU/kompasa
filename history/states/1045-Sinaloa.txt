@@ -1,0 +1,23 @@
+state={
+	id=1045
+	name="STATE_1045"
+	history={
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 4
+			8057 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+	provinces={
+		1945 8057 10895 
+	}
+	manpower= 403888
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
+}

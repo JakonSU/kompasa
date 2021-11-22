@@ -1,0 +1,18 @@
+state={
+	id=1170
+	name="STATE_1170"
+	history={
+		owner = WKL
+		add_core_of = WKL
+		add_core_of = BAY
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	provinces={
+		707 3688 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=state_level_6
+}

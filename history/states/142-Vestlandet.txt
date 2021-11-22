@@ -1,0 +1,45 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		aluminium=41.000
+		oil=160.000
+	}
+
+	history={
+		owner = IMN
+		add_core_of = IMN
+		victory_points = {
+			9296 3 
+		}
+		victory_points = {
+			53 10 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			industrial_complex = 1
+			dockyard = 1
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+			6176 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		53 65 137 3049 3129 3192 6176 9096 9196 9296 11101 11176 11198 11367 
+	}
+	manpower=387550
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

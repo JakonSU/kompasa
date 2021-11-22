@@ -1,0 +1,39 @@
+
+state={
+	id=841
+	name="STATE_841"
+	resources={
+		aluminium=4.000
+		steel=11.000
+		oil=3.000
+	}
+
+	history={
+		owner = UAN
+		add_core_of = UAN
+		victory_points = {
+			9335 4 
+		}
+		victory_points = {
+			6336 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 2
+			6336 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6336 9335 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

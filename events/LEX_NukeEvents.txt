@@ -1,0 +1,70 @@
+﻿add_namespace = nuke_dropped
+# Nuclear Attack PLACEHOLDER
+news_event = {
+	id = nuke_dropped.1
+	title = nuke_dropped.1.t
+	desc = nuke_dropped.1.d
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	option = {
+		name = nuke_dropped.1.a
+		trigger = {
+			NOT = { FROM = { FROM = { is_owned_by = ROOT } } }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.1.b
+		trigger = {
+			FROM = { FROM = { is_owned_by = ROOT } }
+		}
+	}
+}
+
+news_event = {
+	id = nuke_dropped.2
+	title = nuke_dropped.2.t
+	desc = nuke_dropped.2.d
+	picture = GFX_news_event_nuke
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+	}
+
+	option = {
+		name = nuke_dropped.2.a
+		trigger = {
+			NOT = {
+				is_in_faction_with = FROM
+				tag = FROM
+			}
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.2.b
+		trigger = {
+			is_in_faction_with = FROM
+			NOT = { tag = FROM }
+		}
+	}
+	
+	option = {
+		name = nuke_dropped.2.c
+		trigger = {
+			tag = FROM
+		}
+		add_threat = 5
+	}
+}
+

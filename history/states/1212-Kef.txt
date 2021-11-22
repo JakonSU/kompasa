@@ -1,0 +1,20 @@
+state={
+	id=1212
+	name="STATE_1212"
+	history={
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 5
+
+		}
+		
+
+	}
+	provinces={
+		1037 4061 4129 7077 7162 11921 
+	}
+	manpower=2760980
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = OWO
+		add_core_of = OWO
+		victory_points = {
+			3882 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		974 3865 3882 11856 
+	}
+	manpower=636734
+	buildings_max_level_factor=1.000
+	state_category=state_level_9
+}

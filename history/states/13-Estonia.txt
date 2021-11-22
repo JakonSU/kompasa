@@ -1,0 +1,33 @@
+
+state={
+	id=13
+	name="STATE_13"
+	resources={
+		oil=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = HNZ
+		add_core_of = HNZ
+		victory_points = {
+			3174 1 
+		}
+		victory_points = {
+			83 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		83 308 3074 3174 6381 11291 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

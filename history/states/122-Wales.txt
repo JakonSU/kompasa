@@ -1,0 +1,37 @@
+
+state={
+	id=122
+	name="STATE_122"
+	resources={
+		tungsten=4.000
+		steel=1.000
+		aluminium=1.000
+	}
+
+	history={
+		owner = UAN
+		add_core_of = UAN
+		add_core_of = WLS
+		victory_points = {
+			377 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
+			377 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		253 377 407 3274 11361 
+	}
+	manpower=1400000
+	buildings_max_level_factor=1.000
+	state_category=state_level_10
+}

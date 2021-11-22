@@ -1,0 +1,25 @@
+state={
+	id=1146
+	name="STATE_1146"
+	history={
+		owner = BIA
+		add_core_of = BIA
+		buildings = {
+			infrastructure = 4
+			9783 = {
+				naval_base = 3
+
+			}
+		}
+	
+		victory_points = {
+			9783 5 
+		}
+	}
+	provinces={
+		649 9612 9769 9783 
+	}
+	manpower=937749
+	buildings_max_level_factor=1.000
+	state_category=state_level_7
+}

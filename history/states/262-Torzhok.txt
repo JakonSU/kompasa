@@ -1,0 +1,25 @@
+
+state={
+	id=262
+	name="STATE_262"
+	resources={
+		oil=205.000
+	}
+
+	history={
+		owner = WFL
+		add_core_of = WFL
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		154 198 6016 6040 6177 6538 9099 9121 9205 9230 10723 11119 11182 
+	}
+	manpower=43590
+	buildings_max_level_factor=1.000
+	state_category=state_level_2
+}

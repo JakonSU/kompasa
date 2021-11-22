@@ -1,0 +1,28 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = SEN
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			4948 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4948 12710 13703 13705 13706 13778 
+	}
+	manpower=8233233
+	buildings_max_level_factor=1.000
+	state_category=state_level_12
+}

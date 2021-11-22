@@ -1,0 +1,41 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		steel=24.000
+	}
+
+	history={
+		owner = WKL
+		add_core_of = WKL
+		victory_points = {
+			3558 5 
+		}
+		victory_points = {
+			11435 3 
+		}
+		victory_points = {
+			11494 2 
+		}
+		victory_points = {
+			11560 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			synthetic_refinery = 1
+
+		}
+
+	}
+
+	provinces={
+		563 3423 3558 11435 11470 11494 11547 11560 
+	}
+	manpower=5027739
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

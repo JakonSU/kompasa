@@ -1,0 +1,17 @@
+state={
+	id=969
+	name="STATE_969"
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 3
+		}
+	    add_core_of = BRA
+	}
+	provinces={
+		1524 10939 10998 
+	}
+	manpower=3351543
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

@@ -1,0 +1,17 @@
+state={
+	id=1136
+	name="STATE_1136"
+	history={
+		owner = OWO
+		add_core_of = OWO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		11580 
+	}
+	manpower=312278
+	buildings_max_level_factor=1.000
+	state_category=state_level_4
+}

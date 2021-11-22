@@ -1,0 +1,29 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		steel=90.000
+	}
+
+	history={
+		owner = WOL
+		add_core_of = WOL
+		victory_points = {
+			9427 20 
+		}
+		buildings = {
+			infrastructure = 7
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		417 9427 11398 11413 
+	}
+	manpower=3901533
+	buildings_max_level_factor=1.000
+	state_category=state_level_12
+}
