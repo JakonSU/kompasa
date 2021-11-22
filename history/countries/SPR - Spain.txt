@@ -9,7 +9,7 @@ if = {
 	}
 }
 
-set_research_slots = 4
+set_research_slots = 3
 set_convoys = 700
 set_stability = 0.5
 
@@ -117,42 +117,33 @@ if = {
 	}
 }
 
-give_guarantee = AND
-
 add_ideas = {
 	government_system_constitutional_monarchy
-	national_development_developed
 	welfare_modest_assistance
-	civil_liberties_free
 	population_growth_stagnation
-	idea_eu_member
-	catalonia_separatism
 }
 
 set_politics = {	
-	ruling_party = conservative
+	ruling_party = nationalist
 	last_election = "1997.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
     islamist = 1
-    nationalist = 1
+    nationalist = 60
     reactionary = 2
-    conservative = 30
+    conservative = 1
     market_liberal = 6
     social_liberal = 25
     social_democrat = 5
-    progressive = 10
-    democratic_socialist = 10
-    communist = 10
 }
 
 create_country_leader = {
-	name = "Juan Carlos I"
-	picture = "Juan_Carlos_I.dds"
-	ideology = absolute_monarchist
+	name = "Chujbert Chujnicki"
+	picture = "Juan_Carlos.dds"
+	ideology = national_democrat
 }
 
 create_country_leader = {
