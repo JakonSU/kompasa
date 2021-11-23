@@ -3,8 +3,8 @@ state={
 	name="STATE_780"
 	
 	history = {
-		owner = BRD
-		
+		owner = UGA
+		add_core_of = UGA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

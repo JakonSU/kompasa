@@ -6,7 +6,8 @@ state={
 	state_category = state_level_6
 	
 	history={
-		owner = GAM
+		owner = NGR
+		add_core_of = NGR
 		add_core_of = GAM
 		buildings = {
 			infrastructure = 3

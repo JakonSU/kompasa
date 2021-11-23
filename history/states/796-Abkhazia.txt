@@ -2,7 +2,8 @@ state={
 	id=796
 	name="STATE_796"
 	history = {
-		owner = ABK
+		owner = GEO
+		add_core_of = GEO
 		victory_points = {
 			11617 5
 		}
@@ -14,7 +15,6 @@ state={
 			}
 		}
 		add_core_of = ABK
-		add_core_of = GEO
 	}
 	provinces={
 		672 11599 11617 11647 

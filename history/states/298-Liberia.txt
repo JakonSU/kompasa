@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = LIB
+		owner = NGR
+		add_core_of = NGR
 		add_core_of = LIB
 		victory_points = {
 			7959 3 

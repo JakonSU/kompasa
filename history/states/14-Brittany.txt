@@ -9,8 +9,8 @@ state = {
 	}
 	
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = POL
+		add_core_of = POL
 		add_core_of = BRI
 		victory_points = { 3552 2 } #Brest
 		victory_points = { 6536 5 } #Lorient

@@ -9,8 +9,8 @@ state = {
 	}
 	
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = POL
+		add_core_of = POL
 		victory_points = { 651 1 } #Châteauroux
 		buildings = {
 			infrastructure = 6

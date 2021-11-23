@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = WEN
-		add_core_of = WEN
+		owner = AST
+		add_core_of = AST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

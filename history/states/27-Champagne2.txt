@@ -5,8 +5,8 @@ state = {
 	state_category = state_level_10
 	
 	history = {
-		owner = FRA
-		add_core_of = FRA
+		owner = POL
+		add_core_of = POL
 		victory_points = { 3652 5 } #Dijon
 		buildings = {
 			infrastructure = 7

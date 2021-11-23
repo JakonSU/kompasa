@@ -4,7 +4,8 @@ state={
 	name="STATE_1253"
 
 	history={
-		owner = MRT
+		owner = NGR
+		add_core_of = NGR
 		add_core_of = MRT
 		buildings = {
 			infrastructure = 2

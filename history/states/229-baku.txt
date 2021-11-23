@@ -9,8 +9,8 @@ state = {
 	}
 	
 	history = {
-		owner = AZR
-		add_core_of = AZR
+		owner = GEO
+		add_core_of = GEO
 		victory_points = { 7661 5 }
 		buildings = {
 			infrastructure = 4

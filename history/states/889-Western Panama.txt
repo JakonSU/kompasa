@@ -3,7 +3,8 @@ state={
 	name="STATE_889"
 	
 	history={
-		owner = PAN
+		owner = HON
+		add_core_of = HON
 		add_core_of = PAN
 		buildings = {
 			infrastructure = 2

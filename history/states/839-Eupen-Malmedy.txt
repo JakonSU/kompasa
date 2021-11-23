@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = UAN
-		add_core_of = UAN
+		owner = WKL
+		add_core_of = WKL
 		add_core_of = WLN
 		buildings = {
 			infrastructure = 6

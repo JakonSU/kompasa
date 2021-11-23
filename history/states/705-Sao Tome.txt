@@ -5,7 +5,8 @@ state={
 	state_category = state_level_2
 
 	history={
-		owner = SAO
+		owner = CAR
+		add_core_of = CAR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

@@ -112,78 +112,21 @@ XXX_ENG = {
 #French Language
 XXX_FRA = {
 	male = {
-		names = {
-			Adam Adrien Alex Alexis Alexandre Alphonse Anthony Antoine Arthur Arnaud Aurélien Axel
-			Benjamin Benoit Bastien
-			Cédric Corentin Clement
-			Damien Daniel David Denis Dorian Dylan
-			Enzo
-			Felix François Frédéric Florian Franck
-			Gabriel Georges Grégory Guillaume Gustave
-			Henri Hubert Hugo
-			Jacques Jean Jérémy Joseph
-			Kevin
-			Loïc
-			"Marquis de" Mathieu Mathis Maxence Maxime
-			Paul
-			Robin Romain
-			Tanguy Theo Thibault
-			Valentin Vincent
-			Xavier
+		names = { Jakub Kacper Filip Szymon Jan Antoni Michał Wojciech Mateusz
+			 Bartosz Tomasz Grzegorz Zbigniew Piotr Maksymilian Paweł Łukasz Marcin Igor 
+			 Leszek
 		}
+		surnames = { 
+			Nowak Kowalski Wiśniewski Kamiński Lewandowski Zieliński Szymański
+		 	Dąbrowski Kozłowski Jankowski Kwiatkowski Wojciechowski Piotrowski Grabowski
+		 	Aleksandrowicz Koter
+		  }
 	}
 	female = {
-		names = {
-			Alice Amandine Amélie Anaïs Audrey Aurélie
-			Camille Caroline Célia Céline Charlotte Chloé Claire Clara Clémence
-			Elisa Elise Elodie Emilie Emma Estelle Eva
-			Fanny
-			Inès
-			Jade Jeanne Josephine Julie Juliette Justine
-			Laura Léa Lisa Louise Lucie
-			Maéva Manon Margaux Margot Marie Marine Marion Mathilde Mélanie Melissa Morgane
-			Noémie
-			Océane
-			Pauline
-			Romane
-			Sarah Sophie
-		}
+		names = { "Zofia" "Wiktoria" "Natalia" "Renata" "Elżbieta" }
+		surnames = { "Nowakowska" "Kowalska" "Wiśniewska" "Kamińska" "Lewandowska" "Zielińska" "Szymańska" "Dąbrowska" "Kozłowska" "Jankowska" "Kwiatkowska" "Wojciechowska" "Piotrowska" "Grabowska" }
 	}
-	surnames = {
-		Andre
-		Bernard Bertrand Blanc Bonnet
-		Chirac
-		David Dubois Dupont Durand
-		Faure Fournier Francois
-		Garcia Garnier Guerin
-		Hollande
-		Lafayette Lambert Laurent "Le Pen" Lefebvre Lefevre Legrand Leroy
-		Martin Martinez Mercier Michel Morel Moreau
-		Rousseau Roux
-		Sarkozy Simon
-		Thomas
-		Vincent
-	}
-	callsigns = {
-		Adolphe Afrique Alsace Atlante Azalee Azur
-		Baliste Barkhane Bison Bizerte Bretagne Brochet "Burkina Faso"
-		Camargue Cameroun Castor Ceinture Chamall Condor Corsica "Côte d'Ivoire"
-		Épaulard Épervier
-		France
-		Gabon Guinea
-		Harmattan Hirondelle
-		Jersey Jumelles
-		Kinshasa Kongo Kongo-Wara
-		Lamantin Larache Léa "Linda Nchi" Lorraine
-		Madagascar Madama Manta Medak Mouette
-		Niger
-		Oriental
-		Panther Papillon Paris
-		Quentin
-		Sahara Sentinelle Schlieffen Séisme Serval
-		Tacaud Turquoise
-		Unicorn
-	}
+	surnames = { "Kowalczyk" "Wójcik" "Woźniak" "Mazur" "Krawczyk" "Kaczmarek" }
 }
 #Spanish Language
 XXX_SPA = {

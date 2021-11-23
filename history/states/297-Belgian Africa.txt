@@ -9,8 +9,8 @@ state = {
 	}
 	
 	history = {
-		owner = EQG
-		add_core_of = EQG
+		owner = CAR
+		add_core_of = CAR
 		victory_points = { 1903 3 }
 		victory_points = { 8244 1 }
 		buildings = {

@@ -5,8 +5,8 @@ state = {
 	state_category = state_level_8
 	
 	history = {
-		owner = ARM
-		add_core_of = ARM
+		owner = GEO
+		add_core_of = GEO
 		victory_points = { 12320 1 }
 		buildings = {
 			infrastructure = 3

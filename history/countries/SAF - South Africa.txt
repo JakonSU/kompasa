@@ -1,11 +1,11 @@
 ﻿capital = 275
 
-oob = "SAF_2000"
+oob = "FRA_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SAF_2000_naval_mtg"
+		set_naval_oob = "FRA_2000_naval_mtg"
 	else = {
-		set_naval_oob = "SAF_2000_naval_legacy"
+		set_naval_oob = "FRA_2000_naval_legacy"
 	}
 }
 
@@ -115,12 +115,10 @@ if = {
 add_ideas = {
 	government_system_parliamentary_republic
 	population_growth_steady
-	african_union_member
-	commonwealth_of_nations_member
 }
 
 set_politics = {	
-	ruling_party = social_democrat
+	ruling_party = social_liberal
 	last_election = "1999.6.2"
 	election_frequency = 60
 	elections_allowed = yes
@@ -130,111 +128,15 @@ set_popularities = {
     reactionary = 5
     conservative = 5
     market_liberal = 9
-    social_liberal = 15
-    social_democrat = 65
+    social_liberal = 65
+    social_democrat = 15
     democratic_socialist = 1
 }
 
 create_country_leader = {
-	name = "Thabo Mbeki"
+	name = "Ryszard Sieja"
 	picture = "Thabo_Mbeki.dds"
-	ideology = social_democrat_ideology
-}
-create_country_leader = {
-	name = "Tony Leon"
-	picture = "Tony_Leon.dds"
-	ideology = liberalist
-}
-create_country_leader = {
-	name = "Mangosuthu Buthelezi"
-	picture = "Mangosuthu_Buthelezi.dds"
-	ideology = libertarian
-}
-create_country_leader = {
-	name = "Kenneth Meshoe"
-	picture = "Kenneth_Meshoe.dds"
-	ideology = christian_democrat
-}
-create_country_leader = {
-	name = "Pieter Mulder"
-	picture = "Pieter_Mulder.dds"
-	ideology = counter_progressive_democrat
-}
-create_country_leader = {
-	name = "Luthando Mbinda"
-	picture = "Luthando_Mbinda.dds"
-	ideology = democratic_socialist_ideology
-}
-create_country_leader = {
-	name = "Judy Sole"
-	picture = "Judy_Sole.dds"
-	ideology = green
-}
-create_country_leader = {
-	name = "Lybon Masapa"
-	ideology = marxist
-}
-create_country_leader = {
-	name = "Wasfie Hassiem"
-	picture = "Wasfie_Hassiem.dds"
-	ideology = islamic_republican
-}
-
-create_field_marshal = {
-	name = "Lindile Yam"
-	picture = "generals/Lindile_Yam.dds"
-	skill = 2
-}
-create_field_marshal = {
-	name = "Gerhard Kamffer"
-	picture = "generals/Gerhard_Kamffer.dds"
-	skill = 1
-}
-create_corps_commander = {
-	name = "Godfrey Ngwenya"
-	picture = "generals/Godfrey_Ngwenya.dds"
-	skill = 2
-}
-create_corps_commander = {
-	name = "Solly Shoke"
-	picture = "generals/Solly_Shoke.dds"
-	skill = 1
-}
-create_corps_commander = {
-	name = "Lawrence Smith"
-	picture = "generals/Lawrence_Smith.dds"
-	skill = 1
-}
-create_corps_commander = {
-	name = "Andre Retief"
-	picture = "generals/Andre_Retief.dds"
-	skill = 1
-}
-create_corps_commander = {
-	name = "Willis Nkosi"
-	picture = "generals/Willis_Nkosi.dds"
-	skill = 1
-}
-create_corps_commander = {
-	name = "Rudzani Maphwanya"
-	picture = "generals/Rudzani_Maphwanya.dds"
-	skill = 1
-}
-
-create_navy_leader = {
-	name = "Samuel Hlongwane"
-	picture = "admirals/Samuel_Hlongwane.dds"
-	skill = 2
-}
-create_navy_leader = {
-	name = "Bubele Mhlana"
-	picture = "admirals/Bubele_Mhlana.dds"
-	skill = 2
-}
-create_navy_leader = {
-	name = "Hanno Teuteberg"
-	picture = "admirals/Hanno_Teuteberg.dds"
-	skill = 1
+	ideology = centrist
 }
 
 2008.1.1 = {

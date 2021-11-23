@@ -7,7 +7,9 @@ state={
 	}
 
 	history={
-		owner = SIE
+		owner = NGR
+		add_core_of = NGR
+		add_core_of = NIG
 		victory_points = {
 			2038 1 
 		}

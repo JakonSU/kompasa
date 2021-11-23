@@ -5,8 +5,8 @@ state={
 	state_category = state_level_5
 
 	history={
-		owner = FRA
-		add_core_of = FRA
+		owner = POL
+		add_core_of = POL
 		victory_points = { 778 2 }		#Annecy
 		victory_points = { 9909 20 }	#Nice
 		buildings = {

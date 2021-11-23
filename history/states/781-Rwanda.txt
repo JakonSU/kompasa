@@ -7,8 +7,8 @@ state={
 	}
 	
 	history = {
-		owner = RWA
-		add_core_of = RWA
+		owner = UGA
+		add_core_of = UGA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3

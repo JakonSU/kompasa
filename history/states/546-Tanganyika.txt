@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = TZN
-		add_core_of = TZN
+		owner = UGA
+		add_core_of = UGA
 		victory_points = {
 			2196 1 
 		}
