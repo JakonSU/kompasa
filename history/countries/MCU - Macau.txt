@@ -67,21 +67,6 @@ set_technology = {
 	
 }
 
-PRC = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = MCU
-			autonomous_state = autonomy_integrated_puppet
-		}
-		else = {
-			puppet = MCU
-		}
-	}
-}
-
 add_ideas = {
 	national_development_developed
 	economy_growth
