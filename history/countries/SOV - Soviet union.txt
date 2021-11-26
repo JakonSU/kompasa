@@ -190,14 +190,6 @@ set_popularities = {
     communist = 30
 }
 
-create_faction = CSTO
-add_to_faction = SOV
-add_to_faction = BLR
-add_to_faction = ARM
-add_to_faction = TAJ
-add_to_faction = KAZ
-add_to_faction = KYR
-
 give_guarantee = ABK
 give_guarantee = SOS
 give_guarantee = TRA
