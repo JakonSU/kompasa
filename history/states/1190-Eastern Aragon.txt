@@ -4,6 +4,7 @@ state={
 	history={
 		owner = BIA
 		add_core_of = BIA
+		add_core_of = SPR
 		buildings = {
 			infrastructure = 6
 		}

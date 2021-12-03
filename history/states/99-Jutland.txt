@@ -9,6 +9,7 @@ state={
 	history={
 		owner = DEN
 		add_core_of = DEN
+		add_core_of = IMN
 		victory_points = {
 			6364 3 
 		}

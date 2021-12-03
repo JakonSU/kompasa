@@ -6,6 +6,7 @@ state={
 	history={
 		owner = BIA
 		add_core_of = BIA
+		add_core_of = SPR
 		victory_points = {
 			3816 1 
 		}

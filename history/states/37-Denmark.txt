@@ -7,6 +7,7 @@ state = {
 	history = {
 		owner = DEN
 		add_core_of = DEN
+		add_core_of = IMN
 		victory_points = { 6287 20 } #Copenhagen
 		victory_points = { 6361 1 } #Rønne
 		victory_points = { 6393 1 } #Næstved

@@ -11,6 +11,7 @@ state = {
 	history = {
 		owner = BIA
 		add_core_of = BIA
+		add_core_of = HNZ
 		victory_points = { 6375 2 } #Olsztyn
 		buildings = {
 			infrastructure = 6

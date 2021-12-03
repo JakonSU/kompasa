@@ -9,6 +9,7 @@ state={
 	history={
 		owner = ICE
 		add_core_of = ICE
+		add_core_of = IMN
 		victory_points = {
 			4861 1 
 		}
