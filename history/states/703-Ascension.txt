@@ -2,13 +2,11 @@ state={
 	id=703
 	name="STATE_703"
 	manpower=458
-	state_category = state_level_1
+	state_category = tiny_island
 	history= {
 		owner = UAN
-		add_core_of = UAN
 		buildings = {
 			infrastructure = 1
-			air_base = 1
 			13013 = {
 				naval_base = 1
 			}
@@ -18,4 +16,6 @@ state={
 	provinces={
 		13013 
 	}
+
+	local_supplies=0.0 
 }

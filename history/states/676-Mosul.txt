@@ -3,30 +3,33 @@ state={
 	id=676
 	name="STATE_676"
 	resources={
-		oil=35
+		oil=8.000
 	}
 
 	history={
 		owner = IRQ
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 2
+			infrastructure = 3
+
 		}
-		victory_points = { 10106 20 }	#Mosul
-		victory_points = { 8123 5 }	#Kirkuk
+		victory_points = {
+			10106 5 
+		}
+		victory_points = {
+			3916 3 
+		}
+		victory_points = {
+			6826 1 
+		}
 		add_core_of = IRQ
-		
-		2016.5.1 = {
-			owner = ISS
-		}
+		add_core_of = KUR
+
 	}
 
 	provinces={
-		1600 1938 8123 10106 10793 12372 
+		6826 8123 10793 
 	}
-	manpower=2227918
+	manpower=1182741
 	buildings_max_level_factor=1.000
-	state_category = state_level_6
+	state_category=town
 }

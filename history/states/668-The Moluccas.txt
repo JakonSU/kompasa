@@ -2,17 +2,15 @@
 state={
 	id=668
 	name="STATE_668"
-	manpower = 2079100
+	manpower = 579100
 	
-	state_category = state_level_2
+	state_category = pastoral
 
 	history={
 		owner = INS
 		add_core_of = INS
-		victory_points = { 1574 1 }
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
 			1574 = {
 				naval_base = 1
 			}
@@ -28,4 +26,6 @@ state={
 	provinces={
 		1351 1419 1437 1574 7369 7413 7557 10141 10342 10409 
 	}
+
+	local_supplies=0.0 
 }

@@ -1,37 +1,31 @@
-
-state={
+state= {
 	id=122
 	name="STATE_122"
+	manpower = 2009230
+	
+	state_category = city
+	
 	resources={
-		tungsten=4.000
-		steel=1.000
-		aluminium=1.000
+		steel=11 # was: 16
+		aluminium=3 # was: 4
 	}
 
-	history={
+	history=
+	{
 		owner = UAN
-		add_core_of = UAN
-		add_core_of = WLS
-		victory_points = {
-			377 5 
-		}
+		victory_points = { 377 5 }
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-			dockyard = 1
+			infrastructure = 2
+			industrial_complex = 1
 			377 = {
 				naval_base = 3
-
 			}
-
 		}
-
+		add_core_of = ENG
+		add_core_of = WLS
 	}
 
-	provinces={
-		253 377 407 3274 11361 
-	}
-	manpower=1400000
-	buildings_max_level_factor=1.000
-	state_category=state_level_10
+	provinces=
+	{
+253 377 407 3274 11361 	}
 }

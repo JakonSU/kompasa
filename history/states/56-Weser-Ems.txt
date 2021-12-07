@@ -1,39 +1,45 @@
-
 state={
 	id=56
 	name="STATE_56"
-	resources={
-		aluminium=1.000
-		oil=2.000
-		steel=5.000
-	}
+	manpower = 2058467
+	
+	state_category = city
 
 	history={
 		owner = WKL
-		add_core_of = WKL
 		victory_points = {
-			241 1 
+			241 5 
 		}
 		victory_points = {
-			309 2 
+			11360 1
+		}
+		victory_points = {
+			11388 5
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			air_base = 3
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			fuel_silo = 1
 			241 = {
-				naval_base = 7
+				naval_base = 8
 
 			}
+			air_base = 3
 
 		}
-
+		add_core_of = WKL
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				dockyard = 3
+			}
+		}
 	}
 
 	provinces={
-		241 247 309 3234 11388 
+		241 247 309 336 3234 9281 11233 11264 11360 11388 
 	}
-	manpower=3158467
-	buildings_max_level_factor=1.000
-	state_category=state_level_8
+
+	local_supplies=14.0 
 }

@@ -1,35 +1,36 @@
 
-state={
-	id=192
-	name="STATE_192"
-	resources={
-		steel=75.000
-	}
+state = {
+	id = 192
+	name = "STATE_192"
+	manpower = 1286238 #1 8th removed due to Balta-Tiraspol
+	
+	state_category = city
 
-	history={
+	history = {
 		owner = WOL
 		add_core_of = WOL
 		victory_points = {
 			11670 10 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 3 #was: 5
 			industrial_complex = 1
-			air_base = 1
-			11670 = {
+			air_base = 6
+			11670 ={
 				naval_base = 3
 				coastal_bunker = 1
-
 			}
-
 		}
-
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
 	}
 
-	provinces={
-		741 754 3575 3738 3757 9576 9698 9714 11670 11703 
+	provinces = {
+		  3575 3738 9698 9714 11670 11703 
 	}
-	manpower=2269986
-	buildings_max_level_factor=1.000
-	state_category=state_level_10
+
+	local_supplies = 6.0 
 }

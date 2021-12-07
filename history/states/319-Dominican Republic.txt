@@ -1,33 +1,38 @@
-
-state={
+state=
+{
 	id=319
 	name="STATE_319"
-
-	history={
+	manpower = 1256000
+	
+	state_category = town
+	
+	resources={
+		chromium=1 # was: 1
+	}
+	history=
+	{
 		owner = DOM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7660 = {
+				naval_base = 2
+			}
+		}
 		add_core_of = DOM
 		victory_points = {
 			7660 5 
 		}
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 5
-			arms_factory = 1
-			dockyard = 1
-			air_base = 1
-			7660 = {
-				naval_base = 2
-
-			}
-
+		victory_points = {
+			4598 1 
 		}
 
 	}
-
 	provinces={
-		7632 7660 
+		4598 7632 7660 10484
 	}
-	manpower=8464000
-	buildings_max_level_factor=1.000
-	state_category=state_level_8
+
+	local_supplies=0.0 
 }

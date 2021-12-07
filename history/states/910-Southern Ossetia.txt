@@ -1,0 +1,16 @@
+state={
+	id=910
+	name="Southern Ossetia"
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		buildings = { infrastructure = 2 }
+	
+	}
+	provinces={
+		1530 
+	}
+	manpower=106118
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

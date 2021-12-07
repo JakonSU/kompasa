@@ -1,0 +1,18 @@
+state={
+	id=952
+	name="Suwalki"
+	provinces={
+		400 3254 
+	}
+	history = {
+			owner = BIA
+			add_core_of = BIA
+			buildings = {infrastructure = 2}
+			}
+			
+			
+	manpower=69790
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category = town
+}

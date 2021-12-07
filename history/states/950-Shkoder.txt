@@ -1,0 +1,18 @@
+state={
+	id=950
+	name="Shkoder"
+	history{
+	owner = OWO
+	add_core_of = OWO
+	add_claim_by = ELP
+	buildings = {
+			infrastructure = 1
+			}
+	}
+	provinces={
+		3896 9780 11762 
+	}
+	manpower=837453
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

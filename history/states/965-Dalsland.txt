@@ -1,0 +1,17 @@
+state={
+	id=965
+	name="Dalsland"
+	provinces={
+		69 147 
+	}
+	history = {
+			owner = IMN
+		add_core_of = IMN
+			add_core_of = SWE
+			buildings = {infrastructure = 3}
+	}
+	manpower=34501
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = pastoral
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=931
+	name="Dubrovnik"
+
+	history={
+		owner = OWO
+		add_core_of = OWO
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 3
+			3924 = {
+				naval_base = 3
+
+			}
+			6889 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		984 3868 3924 3974 6889 11816 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

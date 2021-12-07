@@ -5,23 +5,28 @@ state={
 
 	history={
 		owner = HNZ
-		add_core_of = HNZ
 		victory_points = {
-			6296 5 
+			6296 5
+		}
+		victory_points = {
+			9357 1 #Ukmerge
 		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
 
 		}
+		add_core_of = HNZ
 
 	}
 
 	provinces={
-		327 530 6296 9246 9357 9374 9404 9438 11226 11498 
+		327 6296 6360 9357 9404 
 	}
-	manpower=1000000
+
+	local_supplies=10.0 
+	manpower=971940
 	buildings_max_level_factor=1.000
-	state_category=state_level_10
+	state_category=town
 }

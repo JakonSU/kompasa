@@ -2,25 +2,24 @@
 state={
 	id=434
 	name="STATE_434"
-	manpower = 17250250
+	manpower = 200000
 	
-	state_category = state_level_2
+	state_category = wasteland
 	resources={
-		oil=7
+		# tungsten=49 # was: 54
 	}
 
 	history={
 		owner = RAJ
-		add_core_of = RAJ
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-			air_base = 1
 		}
-		add_claim_by = PRC
+
 	}
 
 	provinces={
 		1116 1996 10810 12322 12730 
 	}
+
+	local_supplies=3.0 
 }

@@ -6,12 +6,15 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 1
+
 			1869 = {
 				naval_base = 1
+
 			}
+
+
 		}
 		add_core_of = CAN
-		#add_core_of = CAS
 	}
 
 	provinces={
@@ -19,5 +22,7 @@ state={
 	}
 	manpower=12684
 	buildings_max_level_factor=1	
-	state_category = state_level_1
+	state_category="small_island"
+
+	local_supplies=0.0 
 }

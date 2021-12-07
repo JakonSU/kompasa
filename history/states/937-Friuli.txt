@@ -1,0 +1,21 @@
+state={
+	id=937
+	name="Friuli"
+	history={
+		owner = ELP
+		add_core_of = ELP
+		buildings = {
+			infrastructure = 2
+			6626 = {
+				naval_base = 5
+
+			}
+			}
+	}
+	provinces={
+		628 3657 6656 6626 9613 
+	}
+	manpower=1108000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,30 +1,38 @@
 state={
 	id=591
 	name="STATE_591"
-	manpower = 8900000
-	state_category = state_level_8
-	
+	manpower = 4350000
+	state_category = town
+
 	history={
-		owner = CHI
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = GXC
 		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		
 		victory_points = {
 			1070 1 
 		}
 		
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 4
-			dockyard = 2
-			air_base = 4
+			infrastructure = 2
+			air_base = 1
 			1070 = {
 				naval_base = 2
 			}
-			7135 = {
-				naval_base = 2
+
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				remove_core_of = GXC
+				CHI = { transfer_state = PREV }
 			}
-		}	
+			controller = JAP
+		}
 	}
 
 	provinces={

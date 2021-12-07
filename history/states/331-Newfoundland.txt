@@ -1,25 +1,26 @@
-state = {
-	id = 331
-	name = "STATE_331"
-	manpower = 479000
-	state_category = state_level_5
+
+state={
+	id=331
+	name="STATE_331"
+	manpower = 255060
 	
-	resources = {
-		oil = 15
-		steel = 12
-	}
-	
-	history = {
+	state_category = rural
+
+	history={
 		owner = CAN
-		add_core_of = CAN
-		victory_points = { 12505 3 }	#St Johns
 		buildings = {
-			infrastructure = 3
-			12505 = { naval_base = 2 }
+			infrastructure = 2
+			industrial_complex = 1
+			12505 = {
+				naval_base = 1
+			}
 		}
+		add_core_of = CAN
 	}
-	
-	provinces = {
+
+	provinces={
 		7758 7788 12505 12680 12698 
 	}
+
+	local_supplies=0.0 
 }

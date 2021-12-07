@@ -1,20 +1,26 @@
-state = {
-	id = 163
-	name = "STATE_163"
-	manpower = 218000
-	state_category = state_level_2
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18000
 	
-	history = {
-		owner = OWO
-		add_core_of = OWO
+	state_category = enclave
+	
+	history={
+		owner = ELP
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			dockyard = 1
-			3943 = { naval_base = 1 }
+			infrastructure = 3 #was: 5
+			3943 = {
+				naval_base = 1
+			}
 		}
+		add_core_of = OWO
+		add_core_of = CRO
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
 	} 
-	provinces = {	
+	provinces={	
 		3943 
 	}
+
+	local_supplies=0.0 
 }

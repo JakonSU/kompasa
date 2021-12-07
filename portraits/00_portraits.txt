@@ -39,6 +39,10 @@ continent = {
 			"gfx/leaders/Europe/general3.dds"
 			"gfx/leaders/Europe/general4.dds"
 			"gfx/leaders/Europe/general5.dds"
+			"gfx/leaders/Europe/general6.dds"
+			"gfx/leaders/Europe/general7.dds"
+			"gfx/leaders/Europe/general8.dds"
+			"gfx/leaders/Europe/general9.dds"
 			"gfx/leaders/Europe/general_ian_mccollum.dds"
 		}
 	}

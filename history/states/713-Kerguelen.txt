@@ -6,7 +6,6 @@ state={
 
 	history={
 		owner = POL
-		add_core_of = POL
 		buildings = {
 			infrastructure = 1
 			2165 = {
@@ -18,4 +17,6 @@ state={
 	provinces={
 		2165 
 	}
+
+	local_supplies=0.0 
 }

@@ -2,31 +2,33 @@
 state={
 	id=159
 	name="STATE_159"
-	resources={
-		steel=83.000
-	}
+	manpower = 5597704
+	state_category = metropolis
 
 	history={
 		owner = ELP
-		add_core_of = ELP
-		add_core_of = LOM
 		victory_points = {
-			3780 20 
+			3780 15 
 		}
 		buildings = {
-			infrastructure = 9
-			industrial_complex = 4
-			arms_factory = 1
+			infrastructure = 4 #was: 8
+			arms_factory = 7
+			industrial_complex = 3
 			air_base = 10
 
 		}
-
+		add_core_of = ELP
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 7
+				industrial_complex = 4
+			}
+		}
 	}
 
 	provinces={
-		603 607 773 969 3776 3780 6661 9584 11568 11587 
+		607 773 969 3776 3780 6661 9584 11568 11587 11734 
 	}
-	manpower=9800000
-	buildings_max_level_factor=1.000
-	state_category=state_level_12
+
+	local_supplies=0.0 
 }

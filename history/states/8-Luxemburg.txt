@@ -1,26 +1,30 @@
-state = {
-	id = 8
-	name = "STATE_8" #Luxembourg
-	manpower = 540000
-	state_category = state_level_10
+state=
+{
+	id=8
+	name="STATE_8"
 	
-	resources = {
-		steel = 25
+	state_category = town
+	
+	manpower = 294748
+	resources={
+		steel=5 # was: 8
 	}
-	
-	history = {
-		owner = POL
-		add_core_of = POL
-		victory_points = { 6583 2 } #Luxembourg
+
+	history=
+	{
+		owner = UAN
 		buildings = {
-			infrastructure = 10
-			air_base = 7
-			industrial_complex = 4
-			arms_factory = 2
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
 		}
+		victory_points = { 6583 5 }
+		add_core_of = LUX
 	}
-	
-	provinces = {
-		6583 
-	}
+
+	provinces=
+	{
+6583 	}
+
+	local_supplies=0.0 
 }

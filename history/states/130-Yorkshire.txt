@@ -2,37 +2,46 @@
 state={
 	id=130
 	name="STATE_130"
+	manpower = 4762495
+	
+	state_category = metropolis
+	
 	resources={
-		oil=9.000
+		steel=71 # was: 120
 	}
 
 	history={
 		owner = SCO
-		add_core_of = UAN
-		add_core_of = SCO
 		victory_points = {
-			9379 15 
+			9379 10 
 		}
 		victory_points = {
-			9315 5 
+			11297 5 
 		}
 		victory_points = {
-			11382 3 
+			9315 15
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4 #was: 7
+			arms_factory = 2
 			industrial_complex = 3
-			arms_factory = 1
 			air_base = 10
-
+			11297 = {
+				naval_base = 5
+			}
 		}
-
+		add_core_of = ENG
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 4
+			}
+		}
 	}
 
 	provinces={
-		6268 9315 9379 9397 11382 
+		6268 9269 9315 9332 9379 9397 11297 11317 11382 
 	}
-	manpower=2781247
-	buildings_max_level_factor=1.000
-	state_category=state_level_12
+
+	local_supplies=0.0 
 }

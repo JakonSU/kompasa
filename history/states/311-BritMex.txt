@@ -1,22 +1,25 @@
-state = {
-	id = 311
-	name = "STATE_311"
-	manpower = 41000
-	state_category = state_level_7
+state=
+{
+	id=311
+	name="STATE_311"
+	manpower = 51000
 	
-	history = {
-		owner = HON
-		add_core_of = HON
+	state_category = pastoral
+	history=
+	{
 		add_core_of = BLZ
-		victory_points = { 2077 2 }
+		owner = BLZ
+		victory_points = {
+			2077 1 
+		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 3
-			2077 = { naval_base = 1 }
+			infrastructure = 2
+			2077 = {
+				naval_base = 1
+			}
 		}
 	}
-	
-	provinces = {
-		2077
-	}
+	provinces= { 2077 }
+
+	local_supplies=0.0 
 }

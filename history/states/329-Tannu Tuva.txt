@@ -1,19 +1,31 @@
-state = {
-	id = 329
-	name = "STATE_329"
-	manpower = 95400
-	state_category = state_level_2
-	
-	history = {
-		owner = WFL
-		add_core_of = WFL
-		victory_points = { 10627 3 }
-		buildings = {
-			infrastructure = 2
-		}
+
+state={
+	id=329
+	name="STATE_329"
+	manpower = 85000
+	resources={
+		chromium=2 # was: 2
 	}
 	
-	provinces = {
+	state_category = rural
+
+	history={
+		owner = WFL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			10627 3
+		}
+		add_core_of = TAN
+		add_core_of = WFL
+	}
+
+	provinces={
 		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
 	}
+
+	local_supplies=0.0 
 }

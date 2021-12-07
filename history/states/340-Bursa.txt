@@ -1,26 +1,33 @@
 
-state = {
-	id = 340
-	name = "STATE_340"
-	manpower = 5726527
-
-	state_category = state_level_8
-
-	history = {
-		owner = ERY
-		add_core_of = ERY
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			dockyard = 1
-			air_base = 4
-		}
-		
-		victory_points = { 947 20 }
-		add_core_of = TUR
+state={
+	id=340
+	name="STATE_340"
+	manpower = 1077853
+	resources={
+		chromium=39 # was: 54
 	}
 
-	provinces = {
-		785 947 3786 3851 6864 6912 9799 9887 11778 11867 
+	state_category = town
+
+	history={
+		owner = ERY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		
+		victory_points = {
+			947 10
+		}
+		victory_points = {
+			9799 5
+		}
+		add_core_of = ERY
+
+	}
+
+	provinces={
+		947 3786 3851 11867 
 	}
 }

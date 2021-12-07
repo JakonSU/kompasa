@@ -2,26 +2,29 @@
 state={
 	id=108
 	name="STATE_108"
+	resources={
+		steel=3.000
+	}
 
 	history={
-		owner = OWO
-		add_core_of = OWO
 		victory_points = {
-			11887 5 
+			9602 3 
 		}
+		owner = OWO
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 2
 
 		}
+		add_core_of = OWO
+		add_core_of = SER
 
 	}
 
 	provinces={
-		6953 6970 6998 9906 
+		630 6634 9602 9756 9906 11887 
 	}
-	manpower=600000
+	manpower=707000
 	buildings_max_level_factor=1.000
-	state_category=state_level_5
+	state_category=town
+	local_supplies=0.000
 }

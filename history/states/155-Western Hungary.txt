@@ -3,26 +3,29 @@ state={
 	id=155
 	name="STATE_155"
 	resources={
-		oil=2.000
+		oil=1.000
 	}
 
 	history={
 		owner = WEN
-		add_core_of = WEN
+		victory_points = {
+			11610 5 
+		}
 		buildings = {
-			infrastructure = 5
-			air_base = 3
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 3
 			arms_factory = 1
+			air_base = 3
 
 		}
+		add_core_of = WEN
 
 	}
 
 	provinces={
-		686 701 3683 6720 9676 11627 11663 13125 
+		686 701 3683 6703 6720 9676 11627 11663 13125 
 	}
-	manpower=1448803
+	manpower=2197605
 	buildings_max_level_factor=1.000
-	state_category=state_level_8
+	state_category=city
 }

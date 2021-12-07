@@ -101,6 +101,9 @@ set_politics = {
 set_popularities = {
     nationalist = 92
     reactionary = 8
+} 	
+	puppet = BUL
+	puppet = CAT
 }
 
 create_country_leader = {

@@ -2,47 +2,29 @@
 state={
 	id=12
 	name="STATE_12"
-
+	manpower = 1520500
+	resources={
+		steel=1 # was: 2
+	}
+	
+	state_category = rural
+	
 	history={
 		owner = HNZ
-		add_core_of = HNZ
 		victory_points = {
-			310 1 
-		}
-		victory_points = {
-			341 1 
+			10493 1 #Valmiera
 		}
 		buildings = {
-			infrastructure = 5
-			3298 = {
-				bunker = 2
-
-			}
-			319 = {
-				bunker = 2
-
-			}
-			222 = {
-				bunker = 2
-
-			}
-			9275 = {
-				bunker = 2
-
-			}
-			6459 = {
-				bunker = 2
-
-			}
-
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
 		}
-
+		add_core_of = HNZ
 	}
 
 	provinces={
-		222 310 319 341 3298 6459 7482 9275 11222 11302 
+		3388 9317 9501 10493 11302
 	}
-	manpower=300000
-	buildings_max_level_factor=1.000
-	state_category=state_level_8
+
+	local_supplies=0.0 
 }

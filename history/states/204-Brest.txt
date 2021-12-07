@@ -1,22 +1,28 @@
-state = {
-	id = 204
-	name = "STATE_204" #Bobruysk
+
+state={
+	id=204
+	name="STATE_204" # Bobruysk
 	manpower = 1041084
-	state_category = state_level_2
 	
-	resources = {
-		oil = 2
-	}
-	
-	history = {
+	state_category = rural
+
+	history={
+		victory_points = {
+			3350 3
+		}
+		victory_points = {
+			11313 1
+		}
 		owner = BIA
 		add_core_of = BIA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #was: 5
 		}
 	}
-	
-	provinces = {
-		3350 6373 9289 3378 6292 342 11322
+
+	provinces={
+		304 331 360 386 3350 3759 6373 11313 
 	}
+
+	local_supplies=0.0 
 }

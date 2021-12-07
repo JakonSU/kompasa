@@ -1,27 +1,47 @@
-state = {
-	id = 51
-	name = "STATE_51" #North Rhine
-	manpower = 3144743
-	state_category = state_level_13
-	
-	resources = {
-		aluminium = 10
+
+state={
+	id=51
+	name="West Rhineland"
+	resources={
+		steel=30.000
 	}
-	
-	history = {
+
+	history={
 		owner = WKL
-		add_core_of = WKL
-		victory_points = { 587 20 } #Cologne
-		victory_points = { 3547 3 } #Bonn
-		victory_points = { 9522 2 } #Aachen
-		buildings = {
-			infrastructure = 8
-			air_base = 6
-			industrial_complex = 3
+		victory_points = {
+			6469 10 
 		}
+		victory_points = {
+			587 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 3
+
+		}
+		add_core_of = WKL
+		1939.1.1 = {
+			buildings = {
+				air_base = 6
+				radar_station = 1
+
+			}
+
+		}
+		set_demilitarized_zone = yes
+		1936.3.7 = {
+			set_demilitarized_zone = no
+
+		}
+
 	}
-	
-	provinces = {
-		587 3444 3547 9522 
+
+	provinces={
+		587 3444 3547 9522 11435 11470 11494 
 	}
+	manpower=6144743
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

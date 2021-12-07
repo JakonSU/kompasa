@@ -1,0 +1,17 @@
+state={
+	id=971
+	name="Kainuu"
+	provinces={
+		7 3073 3115 3149 6134 9106 9233 11024 11079 13118 
+	}
+	history = {
+			owner = FIN
+			add_core_of = FIN
+		add_core_of = IMN
+			buildings = {infrastructure = 3 }
+	}
+	manpower=48264
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

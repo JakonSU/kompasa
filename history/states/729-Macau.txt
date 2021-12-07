@@ -1,23 +1,19 @@
 state={
 	id=729
 	name="STATE_729"
-	manpower = 649100
+	manpower = 157805
 	
-	state_category = state_level_10
+	state_category = enclave
 	
 	history={
-		owner = MCU
-		add_core_of = PRC
+		owner = CHI
 		add_core_of = CHI
-		add_core_of = MCU
+		add_core_of = PRC
 		victory_points = {
-			4189 5
+			4189 1 
 		}
 		buildings = {
-			infrastructure = 9
-			industrial_complex = 4
-			arms_factory = 1
-			air_base = 1
+			infrastructure = 2
 			4189 = {
 				naval_base = 1
 			}
@@ -27,4 +23,6 @@ state={
 	provinces={
 		4189 
 	}
+
+	local_supplies=0.0 
 }

@@ -1,0 +1,18 @@
+state={
+	id=846
+	name="Eastern Rhine"
+	history{
+	owner = WKL
+	add_core_of = WKL
+	set_demilitarized_zone = yes
+	buildings = {
+			infrastructure = 4
+			}
+	}
+	provinces={
+		529 3512 6469 6570 9482 
+	}
+	manpower=1513870
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

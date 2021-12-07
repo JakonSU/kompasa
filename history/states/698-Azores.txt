@@ -7,12 +7,11 @@ state={
 	
 	history={
 		owner = SPR
-		add_core_of = SPR
 		victory_points = {
 			1751 3 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			1751 = {
 				naval_base = 3
 			}
@@ -23,4 +22,6 @@ state={
 	provinces={
 		1751 
 	}
+
+	local_supplies=0.0 
 }

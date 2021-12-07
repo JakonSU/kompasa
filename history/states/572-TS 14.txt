@@ -4,21 +4,24 @@ state={
 	name="STATE_572" # Chelyabinsk
 	manpower = 2074932
 	
-	state_category = state_level_2
+	state_category = town
 
 	history={
 		owner = WFL
-		add_core_of = WFL
 		victory_points = {
-			9292 1
+			9292 5
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 2
+			infrastructure = 3 #was: 6
+			industrial_complex = 1
+
 		}
+		add_core_of = WFL
 	}
 
 	provinces={
 		1233 1292 1294 1327 1775 4242 7285 9292 10170 10213 10542 12106 12157 12287 12584 
 	}
+
+	local_supplies=0.0 
 }

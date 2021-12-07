@@ -1,44 +1,34 @@
-
-state={
+state=
+{
 	id=524
 	name="STATE_524"
-	resources={
-		oil=2.000
-		aluminium=1.000
-		steel=15
-	}
-
-	history={
-		owner = CHI
+	manpower = 4592537
+	
+	state_category = large_town
+	history=
+	{
+		owner = JAP
 		add_core_of = CHI
-		#add_core_of = TWN
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 10
-			industrial_complex = 11
-			arms_factory = 3
-			dockyard = 3
-			air_base = 10
-			7186 = {
-				naval_base = 6
-				coastal_bunker = 2
-			}
-			7214 = {
-				coastal_bunker = 1
-			}
-			11959 = {
-				coastal_bunker = 1
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			air_base = 6
+			12068 = {
+				naval_base = 10
 			}
 		}
-		victory_points = { 7186 25 } #Taipei
-		victory_points = { 11959 10 } #Taichung
+		victory_points = {
+			7186 5 
+		}
+		victory_points = {
+			12068 1 
+		}
 
 	}
-
 	provinces={
-		7186 7214 11959
-	}
-	manpower=18000000
-	buildings_max_level_factor=1.000
-	state_category=state_level_21
+		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
+		}
+
+	local_supplies=0.0 
 }

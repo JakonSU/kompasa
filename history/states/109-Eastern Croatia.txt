@@ -5,23 +5,23 @@ state={
 
 	history={
 		owner = OWO
-		add_core_of = OWO
-		victory_points = {
-			11581 20 
-		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 3
+			industrial_complex = 3
 
 		}
+		victory_points = {
+			11581 3 
+		}
+		add_core_of = OWO
+		add_core_of = CRO
 
 	}
 
 	provinces={
-		624 3592 3596 6672 9611 11581 11594 13258 
+		624 3592 3596 9611 11581 11594 
 	}
-	manpower=1100000
+	manpower=1500000
 	buildings_max_level_factor=1.000
-	state_category=state_level_10
+	state_category=large_city
 }

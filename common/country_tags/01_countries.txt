@@ -1,0 +1,2 @@
+LIE	= "countries/Liechtenstein.txt"
+KOS	= "countries/Kosovo.txt"

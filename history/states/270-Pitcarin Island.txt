@@ -1,19 +1,23 @@
-state = {
-	id = 270
-	name = "STATE_270"
+state=
+{
+	id=270
+	name="STATE_270"
 	manpower = 40
 	state_category = enclave
 	
-	history = {
+	history=
+	{
 		owner = UAN
-		add_core_of = UAN
 		buildings = {
 			infrastructure = 1
-			1280 = { naval_base = 1 }
+			1280 = {
+				naval_base = 1
+			}
 		}
 	}
-	
-	provinces = {
+	provinces={
 		1280
 	}
+
+	local_supplies=0.0 
 }

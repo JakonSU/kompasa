@@ -3,24 +3,32 @@ state={
 	id=666
 	name="STATE_666"
 	resources={
-		steel=29.000
+		tungsten=40.000
+		steel=50.000
+		chromium=25.000
 	}
 
 	history={
 		owner = IMN
 		add_core_of = IMN
+		victory_points = {
+			9108 1 
+		}
 		buildings = {
-			infrastructure = 4
-			air_base = 1
+			infrastructure = 1
+			industrial_complex = 1
+
 
 		}
+		add_core_of = SWE
 
 	}
 
 	provinces={
-		58 101 151 190 3044 3095 3179 6055 6074 6152 6155 6206 9083 9095 9134 9175 9178 11026 11058 11060 11102 11112 11152 13119 
+		11 58 61 101 109 145 148 151 184 190 3003 3044 3054 3062 3095 3100 3138 3173 3179 6055 6074 6152 6155 6168 6170 6200 6206 6208 9083 9095 9134 9175 9178 9211 9226 11026 11058 11060 11069 11102 11112 11152 11155 11190 11208 13119 
 	}
-	manpower=278549
+	manpower=415327
 	buildings_max_level_factor=1.000
-	state_category=state_level_5
+	state_category=rural
+	local_supplies=0.000
 }

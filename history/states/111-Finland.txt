@@ -2,40 +2,42 @@
 state={
 	id=111
 	name="STATE_111"
-	resources={
-		steel=26.000
-	}
 
 	history={
 		owner = FIN
-		add_core_of = FIN
 		add_core_of = IMN
 		victory_points = {
-			11105 25 
+			11105 15 
 		}
 		victory_points = {
-			11066 1 
+			3083 1 
+		}
+		victory_points = {
+			3137 1 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 4
-			arms_factory = 1
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
 			dockyard = 1
-			air_base = 6
+			air_base = 5
 			11105 = {
-				naval_base = 6
+				naval_base = 5
 				coastal_bunker = 2
 
 			}
 
+
 		}
+		add_core_of = FIN
 
 	}
 
 	provinces={
-		204 6009 6108 6144 9129 11066 11105 11211 13102 
+		67 204 3025 3137 3161 6009 6047 6108 6144 6163 9073 9129 9160 9167 9183 11066 11105 11138 11172 13100 13102 13103 13106 13107 
 	}
-	manpower=3196682
+	manpower=1670190
 	buildings_max_level_factor=1.000
-	state_category=state_level_10
+	state_category=city
+	local_supplies=0.000
 }

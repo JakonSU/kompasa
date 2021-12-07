@@ -4,19 +4,25 @@ state={
 	name="STATE_736"
 
 	history={
-		owner = OWO
+		victory_points = {
+			6626 1 
+		}
+		owner = ELP
+		add_core_of = ELP
 		add_core_of = OWO
+		add_core_of = SLV
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			11735 = { naval_base = 2 }
+
+
 		}
+
 	}
 
 	provinces={
-		11735 
+		599 11595 
 	}
-	manpower=213159
+	manpower=231041
 	buildings_max_level_factor=1.000
-	state_category = state_level_1
+	state_category=large_town
 }

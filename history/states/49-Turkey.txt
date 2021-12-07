@@ -1,29 +1,38 @@
-state = {
-	id = 49
-	name = "STATE_49" #Ankara
-	manpower = 9570758
-	state_category = state_level_10
-	
-	resources = {
-		steel = 25
+
+state={
+	id=49
+	name="STATE_49" # Ankara
+	manpower = 810284
+	resources={
+		chromium=11 # was: 16
+		steel = 28
 	}
 	
-	history = {
+	state_category = town
+
+	history={
 		owner = ERY
-		add_core_of = ERY
-		victory_points = { 11747 25 } #Ankara
-		victory_points = { 909 10 } #Eskişehir
-		victory_points = { 804 1 } #Kirikkale
-		victory_points = { 6925 1 } #Gölbaşı
-		buildings = {
-			infrastructure = 7
-			industrial_complex = 5
-			arms_factory = 1
-			air_base = 5
+		victory_points = {
+			11747 15
 		}
+		victory_points = {
+			804 5 
+		}
+		victory_points = {
+			3951 1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+		}
+		add_core_of = ERY
 	}
-	
-	provinces = {
+
+	provinces={
 		804 909 3907 3951 6808 6908 6925 9806 9901 11747 11784 
 	}
+
+	local_supplies=7.0 
 }

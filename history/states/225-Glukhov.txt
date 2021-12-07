@@ -1,23 +1,28 @@
-state = {
-	id = 225
-	name = "STATE_225" #Sumy
+
+state={
+	id=225
+	name="STATE_225" # Sumy
 	manpower = 1338280
-	state_category = state_level_2
 	
-	resources = {
-		oil = 2
-		steel = 6
-	}
-	
-	history = {
+	state_category = town
+
+	history={
+		victory_points = {
+			3520 3
+		}
+		victory_points = {
+			9566 1
+		}
 		owner = WOL
 		add_core_of = WOL
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3 #was: 5
 		}
 	}
-	
-	provinces = {
+
+	provinces={
 		463 501 522 3225 3455 3520 6565 9477 9566 11462 11553 
 	}
+
+	local_supplies=0.0 
 }

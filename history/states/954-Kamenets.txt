@@ -1,0 +1,16 @@
+state={
+	id=954
+	name="Kamenets"
+	provinces={
+		3281 13236 
+	}
+	history = {
+	owner = BIA
+	add_core_of = BIA
+	buildings = {infrastructure = 2}
+	}
+	manpower=34388
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	state_category = town
+}

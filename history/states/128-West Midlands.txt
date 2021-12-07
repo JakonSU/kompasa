@@ -1,22 +1,37 @@
-state = {
-	id = 128
-	name = "STATE_128"
-	manpower = 5185235
-	state_category = state_level_14
+
+state={
+	id=128
+	name="STATE_128"
+	manpower = 3685235
 	
-	history = {
+	state_category = metropolis
+	resources={
+		steel=27 # was: 48
+	}
+
+	history={
 		owner = UAN
-		add_core_of = UAN
-		victory_points = { 9297 25 }
 		buildings = {
-			infrastructure = 8
-			industrial_complex = 1
-			arms_factory = 1
+			infrastructure = 4 #was: 8
+			arms_factory = 2
+			industrial_complex = 3
 			air_base = 6
 		}
+		victory_points = {
+			9297 25
+		}
+		add_core_of = UAN
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 4
+			}
+		}
 	}
-	
-	provinces = {
+
+	provinces={
 		3241 3301 6270 6301 7239 9297 11345 
 	}
+
+	local_supplies=0.0 
 }

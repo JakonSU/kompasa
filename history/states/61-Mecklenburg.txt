@@ -1,30 +1,34 @@
-state = {
-	id = 61
-	name = "STATE_61"
-	manpower = 1036353
-	state_category = state_level_5
+state={
+	id=61
+	name="STATE_61"
+	manpower = 836353
 
-	resources = {
-		steel = 2
-	}
 
-	history = {
+	state_category = town
+
+	history={
 		owner = WKL
-		add_core_of = WKL
-		victory_points = { 321 5 } #Rostock
-		victory_points = { 11305 5 } #Lübeck
-		victory_points = { 3258 2 } #Neubrandenburg
-		victory_points = { 9294 3 } #Schwerin
+		victory_points = {
+			321 5
+		}
+		victory_points = {
+			11305 3
+		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			321 = { naval_base = 6 }
-			11305 = { naval_base = 2 }
+			infrastructure = 3
+			arms_factory = 3
+			321 = {
+				naval_base = 6
+
+			}
 			air_base = 3
 		}
+		add_core_of = WKL
 	}
 
-	provinces = {
-		268 293 321 3258 9294 11276 11305 
+	provinces={
+		268 293 321 9294 11276 11305 
 	}
+
+	local_supplies=3.0 
 }

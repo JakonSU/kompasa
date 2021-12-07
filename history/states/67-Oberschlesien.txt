@@ -2,30 +2,31 @@
 state={
 	id=67
 	name="STATE_67"
+	manpower = 1402591
 	resources={
-		steel=5.000
+		steel=19 # was: 60
+		aluminium=6 # was: 20
 	}
+	
+	state_category = city
 
 	history={
-		owner = RZS
-		add_core_of = RZS
 		victory_points = {
-			11467 5 
+			11467 5
 		}
+		victory_points = {
+			9511 3
+		}
+		owner = RZS
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			arms_factory = 1
-			air_base = 3
-
+			infrastructure = 3
 		}
-
+		add_core_of = SIL
 	}
 
 	provinces={
 		479 6512 9457 9511 11467 
 	}
-	manpower=4953103
-	buildings_max_level_factor=1.000
-	state_category=state_level_10
+
+	local_supplies=4.0 
 }

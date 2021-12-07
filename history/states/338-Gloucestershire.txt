@@ -1,26 +1,23 @@
 
-state = {
-	id = 338
-	name = "STATE_338"
+state={
+	id=338
+	name="STATE_338"
 	manpower = 1800615
-	
-	resources = {
-		tungsten=3
-		steel = 20
+	resources={
+		steel=9 # was: 16
 	}
 
-	state_category = state_level_10
+	state_category = city
 
-	history = {
+	history={
 		owner = UAN
-		add_core_of = UAN
 		victory_points = {
 			3369 5 
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 2
+			infrastructure = 4 #was: 7
 			arms_factory = 1
+			industrial_complex = 1
 			air_base = 2
 			3369 = {
 				naval_base = 2
@@ -29,7 +26,9 @@ state = {
 		add_core_of = UAN
 	}
 
-	provinces = {
+	provinces={
 		3369 6221 6351 6378 9484 11471 
 	}
+
+	local_supplies=0.0 
 }

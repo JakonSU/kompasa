@@ -1,24 +1,25 @@
-state = {
-	id = 259
-	name = "STATE_259" #Poltava
+
+state={
+	id=259
+	name="STATE_259" # Poltava
 	manpower = 1442584
-	state_category = state_level_2
 	
-	resources = {
-		oil=2
-		steel=8
-	}
-	
-	history = {
+	state_category = rural
+
+	history={
+		victory_points = {
+			11504 3
+		}
 		owner = WOL
 		add_core_of = WOL
 		buildings = {
-			infrastructure = 2
-			air_base = 3
+			infrastructure = 3 #was: 5
 		}
 	}
-	
-	provinces = {
+
+	provinces={
 		511 559 3557 6495 6507 6578 6605 9413 9519 11504 
 	}
+
+	local_supplies=10.0 
 }

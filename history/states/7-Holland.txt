@@ -1,31 +1,44 @@
-state = {
-	id = 7
-	name = "STATE_7" #Holland
-	manpower = 5523000
-	state_category = state_level_12
-	
-	resources = {
-		oil = 3
-		steel = 26
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		steel=4.000
 	}
-	
-	history = {
+
+	history={
 		owner = UAN
-		add_core_of = UAN
-		victory_points = { 391 30 } #Amsterdam
-		victory_points = { 3211 15 } #Den Haag
-		victory_points = { 68 1 } #Haarlem
-		buildings = {
-			infrastructure = 8
-			air_base = 5
-			industrial_complex = 6
-			arms_factory = 1
-			dockyard = 2
-			3314 = { naval_base = 10 }
+	add_core_of = UAN
+		add_core_of = HOL
+		victory_points = {
+			391 40 
 		}
+		victory_points = {
+			3211 10 
+		}
+		victory_points = {
+			9498 20 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
+			3314 = {
+				naval_base = 5
+
+			}
+
+
+		}
+
 	}
-	
-	provinces = {
-		68 391 3211 3314 8622 
+
+	provinces={
+		68 391 3211 3314 
 	}
+	manpower=4123000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -3,33 +3,32 @@ state={
 	id=104
 	name="STATE_104"
 	resources={
-		aluminium=8.000
+		aluminium=7.000
 	}
 
 	history={
 		owner = OWO
-		add_core_of = OWO
-
 		victory_points = {
-			11899 10 
+			11899 5 
 		}
 		victory_points = {
-			6799 3 
+			6983 3 
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			arms_factory = 1
+			industrial_complex = 2
 			air_base = 2
 
 		}
+		add_core_of = OWO
+		add_core_of = BOS
 
 	}
 
 	provinces={
-		6799 6957 9922 11872 11899 
+		6957 6983 9591 9922 11572 11872 
 	}
-	manpower=1196250
+	manpower=910200
 	buildings_max_level_factor=1.000
-	state_category=state_level_8
+	state_category=town
 }

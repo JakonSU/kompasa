@@ -3,25 +3,30 @@ state={
 	id=477
 	name="STATE_477"
 	resources={
-		oil=68.000
-		steel=5.000
+		oil=9.000
 	}
 
 	history={
 		owner = MEX
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			air_base = 1
+			dockyard = 1
 			12810 = {
 				naval_base = 3
+				}
+			10889 = {
+				naval_base = 2
 
 			}
+
 
 		}
 		add_core_of = MEX
 		victory_points = {
-			12810 1 
+			12810 5 
+		}
+		victory_points = {
+			8089 10 
 		}
 
 	}
@@ -29,7 +34,7 @@ state={
 	provinces={
 		2021 8079 10732 10889 12810 
 	}
-	manpower=11639279
+	manpower=1951460
 	buildings_max_level_factor=1.000
-	state_category=state_level_7
+	state_category=town
 }

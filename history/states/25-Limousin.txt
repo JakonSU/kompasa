@@ -2,29 +2,25 @@
 state={
 	id=25
 	name="STATE_25"
-	resources={
-		steel=4.000
-	}
+	manpower = 1343700
 
+
+	state_category = large_town
 	history={
 		owner = POL
-		add_core_of = POL
-		victory_points = {
-			620 5 
-		}
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 2
-
+			infrastructure = 3
 		}
-
+		victory_points = {
+			620 5
+		}
+		add_core_of = OCC
+		add_core_of = POL
 	}
 
 	provinces={
-		620 625 755 3598 3771 6618 6775 6792 9734 9751 11718 11720 
+		620 625 755 3598 3771 6618 6775 6792 9717 9734 9751 11718 11720 
 	}
-	manpower=1773700
-	buildings_max_level_factor=1.000
-	state_category=state_level_6
+
+	local_supplies=0.0 
 }

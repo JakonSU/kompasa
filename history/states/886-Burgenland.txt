@@ -1,0 +1,15 @@
+state={
+	id=886
+	name="Burgenland"
+	history = {
+	owner = WKL
+	add_core_of = WKL
+	buildings = { infrastructure = 2 }
+	}
+	provinces={
+		3700 9661 11630 
+	}
+	manpower=250000
+	buildings_max_level_factor=1.000
+	state_category = town
+}
