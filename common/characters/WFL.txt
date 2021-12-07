@@ -1,0 +1,202 @@
+characters={
+	WFL_zieniewicz={
+		name="Zieniewicz"
+		portraits={
+			civilian={
+				large="gfx/leaders/WFL/zen.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WFL_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WFL_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WFL_lucas_evans={
+		name="Lucas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ friend_of_america dealbroker }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	WFL_jim_williams={
+		name="Jim Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ financial_expert retired_officer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	WFL_john_smith={
+		name="John Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ hawk fortification_engineer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	WFL_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	WFL_alexander_williams={
+		name="Alexander Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	WFL_bob_taylor={
+		name="Bob Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	WFL_alex_doe={
+		name="Alex Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	WFL_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ road_builder }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	WFL_johannes_wilson={
+		name="Johannes Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ hawk agricultural_expert }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	WFL_bob_jones={
+		name="Bob Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	WFL_jonas_roberts={
+		name="Jonas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ enemy_of_russia road_builder }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

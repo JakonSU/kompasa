@@ -1,509 +1,1715 @@
 characters={
-	ARG_agustín_pedro_justo={
-		name="Agustín Pedro Justo"
+	ARG_alejandro_biondini={
+		name="Alejandro Biondini"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo.dds"
+				large="gfx/leaders/ARG/Alejandro_Biondini.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=national_socialist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARG_nimo_de_anquín={
-		name="Nimo de Anquín"
+	ARG_mauricio_macri={
+		name="Mauricio Macri"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				large="gfx/leaders/ARG/Mauricio_Macri.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARG_marcelo_t_de_alvear={
-		name="Marcelo T. de Alvear"
+	ARG_fernando_de_la_rua={
+		name="Fernando de la Rua"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+				large="gfx/leaders/ARG/Fernando_de_la_Rua.dds"
 			}
 		}
 		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
+			ideology=centrist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARG_fanny_edelman={
-		name="Fanny Edelman"
+	ARG_margarita_stolbizer={
+		name="Margarita Stolbizer"
 		portraits={
 			civilian={
-				large="gfx/leaders/ARG/Portrait_Argentina_Fanny_Edelman.dds"
+				large="gfx/leaders/ARG/Margarita_Stolbizer.dds"
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARG_roberto_maria_ortiz={
-		name="Roberto María Ortiz"
+	ARG_antonio_bonfatti={
+		name="Antonio Bonfatti"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+				large="gfx/leaders/ARG/Antonio_Bonfatti.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ARG_senor_hitler={ #Empty Senor H. 
-		name=ARG_senor_hitler
+	ARG_jorge_altamira={
+		name="Jorge Altamira"
 		portraits={
 			civilian={
-				large="GFX_portrait_south_america_generic_leader_1"
+				large="gfx/leaders/ARG/Jorge_Altamira.dds"
 			}
 		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
 	}
-	ARG_arturo_rawson={
-		name="Arturo Rawson"
+	ARG_diego_luis_suñer={
+		name="Diego Luis Suñer"
 		portraits={
 			army={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-				small="gfx/interface/ideas/idea_south_america_generic_land_2.dds"
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Diego_Suner.dds"
 			}
 		}
 		field_marshal={
-			traits={ defensive_doctrine }
-			skill=3
-			attack_skill=4
-			defense_skill=3
+			skill=2
+			attack_skill=1
+			defense_skill=1
 			planning_skill=1
-			logistics_skill=2
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
-	ARG_juan_pistarini={
-		name="Juan Pistarini"
+	ARG_bari_del_valle_sosa={
+		name="Bari del Valle Sosa"
 		portraits={
 			army={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-				small="gfx/interface/ideas/idea_south_america_generic_land_3.dds"
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Bari_del_Valle_Sosa.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_enrique_victor_amrein={
+		name="Enrique Victor Amrein"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Enrique_Victor_Amrein.dds"
 			}
 		}
 		corps_commander={
-			traits={ urban_assault_specialist fortress_buster }
-			skill=3
+			traits={ trickster }
+			skill=1
 			attack_skill=1
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
-	ARG_alberto_teisaire={
-		name="Alberto Teisaire"
+	ARG_santiago_ferreyra={
+		name="Santiago Ferreyra"
 		portraits={
 			army={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-				small="gfx/interface/ideas/idea_south_america_generic_navy_1.dds"
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Santiago_Ferreyra.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_joaquín_estrada={
+		name="Joaquín Estrada"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Joaquin_Estrada.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_agustin_cejas={
+		name="Agustin Cejas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Agustin_Cejas.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_alberto_corvalan={
+		name="Alberto Corvalan"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Alberto_Corvalan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_alberto_sigon={
+		name="Alberto Sigon"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Alberto_Sigon.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_aldo_fernandez={
+		name="Aldo Fernandez"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Aldo_Fernandez.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_aldo_sala={
+		name="Aldo Sala"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Aldo_Sala.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_alejandro_martelletti={
+		name="Alejandro Martelletti"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Alejandro_Martelletti.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_carlos_alfredo_pérez_aquino={
+		name="Carlos Alfredo Pérez Aquino"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Carlos_Aquino.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_carlos_nogueira={
+		name="Carlos Nogueira"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Carlos_Nogueira.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_carlos_podio={
+		name="Carlos Podio"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Carlos_Podio.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_carlos_sityar={
+		name="Carlos Sityar"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Carlos_Sityar.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_claudio_gallardo={
+		name="Claudio Gallardo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Claudio_Gallardo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_clemente_magallanes={
+		name="Clemente Magallanes"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Clemente_Magallanes.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_daniel_eduardo_varela={
+		name="Daniel Eduardo Varela"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Daniel_Varela.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_claudio_ernesto_pasqualini={
+		name="Claudio Ernesto Pasqualini"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Ernesto_Pasqualini.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_federico_sidders={
+		name="Federico Sidders"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Federico_Sidders.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_fernando_mauricio_ros={
+		name="Fernando Mauricio Ros"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Fernando_Ros.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_gerardo_ferrara={
+		name="Gerardo Ferrara"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Gerardo_Ferrara.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_german_monge={
+		name="German Monge"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/German_Monge.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_guillermo_pereda={
+		name="Guillermo Pereda"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Guillermo_Pereda.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_guillermo_Ángel_tabernero={
+		name="Guillermo Ángel Tabernero"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Guillermo_Tabernero.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_gustavo_booth={
+		name="Gustavo Booth"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Gustavo_Booth.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_gustavo_luzuriaga={
+		name="Gustavo Luzuriaga"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Gustavo_Luzuriaga.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_gustavo_planes={
+		name="Gustavo Planes"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Gustavo_Planes.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_gustavo_vidal={
+		name="Gustavo Vidal"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Gustavo_Vidal.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_héctor_horacio_prechi={
+		name="Héctor Horacio Prechi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Hector_Prechi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_hugo_gargano={
+		name="Hugo Gargano"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Hugo_Gargano.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_hugo_leonard={
+		name="Hugo Leonard"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Hugo_Leonard.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_javier_abregu={
+		name="Javier Abregu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Javier_Abregu.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_javier_aquino={
+		name="Javier Aquino"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Javier_Aquino.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_jose_navarro={
+		name="Jose Navarro"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Jose_Navarro.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_josé_antonio_saumell_robert={
+		name="José Antonio Saumell Robert"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Jose_Robert.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_jose_stanchina={
+		name="Jose Stanchina"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Jose_Stanchina.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_josé_luis_yofre={
+		name="José Luis Yofre"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Jose_Yofre.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_juan_antonio_zamora={
+		name="Juan Antonio Zamora"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Juan_Antonio_Zamora.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_juan_adrián_campitelli={
+		name="Juan Adrián Campitelli"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Juan_Campitelli.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_juan_gettig={
+		name="Juan Gettig"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Juan_Gettig.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_juan_paleo={
+		name="Juan Paleo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Juan_Paleo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_juan_pulleiro={
+		name="Juan Pulleiro"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Juan_Pulleiro.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_justo_treviranus={
+		name="Justo Treviranus"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Justo_Treviranus.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_luis_ricciardi={
+		name="Luis Ricciardi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Luis_Ricciardi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_maria_pansa={
+		name="Maria Pansa"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Maria_Pansa.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_martin_deimundo={
+		name="Martin Deimundo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Martin_Deimundo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_miguel_lugand={
+		name="Miguel Lugand"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Miguel_Lugand.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_norberto_pastor={
+		name="Norberto Pastor"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Norberto_Pastor.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_osvaldo_guardone={
+		name="Osvaldo Guardone"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Osvaldo_Guardone.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_osvaldo_jose_suárez={
+		name="Osvaldo Jose Suárez"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Osvaldo_Suarez.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_sergio_santulario={
+		name="Sergio Santulario"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Sergio_Santulario.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_tomas_moyano={
+		name="Tomas Moyano"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/generals/Tomas_Moyano.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_bernardo_noziglia={
+		name="Bernardo Noziglia"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Bernardo_Noziglia.dds"
 			}
 		}
 		navy_leader={
-			traits={ chief_engineer }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			maneuvering_skill=3
-			coordination_skill=3
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=-1
 		}
 	}
-	ARG_uribaldi_diaz_brittenberg={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_uribaldi_diaz_brittenberg
-			ledger = air
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					air_close_air_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Uribaldi Díaz Brittenberg"
+	ARG_cesar_recalde={
+		name="Cesar Recalde"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Cesar_Recalde.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_agustin_pedro_justo={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ARG_agustin_pedro_justo
-			ledger = army
-				allowed = {
-					original_tag = ARG
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Agustín Pedro Justo"
+	ARG_dardo_difalco={
+		name="Dardo Difalco"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_5"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Dardo_Difalco.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_edelmiro_farrell={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ARG_edelmiro_farrell
-			ledger = navy
-				allowed = {
-					original_tag = ARG
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Edelmiro Farrell"
+	ARG_david_burden={
+		name="David Burden"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/David_Burden.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_francisco_m_velez={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_francisco_m_velez
-			ledger = army
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_regrouping_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Francisco M. Velez"
+	ARG_eduardo_bacchi={
+		name="Eduardo Bacchi"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Eduardo_Bacchi.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_jose_tamborni={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = ARG_jose_tamborni
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					air_chief_night_operations_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jose Tamborni"
+	ARG_eduardo_malchiodi={
+		name="Eduardo Malchiodi"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Eduardo_Malchiodi.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_manuel_a_rodriguez={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = ARG_manuel_a_rodriguez
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel A. Rodriguez"
+	ARG_eduardo_sancet={
+		name="Eduardo Sancet"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Eduardo_Sancet.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_hortensio_quijano={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ARG_hortensio_quijano
-			ledger = air
-				allowed = {
-					original_tag = ARG
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hortensio Quijano"
+	ARG_francisco_medrano={
+		name="Francisco Medrano"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Francisco_Medrano.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_pedro_s_casal={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = ARG_pedro_s_casal
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					navy_chief_maneuver_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Pedro S. Casal"
+	ARG_gabriel_gonzalez={
+		name="Gabriel Gonzalez"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Gabriel_Gonzalez.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_antonio_parodi={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = ARG_antonio_parodi
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Antonio Parodi"
+	ARG_german_arbizu={
+		name="German Arbizu"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/German_Arbizu.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_pedro_pablo_ramirez={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = ARG_pedro_pablo_ramirez
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Pedro Pablo Ramirez"
+	ARG_guillermo_cormick={
+		name="Guillermo Cormick"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Guillermo_Cormick.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_heriberto_la_galine={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = ARG_heriberto_la_galine
-			allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					navy_chief_commerce_raiding_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Heriberto La Galíne"
+	ARG_gustavo_iglesias={
+		name="Gustavo Iglesias"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Gustavo_Iglesias.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_thomas_martinez={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_thomas_martinez
-			ledger = army
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Thomas Martínez"
+	ARG_gustavo_vignale={
+		name="Gustavo Vignale"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_4"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Gustavo_Vignale.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_eleazar_videla={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ARG_eleazar_videla
-			ledger = navy
-				allowed = {
-					original_tag = ARG
-				}
-				traits = {
-					navy_capital_ship_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eleazar Videla"
+	ARG_jorge_cisneros={
+		name="Jorge Cisneros"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Jorge_Cisneros.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_manuel_maria_de_iriondo={
-		advisor={
-			slot = political_advisor
-			idea_token = ARG_manuel_maria_de_iriondo
-			allowed  = {
-					original_tag  = ARG
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel Maria de Iriondo"
+	ARG_jose_villan={
+		name="Jose Villan"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_south_america_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Jose_Villan.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_ramon_castillo={
-		advisor={
-			slot = political_advisor
-			idea_token = ARG_ramon_castillo
-			allowed  = {
-					original_tag  = ARG
-				}
-				traits  = {
-					quartermaster_general 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ramon Castillo"
+	ARG_luis_gottardo={
+		name="Luis Gottardo"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Luis_Gottardo.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	ARG_luis_podesta_costa={
-		advisor={
-			slot = political_advisor
-			idea_token = ARG_luis_podesta_costa
-			allowed  = {
-					original_tag  = ARG
-				}
-				traits  = {
-					backroom_backstabber 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Luis Podesta Costa"
+	ARG_luis_mazzeo={
+		name="Luis Mazzeo"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ARG/admirals/Luis_Mazzeo.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_marcelo_eduardo_hipolito_srur={
+		name="Marcelo Eduardo Hipolito Srur"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Marcelo_Srur.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_marcos_henson={
+		name="Marcos Henson"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Marcos_Henson.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_maria_uriarte={
+		name="Maria Uriarte"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Maria_Uriarte.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_miguel_Ángel_máscolo={
+		name="Miguel Ángel Máscolo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Miguel_Mascolo.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_oscar_pichel={
+		name="Oscar Pichel"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Oscar_Pichel.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_oscar_vivas={
+		name="Oscar Vivas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Oscar_Vivas.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_osvaldo_vernazza={
+		name="Osvaldo Vernazza"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Osvaldo_Vernazza.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_pedro_galardi={
+		name="Pedro Galardi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Pedro_Galardi.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_rafael_prieto={
+		name="Rafael Prieto"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Rafael_Prieto.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_rodolfo_larrosa={
+		name="Rodolfo Larrosa"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Rodolfo_Larrosa.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_zenon_bolino={
+		name="Zenon Bolino"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ARG/admirals/Zenon_Bolino.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ARG_cirilo_báez={
+		name="Cirilo Báez"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ quartermaster_general }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	ARG_evaristo_rivera={
+		name="Evaristo Rivera"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ retired_officer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	ARG_julio_roca={
+		name="Julio Roca"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	ARG_máximo_roca={
+		name="Máximo Roca"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_britain }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	ARG_domingo_aguirre={
+		name="Domingo Aguirre"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ quartermaster_general }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	ARG_marcial_avellaneda={
+		name="Marcial Avellaneda"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2010.1.1.12"
+			id=-1
 		}
 	}
 }

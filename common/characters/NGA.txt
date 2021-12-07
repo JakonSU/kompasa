@@ -1,427 +1,611 @@
 characters={
-	NGA_ncs={
-		advisor={
-			slot = high_command
-			idea_token = NGA_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_goodluck_jonathan={
+		name="Goodluck Jonathan"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
+			civilian={
+				large="gfx/leaders/NGA/Goodluck_Jonathan.dds"
 			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = NGA_pot
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_muhammadu_buhari={
+		name="Muhammadu Buhari"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/NGA/Muhammadu_Buhari.dds"
 			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = NGA_nccr
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_okey_nwosu={
+		name="Okey Nwosu"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
+			civilian={
+				large="gfx/leaders/NGA/Okey_Nwosu.dds"
 			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = NGA_fascist_guy
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_adebisi_akande={
+		name="Adebisi Akande"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/NGA/Adebisi_Akande.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = NGA_coi
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_joseph_avazi={
+		name="Joseph Avazi"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/NGA/Joseph_Avazi.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_ai2={
-		advisor={
-			slot = high_command
-			idea_token = NGA_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_segun_sango={
+		name="Segun Sango"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
+			civilian={
+				large="gfx/leaders/NGA/Segun_Sango.dds"
 			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = NGA_democratic_guy
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_alhaji_abdulkadir_abdulsalam={
+		name="Alhaji Abdulkadir Abdulsalam"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/NGA/Alhaji_A_Abdulsalam.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_ar={
-		advisor={
-			slot = high_command
-			idea_token = NGA_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_tanko_yinusa={
+		name="Tanko Yinusa"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
+			civilian={
+				large="gfx/leaders/NGA/Tanko_Yinusa.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = NGA_acgs
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_abubakar_shekau={
+		name="Abubakar Shekau"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
+			civilian={
+				large="gfx/leaders/NGA/Abubakar_Shekau.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	NGA_awt={
-		advisor={
-			slot = theorist
-			idea_token = NGA_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_t.y._buratai={
+		name="T.Y. Buratai"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_african_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/T_Y_Buratai.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = NGA_acd2
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_k.t.j._minimah={
+		name="K.T.J. Minimah"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_african_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/K_T_J_Minimah.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_nt={
-		advisor={
-			slot = theorist
-			idea_token = NGA_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_a._oyebade={
+		name="A. Oyebade"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_african_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/A_Oyebade.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = NGA_aco2
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_c.m._abraham={
+		name="C.M. Abraham"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_african_4"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/C_M_Abraham.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_acas={
-		advisor={
-			slot = high_command
-			idea_token = NGA_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_p.j._dauke={
+		name="P.J. Dauke"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_african_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/P_J_Dauke.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_acr={
-		advisor={
-			slot = air_chief
-			idea_token = NGA_acr
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_e.o._udoh={
+		name="E.O. Udoh"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_african_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/E_O_Udoh.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_mt={
-		advisor={
-			slot = theorist
-			idea_token = NGA_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_v.o._ezugwu={
+		name="V.O. Ezugwu"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_african_6"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/V_O_Ezugwu.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = NGA_stc
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_e.b._oyefolu={
+		name="E.B. Oyefolu"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/E_B_Oyefolu.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_aa2={
-		advisor={
-			slot = high_command
-			idea_token = NGA_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_a.b._abubakar={
+		name="A.B. Abubakar"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_african_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/A_B_Abubakar.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = NGA_ncm
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_m.a._koleoso={
+		name="M.A. Koleoso"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_african_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/M_A_Koleoso.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	NGA_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = NGA_communist_guy
-			allowed  = {
-					original_tag  = NGA
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	NGA_s._abubakar={
+		name="S. Abubakar"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/NGA/generals/Sadiq_Abubakar.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_kenneth_minimah={
+		name="Kenneth Minimah"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Kenneth_Minimah.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_martin_luther_agwai={
+		name="Martin Luther Agwai"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Martin_Luther_Agwai.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_abayomi_olonisakin={
+		name="Abayomi Olonisakin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Abayomi_Olonisakin.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_abdulrahman_bello_dambazau={
+		name="Abdulrahman Bello Dambazau"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Abdulrahman_B_Dambazau.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_alexander_ogomudia={
+		name="Alexander Ogomudia"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Alexander_Ogomudia.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_andrew_azazi={
+		name="Andrew Azazi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Andrew_Azazi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_turker_yusuf_buratai={
+		name="Turker Yusuf Buratai"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/generals/Turker_Yusuf_Buratai.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_d._j._ezeoba={
+		name="D. J. Ezeoba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/admirals/DJ_Ezeoba.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_ishaya_ibrahim={
+		name="Ishaya Ibrahim"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Africa/general1.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_u._o._jibrin={
+		name="U. O. Jibrin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/admirals/UO_Jibrin.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_i.e._ibas={
+		name="I.E. Ibas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/admirals/Ibok_Ete_Ekwe_Ibas.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_u.o._jibrin={
+		name="U.O. Jibrin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NGA/admirals/U_O_Jibrin.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NGA_akachi_uba={
+		name="Akachi Uba"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ friend_of_china enemy_of_america }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	NGA_ejiroghene_abioye={
+		name="Ejiroghene Abioye"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ compassionate_gentleman }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	NGA_okafor_aduba={
+		name="Okafor Aduba"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ quartermaster_general }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
 }

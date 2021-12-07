@@ -1,457 +1,167 @@
 characters={
-	GXC_li_zongren={
-		name=GXC_li_zongren
+	GXC_yu_peng={
+		name="Yu Peng"
 		portraits={
 			civilian={
-				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
-			}
-			army={
-				small="gfx/interface/ideas/idea_chi_li_zongren.dds"
-				large="GFX_portrait_li_zongren"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GXC_li_zongren
-			allowed  = {
-				original_tag  = GXC
-			}
-			traits  = {
-				prince_of_terror 
-			}
-		}
-
-		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	GXC_chen_jitang={
-		name=GXC_chen_jitang
-		portraits={
-			army={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-				small="gfx/interface/ideas/idea_asia_generic_land_1.dds"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = GXC_chen_jitang
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				army_chief_defensive_2
-			}
-				cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		corps_commander={
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-
-	GXC_liu_peng={
-		name=GXC_liu_peng
-		portraits={
-			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism
-			traits={ editor ideological_crusader }
-			expire="1943.1.1.12"
+			ideology=islamic_republican
+			expire="2012.1.1.12"
 			id=-1
 		}
 	}
-
-	GXC_zhang_lu={
-		name=GXC_zhang_lu
+	GXC_pan_zhao={
+		name="Pan Zhao"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 			}
 		}
 		country_leader={
-			ideology=leninism
-			traits={ dealbroker }
-			expire="1948.1.1.12"
+			ideology=fascist_ideology
+			traits={ eager_collaborator }
+			expire="2019.1.1.12"
 			id=-1
 		}
 	}
-
-	GXC_li_ting={
-		name=GXC_li_ting
+	GXC_chen_hu={
+		name="Chen Hu"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 			}
 		}
 		country_leader={
-			ideology=rexism
-			traits={ compassionate_gentleman }
-			expire="1953.1.1.12"
+			ideology=autocrat
+			traits={ fortification_engineer }
+			expire="2009.1.1.12"
 			id=-1
 		}
 	}
-
-
-	### THEORISTS ###
-
-	# Claire Lee Chennault is in shared file
-
-	GXC_yu_hanmou={
-		name=GXC_yu_hanmou
+	GXC_kong_ye={
+		name="Kong Ye"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_4"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = GXC_yu_hanmou
-			ledger = army
-			allowed = {
-				original_tag = GXC
-			}
-			
-			traits = {
-				military_theorist
-			}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ editor enemy_of_france }
+			expire="2016.1.1.12"
+			id=-1
 		}
 	}
-
-	GXC_bai_yeung={
-		name=GXC_bai_yeung
+	GXC_zhang_ye={
+		name="Zhang Ye"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 			}
 		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = GXC_bai_yeung
-			ledger = air
-			allowed = {
-				original_tag = GXC
-			}
-			
-			traits = {
-				air_warfare_theorist
-			}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_america appeaser }
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
-
-	GXC_heng_lo={
-		name=GXC_heng_lo
+	GXC_li_ma={
+		name="Li Ma"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = GXC_heng_lo
-			ledger = navy
-			allowed = {
-				original_tag = GXC
-			}
-			
-			traits = {
-				naval_theorist
-			}
+		country_leader={
+			ideology=constitutionalist
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### ARMY CHIEFS ###
-
-	# Alexander von Falkenhausen in shared file
-
-	# Chen Jitang is up there in this file along with other Unit and Country Leaders
-
-	GXC_huang_shaohong={
-		name=GXC_huang_shaohong
+	GXC_liang_fang={
+		name="Liang Fang"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = GXC_huang_shaohong
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ silent_workhorse dealbroker }
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### NAVY CHIEFS ###
-
-	GXC_huo_duyi={
-		name=GXC_huo_duyi
+	GXC_pan_jiang={
+		name="Pan Jiang"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 			}
 		}
-		advisor={
-			slot = navy_chief
-			idea_token = GXC_huo_duyi
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				navy_chief_naval_aviation_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=centrist
+			traits={ war_industrialist }
+			expire="2010.1.1.12"
+			id=-1
 		}
 	}
-
-	GXC_bai_chongxi={
-		name=GXC_bai_chongxi
+	GXC_huang_peng={
+		name="Huang Peng"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_3"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
 			}
 		}
-		advisor={
-			slot = navy_chief
-			idea_token = GXC_bai_chongxi
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				navy_chief_reform_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### AIR CHIEFS ###
-
-	# Claire Lee Chennault is in shared file
-
-	GXC_wang_shuming={
-		name=GXC_wang_shuming
+	GXC_liu_tian={
+		name="Liu Tian"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
 			}
 		}
-		advisor={
-			slot = air_chief
-			idea_token = GXC_wang_shuming
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				air_chief_ground_support_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=green
+			traits={ friend_of_russia retired_officer }
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
-
-	GXC_niu_keung={
-		name=GXC_niu_keung
+	GXC_zhang_ting={
+		name="Zhang Ting"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
 			}
 		}
-		advisor={
-			slot = air_chief
-			idea_token = GXC_niu_keung
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				air_chief_safety_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_china national_integralist }
+			expire="2014.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### MILITARY HIGH COMMAND ###
-
-	GXC_yang_hulin={
-		name=GXC_yang_hulin
+	GXC_kwong_lü={
+		name="Kwong Lü"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_2.dds"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = GXC_yang_hulin
-			ledger = air
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				air_air_superiority_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	GXC_do_liang={
-		name=GXC_do_liang
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_1"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = GXC_do_liang
-			ledger = army
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				army_armored_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	GXC_teng_qingshan={
-		name=GXC_teng_qingshan
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_5"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = GXC_teng_qingshan
-			ledger = army
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				army_regrouping_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	GXC_zha_zemin={
-		name=GXC_zha_zemin
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_2"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = GXC_zha_zemin
-			ledger = navy
-			allowed = {
-				original_tag = GXC
-			}
-			traits = {
-				navy_screen_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-
-	### POLITICAL ADVISORS ###
-
-	# Dai Li in shared file
-	# T.V. Soong in shared file
-	# Deng Xiaoping in shared file
-	# Kang Sheng in shared file
-	# Luo Ruiqing in shared file
-
-	# Li Zongren is up there in this file along with other Country Leaders
-
-	GXC_li_jishen={
-		name=GXC_li_jishen
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_2"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GXC_li_jishen
-			allowed  = {
-				original_tag  = GXC
-			}
-			traits  = {
-				smooth_talking_charmer 
-			}
-		}
-	}
-
-	GXC_lei_zhong={
-		name=GXC_lei_zhong
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_3"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = GXC_lei_zhong
-			allowed  = {
-				original_tag  = GXC
-			}
-			traits  = {
-				popular_figurehead 
-			}
+		country_leader={
+			ideology=maoist
+			traits={ enemy_of_britain }
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
 }

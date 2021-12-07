@@ -1,0 +1,194 @@
+characters={
+	RCG_augustecélestin_gongarad_nkoua={
+		name="Auguste-Célestin Gongarad Nkoua"
+		portraits={
+			civilian={
+				large="gfx/leaders/RCG/Auguste_Nkoua.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RCG_denis_sassounguesso={
+		name="Denis Sassou-Nguesso"
+		portraits={
+			civilian={
+				large="gfx/leaders/RCG/Denis_Nguesso.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RCG_joseph_kignoumbi_kia_mboungou={
+		name="Joseph Kignoumbi Kia Mboungou"
+		portraits={
+			civilian={
+				large="gfx/leaders/RCG/Joseph_Mboungou.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RCG_guy_brice_parfait_kolélas={
+		name="Guy Brice Parfait Kolélas"
+		portraits={
+			civilian={
+				large="gfx/leaders/RCG/Guy_Kolelas.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RCG_andré_milongo={
+		name="André Milongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/RCG/Andre_Milongo.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RCG_jeanpierre_thystère_tchicaya={
+		name="Jean-Pierre Thystère Tchicaya"
+		portraits={
+			civilian={
+				large="gfx/leaders/RCG/Jean_Tchicaya.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RCG_guy_blanchard_okoi={
+		name="Guy Blanchard Okoi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RCG/generals/Guy_Okoi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RCG_emmanuel_cabylivannah={
+		name="Emmanuel Caby-Livannah"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ tenacious_negotiator friend_of_america }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	RCG_bill_ndinga={
+		name="Bill N'Dinga"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ hawk }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	RCG_rodolphe_minga={
+		name="Rodolphe Minga"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ editor quartermaster_general }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	RCG_goma_yoka={
+		name="Goma Yoka"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	RCG_denis_milongo={
+		name="Denis Milongo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	RCG_andre_diamoneka={
+		name="Andre Diamoneka"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_america friend_of_russia }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	RCG_ferdinand_mendga={
+		name="Ferdinand Mendga"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+}

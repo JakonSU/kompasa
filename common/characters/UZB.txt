@@ -1,0 +1,168 @@
+characters={
+	UZB_islam_karimov={
+		name="Islam Karimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/UZB/Islam_Karimov.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UZB_ravshanbek_salamov={
+		name="Ravshanbek Salamov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_japan }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	UZB_shuhrat_jumaniyozov={
+		name="Shuhrat Jumaniyozov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ road_builder captain_of_industry }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	UZB_yunusbek_burkhanov={
+		name="Yunusbek Burkhanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ fortification_engineer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	UZB_abdusalom_yusufov={
+		name="Abdusalom Yusufov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ silent_workhorse reluctant_interventionist }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	UZB_bakhretdin_saidov={
+		name="Bakhretdin Saidov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ ideological_crusader compassionate_gentleman }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	UZB_habibullo_jorayev={
+		name="Habibullo Jo'rayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_russia friend_of_india }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	UZB_jora_babaev={
+		name="Jo'ra Babaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ reluctant_interventionist }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	UZB_nosir_abdullaev={
+		name="Nosir Abdullaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_russia }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	UZB_rishod_salamov={
+		name="Rishod Salamov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	UZB_sobir_murodov={
+		name="Sobir Murodov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_america friend_of_india }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	UZB_zokir_cheryazov={
+		name="Zokir Cheryazov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_2.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ enemy_of_britain agricultural_expert }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

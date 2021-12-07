@@ -1,0 +1,164 @@
+characters={
+	CRC_dirk_asjes={
+		name="Dirk Asjes"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ friend_of_america }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	CRC_jacob_harberts={
+		name="Jacob Harberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	CRC_theodorus_maas={
+		name="Theodorus Maas"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CRC_jacob_van_den_hof={
+		name="Jacob van den Hof"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ hawk experienced_attorney }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	CRC_albert_landzaat={
+		name="Albert Landzaat"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ compassionate_gentleman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	CRC_ferdinand_bischoff_van_heemskerk={
+		name="Ferdinand Bischoff van Heemskerk"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CRC_matthijs_elias={
+		name="Matthijs Elias"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	CRC_jacobus_vos={
+		name="Jacobus Vos"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	CRC_jacobus_bruggink={
+		name="Jacobus Bruggink"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_china smooth_talking_charmer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	CRC_anthony_leegstra={
+		name="Anthony Leegstra"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_japan agricultural_expert }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	CRC_nicolaas_van_helsdingen={
+		name="Nicolaas van Helsdingen"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_france }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	CRC_freek_hilberdink={
+		name="Freek Hilberdink"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

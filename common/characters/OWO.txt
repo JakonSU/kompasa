@@ -1,0 +1,173 @@
+characters={
+	OWO_anime={
+		name="Anime"
+		portraits={
+			civilian={
+				large="gfx/leaders/OWO/owoo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OWO_hakainde_hichilema={
+		name="Hakainde Hichilema"
+		portraits={
+			civilian={
+				large="gfx/leaders/OWO/Hakainde_Hichilema.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OWO_elias_chipimo_jr.={
+		name="Elias Chipimo Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/OWO/Elias_Chipimo.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OWO_godfrey_miyanda={
+		name="Godfrey Miyanda"
+		portraits={
+			civilian={
+				large="gfx/leaders/OWO/Godfrey_Miyanda.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	OWO_nathan_mulenga={
+		name="Nathan Mulenga"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	OWO_peter_taylor={
+		name="Peter Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_britain }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	OWO_john_doe={
+		name="John Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	OWO_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ agricultural_expert retired_officer }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	OWO_lucas_wilson={
+		name="Lucas Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	OWO_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_germany tenacious_negotiator }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	OWO_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	OWO_jonas_evans={
+		name="Jonas Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_lindy.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ war_industrialist compassionate_gentleman }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+}

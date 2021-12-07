@@ -1,0 +1,165 @@
+characters={
+	BIA_johannes_brown={
+		name="Johannes Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ agricultural_expert }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	BIA_alexander_smith={
+		name="Reneé Kościanek"
+		portraits={
+			civilian={
+				large="gfx/leaders/BIA/gg.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	BIA_lucas_white={
+		name="Lucas White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BIA_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_germany }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	BIA_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ enemy_of_japan hawk }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	BIA_jim_doe={
+		name="Jim Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ enemy_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	BIA_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_lindy.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ famous_businessman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	BIA_johannes_wilson={
+		name="Johannes Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	BIA_marcus_jones={
+		name="Marcus Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ reluctant_interventionist tenacious_negotiator }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	BIA_marcus_roberts={
+		name="Marcus Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	BIA_jonas_walker={
+		name="Jonas Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	BIA_bob_williams={
+		name="Bob Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ silent_workhorse friend_of_india }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

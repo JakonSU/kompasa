@@ -1,0 +1,165 @@
+characters={
+	IVO_laurent_gbagbo={
+		name="Laurent Gbagbo"
+		portraits={
+			civilian={
+				large="gfx/leaders/IVO/Laurent_Gbagbo.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2011.4.11.1"
+			id=-1
+		}
+	}
+	IVO_edgar_zaourou={
+		name="Edgar Zaourou"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	IVO_gnagno_akaahizi={
+		name="Gnagno Aka-Ahizi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ enemy_of_britain }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	IVO_soum_djaument={
+		name="Soum Djaument"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_japan armaments_organizer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	IVO_georges_fagnidi={
+		name="Georges Fagnidi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_america war_industrialist }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	IVO_jeanmarie_kalou={
+		name="Jean-Marie Kalou"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	IVO_ahmed_sedji={
+		name="Ahmed Sedji"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ enemy_of_russia friend_of_france }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	IVO_sebastien_bakary={
+		name="Sebastien Bakary"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	IVO_mamadou_gaye={
+		name="Mamadou Gaye"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ friend_of_japan }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	IVO_ismael_koffi={
+		name="Ismael Koffi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	IVO_youssoufou_siriki={
+		name="Youssoufou Siriki"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ financial_expert }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	IVO_paul_yace={
+		name="Paul Yace"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			traits={ enemy_of_russia enemy_of_britain }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+}

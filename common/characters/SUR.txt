@@ -1,0 +1,289 @@
+characters={
+	SUR_ronald_venetiaan={
+		name="Ronald Venetiaan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUR/Ronald_Venetiaan.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SUR_adolf_jardim={
+		name="Adolf Jardim"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SUR/Portrait_Adolf_Jardim.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SUR_robert_kartodikromo={
+		name="Robert Kartodikromo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SUR/Portrait_Robert_Kartodikromo.dds"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SUR_egmond_letterboom={
+		name="Egmond Letterboom"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SUR/Portrait_Egmond_Letterboom.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SUR_henri_van_axeldongen={
+		name="Henri van Axeldongen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SUR/Portrait_Henri_van_Axeldongen.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SUR_maipath_ganpat={
+		name="Maipath Ganpat"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SUR/Portrait_Maipath_Ganpat.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SUR_marino_acton={
+		name="Marino Acton"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SUR/Portrait_Marino_Acton.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SUR_jan_jacott={
+		name="Jan Jacott"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ enemy_of_france }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SUR_ronald_rijger={
+		name="Ronald Rijger"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_germany }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	SUR_bram_jacott={
+		name="Bram Jacott"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ friend_of_china }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SUR_johan_davids={
+		name="Johan Davids"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ hawk }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SUR_jan_huiswoud={
+		name="Jan Huiswoud"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ retired_officer }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	SUR_johan_van_den_stoom={
+		name="Johan van den Stoom"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ friend_of_japan }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	SUR_paul_lichtveld={
+		name="Paul Lichtveld"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ famous_businessman }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SUR_ronnie_spong={
+		name="Ronnie Spong"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ reluctant_interventionist }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SUR_paul_jannath={
+		name="Paul Jannath"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ economist }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	SUR_clarence_ajodhia={
+		name="Clarence Ajodhia"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ fortification_engineer appeaser }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	SUR_harry_moll={
+		name="Harry Moll"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ dealbroker }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

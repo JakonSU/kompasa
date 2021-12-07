@@ -1,0 +1,166 @@
+characters={
+	FIJ_josefa_iloilo={
+		name="Josefa Iloilo"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIJ/Josefa_Iloilo.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	FIJ_sangeeta_punja={
+		name="Sangeeta Punja"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ armaments_organizer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_solofa_samisoni={
+		name="Solofa Samisoni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ road_builder enemy_of_britain }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_lovelite_bhagwanrolls={
+		name="Lovelite Bhagwan-Rolls"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ captain_of_industry }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_tulaga_thomas={
+		name="Tulaga Thomas"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_8.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_japan friend_of_america }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_uati_doweiya={
+		name="Uati Doweiya"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_reanna_punja={
+		name="Reanna Punja"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_fiatau_samisoni={
+		name="Fiatau Samisoni"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_teekoa_bhagwanrolls={
+		name="Teekoa Bhagwan-Rolls"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ fortification_engineer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_sarojini_bune={
+		name="Sarojini Bune"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ editor friend_of_germany }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_koloa_luka={
+		name="Koloa Luka"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ famous_businessman }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	FIJ_millicent_malielegaoi={
+		name="Millicent Malielegaoi"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ agricultural_expert enemy_of_japan }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,165 @@
+characters={
+	CAT_blai_basaraz={
+		name="Blai Basaraz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ retired_officer eager_collaborator }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	CAT_josp_arcadio={
+		name="Josp Arcadio"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	CAT_arturo_aixarás={
+		name="Arturo Aixarás"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_japan eager_collaborator }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	CAT_guillem_jiménez={
+		name="Guillem Jiménez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	CAT_nil_topete={
+		name="Nil Topete"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ economist }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	CAT_feliu_sánchez={
+		name="Feliu Sánchez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ ideological_crusader captain_of_industry }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	CAT_manel_martí={
+		name="Manel Martí"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ national_integralist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAT_arnau_linares={
+		name="Arnau Linares"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	CAT_gerard_valdés={
+		name="Gerard Valdés"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ reluctant_interventionist }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	CAT_ricard_garrido={
+		name="Ricard Garrido"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	CAT_federico_espartero={
+		name="Federico Espartero"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ economist }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	CAT_luis_ramírez={
+		name="Luis Ramírez"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,427 +1,409 @@
 characters={
-	UAE_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = UAE_stc
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_khalifa_bin_zayed={
+		name="Khalifa bin Zayed"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_3"
+			civilian={
+				large="gfx/leaders/UAE/Khalifa_Bin_Zayed.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = UAE_aco2
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_sultan_bin_kayed_alqasimi={
+		name="Sultan bin Kayed Al-Qasimi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
+			civilian={
+				large="gfx/leaders/UAE/Sultan_Al_Qasimi.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_aa2={
-		advisor={
-			slot = high_command
-			idea_token = UAE_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_khaled_aldakhil={
+		name="Khaled Al-Dakhil"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
+			civilian={
+				large="gfx/leaders/UAE/Khaled_Al-Dakhil.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_ncs={
-		advisor={
-			slot = high_command
-			idea_token = UAE_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_nasir_bin_ghaith={
+		name="Nasir bin Ghaith"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_2"
+			civilian={
+				large="gfx/leaders/UAE/Nasir_bin_Ghaith.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_nt={
-		advisor={
-			slot = theorist
-			idea_token = UAE_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_ibrahim_al_haram={
+		name="Ibrahim Al Haram"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_3"
+			civilian={
+				large="gfx/leaders/UAE/Ibrahim_Al_Haram.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_acas={
-		advisor={
-			slot = high_command
-			idea_token = UAE_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_abdul_khaliq_abdullah={
+		name="Abdul Khaliq Abdullah"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_2"
+			civilian={
+				large="gfx/leaders/UAE/Abdul_Khaliq_Abdullah.dds"
 			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = UAE_acd2
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_sultan_saud_alqasimi={
+		name="Sultan Saud Al-Qasimi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_1"
+			civilian={
+				large="gfx/leaders/UAE/Sultan_S_Qasimi.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = UAE_democratic_guy
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_ahmed_al_jarwan={
+		name="Ahmed Al Jarwan"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_1"
+			civilian={
+				large="gfx/leaders/UAE/Ahmed_Al_Jarwan.dds"
 			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_mt={
-		advisor={
-			slot = theorist
-			idea_token = UAE_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_khaled_al_qasimi={
+		name="Khaled Al Qasimi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_1"
+			civilian={
+				large="gfx/leaders/UAE/Khaled_Al_Qasimi.dds"
 			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_ai2={
-		advisor={
-			slot = high_command
-			idea_token = UAE_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_sultan_bin_mohammed_alqasimi={
+		name="Sultan bin Mohammed Al-Qasimi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
+			civilian={
+				large="gfx/leaders/UAE/Sultan_M_Qasimi.dds"
 			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = UAE_coi
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_saadat_jamal_al_zaabi={
+		name="Sa'adat Jamal Al Zaabi"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_1"
+			civilian={
+				large="gfx/leaders/UAE/Saadat_J_Zaabi.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_acr={
-		advisor={
-			slot = air_chief
-			idea_token = UAE_acr
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_louay_mohammad_deeb={
+		name="Louay Mohammad Deeb"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
+			civilian={
+				large="gfx/leaders/UAE/Louay_M_Deeb.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	UAE_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = UAE_pot
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_hamad_mohammed_alrumaithi={
+		name="Hamad Mohammed Al-Rumaithi"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Hamad_Mohammed_Al-Rumaithi.dds"
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_awt={
-		advisor={
-			slot = theorist
-			idea_token = UAE_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_gomaa_ahmed_albawardi={
+		name="Gomaa Ahmed Al-Bawardi"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Gomaa_A_Bawardi.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = UAE_communist_guy
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_saleh_mohammed_alameri={
+		name="Saleh Mohammed Al-Ameri"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Saleh_M_Ameri.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = UAE_ncm
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_ahmed_bin_tahnoon={
+		name="Ahmed Bin Tahnoon"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Ahmed_Tahnoon.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = UAE_acgs
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_issa_saif_almazrouei={
+		name="Issa Saif Al-Mazrouei"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Issa_S_Mazrouei.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = UAE_nccr
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_al_matrooshi_mourn={
+		name="Al Matrooshi Mourn"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Al_Matrooshi_Mourn.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = UAE_fascist_guy
-			allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_khalifa_bin_nahila={
+		name="Khalifa bin Nahila"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
+				small="gfx/interface/ideas/idea_SAU_generic_land_1.dds"
 			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	UAE_ar={
-		advisor={
-			slot = high_command
-			idea_token = UAE_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = UAE
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	UAE_mohammed_al_dhahiri={
+		name="Mohammed Al Dhahiri"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/UAE/Mohammed_Al_Dhahiri.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAE_abdul_qudous_abdul_razzaq={
+		name="Abdul Qudous Abdul Razzaq"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/UAE/Abdul_Qudous_Abdul_Razzaq.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAE_hamad_adil_alshamsi={
+		name="Hamad Adil Al-Shamsi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/UAE/Hamad_A_AlShamsi.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAE_mubarak_bin_muhairoum={
+		name="Mubarak bin Muhairoum"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/UAE/Mubarak_Muhairoum.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAE_mubarak_abdullah_almuhairi={
+		name="Mubarak Abdullah Al-Muhairi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/UAE/Al_Muhairi.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAE_ibrahim_salem_mohammed={
+		name="Ibrahim Salem Mohammed"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/UAE/Ib_S_Mohammed.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
 }

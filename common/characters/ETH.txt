@@ -1,438 +1,214 @@
 characters={
-	ETH_haile_selassie={
-		name=ETH_haile_selassie
+	ETH_abdifatah_sheikh_abdullahi={
+		name="Abdifatah Sheikh Abdullahi"
 		portraits={
 			civilian={
-				large="gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+				large="gfx/leaders/ETH/Abdifatah_Abdullahi.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ETH_fitawrari_yeebio_woldai={
-		name=ETH_fitawrari_yeebio_woldai
+	ETH_meles_zenawi={
+		name="Meles Zenawi"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+				large="gfx/leaders/ETH/Meles_Zenawi.dds"
 			}
 		}
 		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ETH_seyoum_mengesha={
-		name=ETH_seyoum_mengesha
+	ETH_birtukan_mideksa={
+		name="Birtukan Mideksa"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Birtukan_Mideksa.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_hailu_shawul={
+		name="Hailu Shawul"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Hailu_Shawul.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_dr._chane_kebede={
+		name="Dr. Chane Kebede"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Chane_Kebede.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_zera_yacob_amha_selassie={
+		name="Zera Yacob Amha Selassie"
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Zera_Selassie.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	ETH_birhanu_julla={
+		name="Birhanu Julla"
 		portraits={
 			army={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-				small="gfx/interface/ideas/idea_africa_generic_land_3.dds"
+				small=""
+			}
+			army={
+				large="gfx/leaders/ETH/generals/Birhanu_Julla.dds"
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
 		}
 	}
-	ETH_amare_makonnen={
-		name=ETH_amare_makonnen
+	ETH_samora_yunis={
+		name="Samora Yunis"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ETH/generals/Samora_Yunis.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ETH_demissie_mikael={
+		name="Demissie Mikael"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+				large="gfx/leaders/Africa/politician3.dds"
 			}
 		}
 		country_leader={
-			ideology=stalinism
-			expire="1942.1.1.12"
+			ideology=islamic_authoritarian
+			traits={ friend_of_japan }
+			expire="2013.1.1.12"
 			id=-1
 		}
 	}
-	ETH_haile_mariam={
-		name=ETH_haile_mariam
+	ETH_kelile_mariam={
+		name="Kelile Mariam"
 		portraits={
 			civilian={
-				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+				large="gfx/leaders/Africa/general3.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			traits={ captain_of_industry }
-			expire="1942.1.1.12"
+			ideology=fascist_ideology
+			traits={ silent_workhorse enemy_of_france }
+			expire="2009.1.1.12"
 			id=-1
 		}
 	}
-	ETH_gabriel_zawde_gilaneh={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ETH_gabriel_zawde_gilaneh
-			ledger = air
-				allowed = {
-					original_tag = ETH
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-		name=ETH_gabriel_zawde_gilaneh
+	ETH_demissie_makonnen={
+		name="Demissie Makonnen"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="2005.1.1.12"
+			id=-1
 		}
 	}
-	ETH_woldemeskal_tariku={
-		advisor={
-			slot = high_command
-			idea_token = ETH_woldemeskal_tariku
-			ledger = army
-				allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					army_regrouping_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_woldemeskal_tariku
+	ETH_negasi_mariam={
+		name="Negasi Mariam"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_1"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_britain }
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
-	ETH_ras_kebbede={
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = ETH_ras_kebbede
-			ledger = army
-				allowed = {
-					original_tag = ETH
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-		name=ETH_ras_kebbede
+	ETH_saleh_seged={
+		name="Saleh Seged"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ financial_expert }
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
-	ETH_wondossen_kassa={
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = ETH_wondossen_kassa
-			ledger = navy
-				allowed = {
-					original_tag = ETH
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-		name=ETH_wondossen_kassa
+	ETH_negasi_makonnen={
+		name="Negasi Makonnen"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_3"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ fortification_engineer enemy_of_china }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	ETH_ras_kassa={
-		advisor={
-			slot = army_chief
-			idea_token = ETH_ras_kassa
-			allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_ras_kassa
+	ETH_desta_melekot={
+		name="Desta Melekot"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_1"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
 		}
-	}
-	ETH_dedja_zinatch_nadeon={
-		advisor={
-			slot = high_command
-			idea_token = ETH_dedja_zinatch_nadeon
-			ledger = navy
-				allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					navy_capital_ship_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_dedja_zinatch_nadeon
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_2"
-			}
-		}
-	}
-	ETH_haile_abba_mersa={
-		advisor={
-			slot = high_command
-			idea_token = ETH_haile_abba_mersa
-			ledger = army
-				allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_haile_abba_mersa
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
-			}
-		}
-	}
-	ETH_ras_seyum={
-		advisor={
-			slot = navy_chief
-			idea_token = ETH_ras_seyum
-			allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					navy_chief_commerce_raiding_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_ras_seyum
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_2"
-			}
-		}
-	}
-	ETH_mesfin_sileshi={
-		advisor={
-			slot = air_chief
-			idea_token = ETH_mesfin_sileshi
-			allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_mesfin_sileshi
-		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
-			}
-		}
-	}
-	ETH_lij_abiye_abebe={
-		advisor={
-			slot = high_command
-			idea_token = ETH_lij_abiye_abebe
-			ledger = army
-				allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					army_armored_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_lij_abiye_abebe
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
-			}
-		}
-	}
-	ETH_john_robinson={
-		advisor={
-			slot = air_chief
-			idea_token = ETH_john_robinson
-			allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					air_chief_reform_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_john_robinson
-		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
-			}
-		}
-	}
-	ETH_lij_johannes={
-		advisor={
-			slot = navy_chief
-			idea_token = ETH_lij_johannes
-			allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					navy_chief_maneuver_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_lij_johannes
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_3"
-			}
-		}
-	}
-	ETH_fitauri_zawde_gobena={
-		advisor={
-			slot = high_command
-			idea_token = ETH_fitauri_zawde_gobena
-			ledger = air
-				allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					air_close_air_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_fitauri_zawde_gobena
-		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_2"
-			}
-		}
-	}
-	ETH_desta_damtew={
-		advisor={
-			slot = army_chief
-			idea_token = ETH_desta_damtew
-			allowed = {
-					original_tag = ETH
-				}
-				traits = {
-					army_chief_organizational_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-		name=ETH_desta_damtew
-		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
-			}
-		}
-	}
-	ETH_ras_imru_haile_selassie={
-		advisor={
-			slot = political_advisor
-			idea_token = ETH_ras_imru_haile_selassie
-			allowed  = {
-					original_tag  = ETH
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-		name=ETH_ras_imru_haile_selassie
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_1"
-			}
-		}
-	}
-	ETH_bedjironde_tekle_hawariate={
-		advisor={
-			slot = political_advisor
-			idea_token = ETH_bedjironde_tekle_hawariate
-			allowed  = {
-					original_tag  = ETH
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-		name=ETH_bedjironde_tekle_hawariate
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
-			}
-		}
-	}
-	ETH_makonnen_endelkatchew={
-		advisor={
-			slot = political_advisor
-			idea_token = ETH_makonnen_endelkatchew
-			allowed  = {
-					original_tag  = ETH
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-		name=ETH_makonnen_endelkatchew
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_arab_3"
-			}
+		country_leader={
+			ideology=maoist
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
 }

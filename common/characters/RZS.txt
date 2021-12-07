@@ -1,0 +1,205 @@
+characters={
+	RZS_kuba_Łacny={
+		name="Kuba Łacny"
+		portraits={
+			civilian={
+				large="gfx/leaders/RZS/lac.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RZS_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RZS_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RZS_john_brown={
+		name="John Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ ideological_crusader }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	RZS_alexander_smith={
+		name="Alexander Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ retired_officer editor }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	RZS_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ editor }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	RZS_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	RZS_lucas_taylor={
+		name="Lucas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ friend_of_india }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	RZS_johannes_smith={
+		name="Johannes Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_france retired_officer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	RZS_alex_walker={
+		name="Alex Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	RZS_bob_wilson={
+		name="Bob Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ compassionate_gentleman economist }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	RZS_alex_taylor={
+		name="Alex Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ tenacious_negotiator }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	RZS_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_lindy.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ eager_collaborator }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	RZS_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ armaments_organizer economist }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+}

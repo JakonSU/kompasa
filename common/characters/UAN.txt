@@ -1,0 +1,204 @@
+characters={
+	UAN_borys_johnson={
+		name="Borys Johnson"
+		portraits={
+			civilian={
+				large="gfx/leaders/UAN/3500.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	UAN_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAN_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	UAN_marcus_white={
+		name="Marcus White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ financial_expert }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	UAN_jim_evans={
+		name="Jim Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ road_builder }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	UAN_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	UAN_lucas_doe={
+		name="Lucas Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ editor enemy_of_india }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	UAN_peter_evans={
+		name="Peter Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ hawk }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	UAN_john_williams={
+		name="John Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	UAN_peter_jones={
+		name="Peter Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_japan friend_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	UAN_marcus_roberts={
+		name="Marcus Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_china enemy_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	UAN_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	UAN_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	UAN_jonas_jones={
+		name="Jonas Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ economist hawk }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+}

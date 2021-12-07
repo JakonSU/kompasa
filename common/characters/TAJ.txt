@@ -1,0 +1,165 @@
+characters={
+	TAJ_emomali_rahmon={
+		name="Emomali Rahmon"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAJ/Emomali_Rahmon.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TAJ_farkhod_rakhimov={
+		name="Farkhod Rakhimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_mirali_sultanov={
+		name="Mirali Sultanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ friend_of_japan }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_sadullo_abdullaev={
+		name="Sadullo Abdullaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_raimkul_azizov={
+		name="Raimkul Azizov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_abdullohi_isaev={
+		name="Abdullohi Isaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ friend_of_france armaments_organizer }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_ilhom_kurbanov={
+		name="Ilhom Kurbanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_germany captain_of_industry }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_firuz_qurbonov={
+		name="Firuz Qurbonov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_8.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_ustoz_sultanov={
+		name="Ustoz Sultanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ fortification_engineer enemy_of_america }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_sadullo_abdulayev={
+		name="Sadullo Abdulayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ compassionate_gentleman enemy_of_germany }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_bakhriddin_azizov={
+		name="Bakhriddin Azizov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ financial_expert enemy_of_china }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TAJ_khakim_idrisov={
+		name="Khakim Idrisov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ tenacious_negotiator dealbroker }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+}

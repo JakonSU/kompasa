@@ -1,0 +1,186 @@
+characters={
+	LAO_khamtay_siphandone={
+		name="Khamtay Siphandone"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Khamtay_Siphandone.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	LAO_douangchay_phichit={
+		name="Douangchay Phichit"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LAO/generals/Douangchay_Phichit.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LAO_anousone_thammavong={
+		name="Anousone Thammavong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ friend_of_russia economist }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	LAO_phouvong_inthavong={
+		name="Phouvong Inthavong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ dealbroker }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LAO_ai_lee={
+		name="Ai Lee"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ ideological_crusader captain_of_industry }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	LAO_bounthavy_noy={
+		name="Bounthavy Noy"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ agricultural_expert editor }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	LAO_bounthavy_lor={
+		name="Bounthavy Lor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LAO_seng_xayavong={
+		name="Seng Xayavong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	LAO_sengphet_chanthavong={
+		name="Sengphet Chanthavong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ enemy_of_japan reluctant_interventionist }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	LAO_bounthavy_xayavong={
+		name="Bounthavy Xayavong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			traits={ enemy_of_america famous_businessman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	LAO_sengphet_nguyen={
+		name="Sengphet Nguyen"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_india }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	LAO_vanh_sayavong={
+		name="Vanh Sayavong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_8.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ smooth_talking_charmer enemy_of_japan }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	LAO_somphone_keo={
+		name="Somphone Keo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ tenacious_negotiator famous_businessman }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+}

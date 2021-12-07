@@ -1,0 +1,464 @@
+characters={
+	WEN_jakub_dras={
+		name="Jakub Dras"
+		portraits={
+			civilian={
+				large="gfx/leaders/WEN/wen.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WEN_tibor_benkő={
+		name="Tibor Benkő"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Tibor_Benko.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_albert_sáfár={
+		name="Albert Sáfár"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Albert_Safar.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_attila_takács={
+		name="Attila Takács"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Attila_Takacs.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_gabor_horvath={
+		name="Gabor Horvath"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Gabor_Horvath.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_tamás_fekete={
+		name="Tamás Fekete"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Tamas_Fekete.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_józsef_szpisják={
+		name="József Szpisják"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Jozsef_Szpisjak.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_romulusz_ruszin={
+		name="Romulusz Ruszin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Ruszin_Romulusz.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_lászló_drót={
+		name="László Drót"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Laszlo_Drot.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_józsef_kovács={
+		name="József Kovács"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Josef_Kovacs.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_jószef_horvath={
+		name="Jószef Horvath"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Joszef_Horvath.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_sandor_fucsku={
+		name="Sandor Fucsku"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Sandor_Fucsku.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_lászló_domján={
+		name="László Domján"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Laszlo_Domjan.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_jános_huszár={
+		name="János Huszár"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Janos_Huszar.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_zoltan_mihocza={
+		name="Zoltan Mihocza"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Zoltan_Mihocza.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_lászló_gangler={
+		name="László Gangler"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/WEN/Portrait_Laszlo_Gangler.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WEN_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	WEN_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ hawk friend_of_russia }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	WEN_alexander_evans={
+		name="Alexander Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	WEN_john_brown={
+		name="John Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_china ideological_crusader }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	WEN_lucas_smith={
+		name="Lucas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ friend_of_america }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	WEN_jim_walker={
+		name="Jim Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_japan economist }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	WEN_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ compassionate_gentleman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	WEN_bob_jones={
+		name="Bob Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	WEN_alex_roberts={
+		name="Alex Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	WEN_bob_white={
+		name="Bob White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_japan editor }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	WEN_jonas_williams={
+		name="Jonas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_communist3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ appeaser ideological_crusader }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

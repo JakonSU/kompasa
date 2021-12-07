@@ -1,427 +1,166 @@
 characters={
-	VOL_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = VOL_acd2
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_blaise_compaore={
+		name="Blaise Compaore"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_1"
+			civilian={
+				large="gfx/leaders/VOL/Blaise_Compaore.dds"
 			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	VOL_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = VOL_ncm
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_koch_marc_christian_kabore={
+		name="Koch Marc Christian Kabore"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+			civilian={
+				large="gfx/leaders/VOL/Koch_Marc_Christian_Kabore.dds"
 			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	VOL_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = VOL_nccr
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_gerard_yougbara={
+		name="Gerard Yougbara"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_russia fortification_engineer }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	VOL_ai2={
-		advisor={
-			slot = high_command
-			idea_token = VOL_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_lassina_balima={
+		name="Lassina Balima"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
+			civilian={
+				large="gfx/leaders/Africa/general2.dds"
 			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ retired_officer }
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
-	VOL_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = VOL_stc
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_alidou_traore={
+		name="Alidou Traore"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ quartermaster_general }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-	VOL_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = VOL_pot
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_henri_tiao={
+		name="Henri Tiao"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_germany }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	VOL_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = VOL_aco2
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_boureima_soulama={
+		name="Boureima Soulama"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ road_builder armaments_organizer }
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
-	VOL_aa2={
-		advisor={
-			slot = high_command
-			idea_token = VOL_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_bilgho_somdah={
+		name="Bilgho Somdah"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ retired_officer war_industrialist }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-	VOL_nt={
-		advisor={
-			slot = theorist
-			idea_token = VOL_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_alidou_nacro={
+		name="Alidou Nacro"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
-	VOL_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = VOL_communist_guy
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_ablasse_guissou={
+		name="Ablasse Guissou"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=green
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
-	VOL_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = VOL_democratic_guy
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_boubacar_kougri={
+		name="Boubacar Kougri"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ financial_expert eager_collaborator }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-	VOL_mt={
-		advisor={
-			slot = theorist
-			idea_token = VOL_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	VOL_joseph_damiba={
+		name="Joseph Damiba"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_6"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
 		}
-	}
-	VOL_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = VOL_acgs
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	VOL_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = VOL_coi
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
-			}
-		}
-	}
-	VOL_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = VOL_fascist_guy
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
-			}
-		}
-	}
-	VOL_ar={
-		advisor={
-			slot = high_command
-			idea_token = VOL_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
-			}
-		}
-	}
-	VOL_acr={
-		advisor={
-			slot = air_chief
-			idea_token = VOL_acr
-			allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	VOL_ncs={
-		advisor={
-			slot = high_command
-			idea_token = VOL_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	VOL_awt={
-		advisor={
-			slot = theorist
-			idea_token = VOL_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
-		}
-	}
-	VOL_acas={
-		advisor={
-			slot = high_command
-			idea_token = VOL_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = VOL
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
+		country_leader={
+			ideology=maoist
+			traits={ friend_of_america }
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
 }

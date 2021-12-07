@@ -1,0 +1,204 @@
+characters={
+	HNZ_vladislav_ardzinba={
+		name="Vladislav Ardzinba"
+		portraits={
+			civilian={
+				large="gfx/leaders/HNZ/Vladislav_Ardzinba.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	HNZ_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HNZ_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HNZ_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ compassionate_gentleman }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_john_evans={
+		name="John Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_alexander_taylor={
+		name="Alexander Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_jim_doe={
+		name="Jim Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ famous_businessman experienced_attorney }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_jim_white={
+		name="Jim White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ enemy_of_germany }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_bob_wilson={
+		name="Bob Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ enemy_of_japan }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_jonas_taylor={
+		name="Jonas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ enemy_of_america road_builder }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_marcus_doe={
+		name="Marcus Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ road_builder }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ reluctant_interventionist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_alex_brown={
+		name="Alex Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	HNZ_johannes_jones={
+		name="Johannes Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ friend_of_russia road_builder }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,454 +1,512 @@
 characters={
-	PER_reza_shah_pahlavi={
-		name="Reza Shah Pahlavi"
+	PER_ali_hosseini_khamenei={
+		name="Ali Hosseini Khamenei"
 		portraits={
 			civilian={
-				large="gfx/leaders/PER/Portrait_Iran_Reza_Shah_Pahlavi.dds"
+				large="gfx/leaders/PER/Ali_Hosseini_Khamenei.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PER_soleyman_mirza_eskandari={
-		name="Soleyman Mirza Eskandari"
+	PER_mohsen_pezeshkpour={
+		name="Mohsen Pezeshkpour"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+				large="gfx/leaders/PER/Mohsen_Pezeshkpour.dds"
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
-			expire="1965.1.1.1"
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PER_hasan_arfa={
-		name="Hasan Arfa"
+	PER_reza_pahlavi={
+		name="Reza Pahlavi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Reza_Pahlavi.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_roozbeh_farahanipour={
+		name="Roozbeh Farahanipour"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Roozbeh_Farahanipour.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_ebrahim_yazdi={
+		name="Ebrahim Yazdi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Ebrahim_Yazdi.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_habibollah_asgaroladi={
+		name="Habibollah Asgaroladi"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Habibollah_Asgaroladi.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_hadi_khamenei={
+		name="Hadi Khamenei"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Hadi_Khamenei.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_hossein_kamali={
+		name="Hossein Kamali"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Hossein_Kamali.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_mansoor_hekmat={
+		name="Mansoor Hekmat"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/Mansoor_Hekmat.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	PER_mohammad_bagheri={
+		name="Mohammad Bagheri"
 		portraits={
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+				small=""
+			}
+			army={
+				large="gfx/leaders/PER/Portrait_Mohammad_Bagheri.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard thorough_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PER_ataollah_salehi={
+		name="Ataollah Salehi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PER/Portrait_Ataollah_Salehi.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PER_mohammad_ali_jafari={
+		name="Mohammad Ali Jafari"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PER/Portrait_Mohammad_Ali_Jafari.dds"
 			}
 		}
 		corps_commander={
 			traits={ desert_fox }
-			skill=3
-			attack_skill=3
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=2
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
-	PER_dalir_pesyan={
-		name="Dalir Pesyan"
-		portraits={
-			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
-			}
-		}
-		country_leader={
-			ideology=socialism
-			traits={ financial_expert }
-			expire="1953.1.1.12"
-			id=-1
-		}
-	}
-	PER_sohrab_tahmasebi={
-		name="Sohrab Tahmasebi"
-		portraits={
-			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
-			}
-		}
-		country_leader={
-			ideology=rexism
-			traits={ dealbroker national_integralist }
-			expire="1948.1.1.12"
-			id=-1
-		}
-	}
-	PER_mir_afkhami={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PER_mir_afkhami
-			ledger = army
-				allowed = {
-					original_tag = PER
-				}
-				traits = {
-					army_regrouping_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mir Afkhami"
+	PER_hossein_ashtari={
+		name="Hossein Ashtari"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Hossein_Ashtari.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ahmad_khan_nakhjavan={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = PER_ahmad_khan_nakhjavan
-			allowed = {
-					original_tag = PER
-				}
-				traits = {
-					air_chief_all_weather_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ahmad Khan Nakhjavan"
+	PER_yahya_rahim_safavi={
+		name="Yahya Rahim Safavi"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Yahya_Rahim_Safavi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_reza_mizani={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = PER_reza_mizani
-			allowed = {
-					original_tag = PER
-				}
-				traits = {
-					navy_chief_maneuver_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Reza Mizani"
+	PER_abdolrahim_mousavi={
+		name="Abdolrahim Mousavi"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Abdolrahim_Mousavi.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ali_razmara={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PER_ali_razmara
-			ledger = air
-				allowed = {
-					original_tag = PER
-				}
-				traits = {
-					air_airborne_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Razmara"
+	PER_ahmad_reza_pourdastan={
+		name="Ahmad Reza Pourdastan"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Ahmad_Reza_Pourdastan.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_hassan_majid_firooz={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PER_hassan_majid_firooz
-			allowed = {
-					original_tag = PER
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hassan Majid Firooz"
+	PER_hasan_shasafi={
+		name="Hasan Sha-Safi"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Hassan_Shah-Safi.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ahmad_mira_khosravani={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PER_ahmad_mira_khosravani
-			ledger = navy
-				allowed = {
-					original_tag = PER
-				}
-				traits = {
-					navy_submarine_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ahmad Mira Khosravani"
+	PER_farzad_esmaili={
+		name="Farzad Esmaili"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Farzad_Esmaili.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ahmad_khan_nakhjaavan={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = PER_ahmad_khan_nakhjaavan
-			allowed = {
-					original_tag = PER
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ahmad Khan Nakhjaavan"
+	PER_hossein_salami={
+		name="Hossein Salami"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Hossein_Salami.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_mohammed_nakhjavani={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = PER_mohammed_nakhjavani
-			allowed = {
-					original_tag = PER
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mohammed Nakhjavani"
+	PER_mohammad_pakpour={
+		name="Mohammad Pakpour"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Mohammad_Pakpour.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_abdolreza_afkhami={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PER_abdolreza_afkhami
-			allowed = {
-					original_tag = PER
-				}
-				traits = {
-					army_chief_organizational_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Abdolreza Afkhami"
+	PER_amir_ali_hajizadeh={
+		name="Amir Ali Hajizadeh"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Amir_Ali_Hajizadeh.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_fazlollah_zahedi={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PER_fazlollah_zahedi
-			ledger = army
-				allowed = {
-					original_tag = PER
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fazlollah Zahedi"
+	PER_qasem_soleimani={
+		name="Qasem Soleimani"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Qasem_Soleimani.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_mohammed_reza_pahlavi={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PER_mohammed_reza_pahlavi
-			ledger = army
-				allowed = {
-					original_tag = PER
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mohammed Reza Pahlavi"
+	PER_kioumars_heydari={
+		name="Kioumars Heydari"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Kioumars_Heydari.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ali_akbar_deiva={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PER_ali_akbar_deiva
-			ledger = air
-				allowed = {
-					original_tag = PER
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Akbar Deiva"
+	PER_mohammad_hejazi={
+		name="Mohammad Hejazi"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Mohammad_Hejazi.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_hossein_afkhami={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PER_hossein_afkhami
-			ledger = navy
-				allowed = {
-					original_tag = PER
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hossein Afkhami"
+	PER_gholamhossein_gheybparvar={
+		name="Gholamhossein Gheybparvar"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Gholamhossein_Gheybparvar.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ali_zohayli={
-		advisor={
-			slot = political_advisor
-			idea_token = PER_ali_zohayli
-			allowed  = {
-					original_tag  = PER
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Zohayli"
+	PER_habibollah_sayyari={
+		name="Habibollah Sayyari"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Habibollah_Sayyari.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_mahmud_jam={
-		advisor={
-			slot = political_advisor
-			idea_token = PER_mahmud_jam
-			allowed  = {
-					original_tag  = PER
-				}
-				traits  = {
-					silent_workhorse 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mahmud Jam"
+	PER_ali_fadavi={
+		name="Ali Fadavi"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Ali_Fadavi.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	PER_ali_khan_mansour={
-		advisor={
-			slot = political_advisor
-			idea_token = PER_ali_khan_mansour
-			allowed  = {
-					original_tag  = PER
-				}
-				traits  = {
-					quartermaster_general 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Khan Mansour"
+	PER_ali_shamkani={
+		name="Ali Shamkani"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PER/Portrait_Ali_Shamkhani.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
 }

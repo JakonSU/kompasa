@@ -1,0 +1,167 @@
+characters={
+	GRN_jonathan_motzfeldt={
+		name="Jonathan Motzfeldt"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRN/Jonathan_Motzfeldt.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GRN_michael_obelitz={
+		name="Michael Obelitz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_johan_obelitz={
+		name="Johan Obelitz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_christian_oxholm={
+		name="Christian Oxholm"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist4.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ friend_of_britain economist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_aage_neergaard={
+		name="Aage Neergaard"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_lindy.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ war_industrialist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_tage_obelitz={
+		name="Tage Obelitz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_britain economist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_jakob_obelitz={
+		name="Jakob Obelitz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ friend_of_america }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_hannibal_hansen={
+		name="Hannibal Hansen"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ dealbroker }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_edvard_haack={
+		name="Edvard Haack"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_america }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_alber_haack={
+		name="Alber Haack"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_britain friend_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_niels_dannemand={
+		name="Niels Dannemand"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_china }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GRN_otto_dannemand={
+		name="Otto Dannemand"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ smooth_talking_charmer friend_of_india }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,434 +1,707 @@
 characters={
-	YEM_imam_yahya={
-		name="Imam Yahya"
+	YEM_ali_abdullah_saleh={
+		name="Ali Abdullah Saleh"
 		portraits={
 			civilian={
-				large="GFX_portrait_yemen_imam_yahya"
+				large="gfx/leaders/YEM/Ali_Abdullah_Saleh.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=oligarchist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	YEM_chandler_ibn_khalid={
-		name="Chandler ibn Khalid"
+	YEM_ageel_bin_muhammad_albadr={
+		name="Ageel bin Muhammad al-Badr"
 		portraits={
 			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+				large="gfx/leaders/YEM/Ageel_bin_Muhammadd_al-Badr.dds"
 			}
 		}
 		country_leader={
-			ideology=liberalism
-			expire="1952.1.1.12"
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	YEM_mustafa_ibn_umar={
-		name="Mustafa ibn Umar"
+	YEM_abdulmalik_alhouthi={
+		name="Abdul-Malik al-Houthi"
 		portraits={
 			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+				large="gfx/leaders/YEM/Abdul-Malik_al-Houthi.dds"
 			}
 		}
 		country_leader={
-			ideology=anti_revisionism
-			expire="1941.1.1.12"
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	YEM_fuad_ibn_yusuf={
-		name="Fuad ibn Yusuf"
+	YEM_hassan_zaid={
+		name="Hassan Zaid"
 		portraits={
 			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+				large="gfx/leaders/YEM/Hassaan_Zaid.dds"
 			}
 		}
 		country_leader={
-			ideology=gen_nazism
-			expire="1946.1.1.12"
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	YEM_ja_far_al_hijazi={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = YEM_ja_far_al_hijazi
-			ledger = army
-				allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					navy_amphibious_assault_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ja'far al-Hijazi"
+	YEM_sadiq_alahmar_of_hashid={
+		name="Sadiq al-Ahmar of Hashid"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_3"
+			civilian={
+				large="gfx/leaders/YEM/Sadiq.dds"
 			}
+		}
+		country_leader={
+			ideology=falangist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_hisham_ibn_salim={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = YEM_hisham_ibn_salim
-			allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hisham ibn Salim"
+	YEM_abdulrahman_alsaqqaf={
+		name="Abdulrahman Al-Saqqaf"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_3"
+			civilian={
+				large="gfx/leaders/YEM/Saqqaf.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_abd_al_husseini={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = YEM_abd_al_husseini
-			ledger = army
-				allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					army_artillery_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Abd al Husseini"
+	YEM_muhammad_almakhlafi={
+		name="Muhammad Al-Makhlafi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_1"
+			civilian={
+				large="gfx/leaders/YEM/al-Makhlafi.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_sa_ud_ibn_umar={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = YEM_sa_ud_ibn_umar
-			ledger = army
-				allowed = {
-					original_tag = YEM
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Sa'ud ibn Umar"
+	YEM_aidaroos_alzubaidi={
+		name="Aidaroos al-Zubaidi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
+			civilian={
+				large="gfx/leaders/YEM/al-Zubaidi.dds"
 			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_ahmad_bin_yaha={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = YEM_ahmad_bin_yaha
-			allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					army_chief_morale_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ahmad bin Yahya"
+	YEM_mohammed_abdul_rahman_alrubaie={
+		name="Mohammed Abdul Rahman al-Rubaie"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_3"
+			civilian={
+				large="gfx/leaders/YEM/Rubaie.dds"
 			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_ahmad_al_hamid={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = YEM_ahmad_al_hamid
-			allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ahmad al Hamid"
+	YEM_razia_almutawakkil={
+		name="Razia Al-Mutawakkil"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
+			civilian={
+				large="gfx/leaders/YEM/Razia_Mutawakkil.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_mansur_al_badr={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = YEM_mansur_al_badr
-			allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					air_chief_safety_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mansur al Badr"
+	YEM_qassem_salam={
+		name="Qassem Salam"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
+			civilian={
+				large="gfx/leaders/YEM/Kasim_Salam.dds"
 			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	YEM_burkan_salem={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = YEM_burkan_salem
-			allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Burkan Salem"
+	YEM_ahmed_saleh={
+		name="Ahmed Saleh"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Ahmed_bin_Saleh.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_hisham_ibn_uthman={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = YEM_hisham_ibn_uthman
-			ledger = army
-				allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hisham ibn Uthman"
+	YEM_ali_mohsen_alahmar={
+		name="Ali Mohsen al-Ahmar"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Ahmar.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_khalid_ibn_yusuf={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = YEM_khalid_ibn_yusuf
-			ledger = air
-				allowed = {
-					original_tag = YEM
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Khalid ibn Yusuf"
+	YEM_salem_nasser_qatn={
+		name="Salem Nasser Qatn"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Salem_Qatn.dds"
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_ali_halukeh={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = YEM_ali_halukeh
-			ledger = air
-				allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					air_air_superiority_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Halukeh"
+	YEM_mahmoud_alsubaihi={
+		name="Mahmoud al-Subaihi"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Subaihi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_jabir_khaldun={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = YEM_jabir_khaldun
-			allowed = {
-					original_tag = YEM
-				}
-				traits = {
-					navy_chief_naval_aviation_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jabir Khaldun"
+	YEM_thabt_jawas={
+		name="Thabt Jawas"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Jawas.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_yusuf_ibn_khalid={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = YEM_yusuf_ibn_khalid
-			ledger = navy
-				allowed = {
-					original_tag = YEM
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Yusuf ibn Khalid"
+	YEM_salem_ali_qatan={
+		name="Salem Ali Qatan"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Qataan.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_fuad_ibn_falil={
-		advisor={
-			slot = political_advisor
-			idea_token = YEM_fuad_ibn_falil
-			allowed  = {
-					original_tag  = YEM
-				}
-				traits  = {
-					quartermaster_general 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fuad ibn Falil"
+	YEM_ali_aljaafy={
+		name="Ali al-Jaafy"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Ali_Jaafy.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_cecil_barrington_hurst={
-		advisor={
-			slot = political_advisor
-			idea_token = YEM_cecil_barrington_hurst
-			allowed  = {
-					original_tag  = YEM
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Cecil Barrington Hurst"
+	YEM_abdulrab_alshadadi={
+		name="Abdulrab al-Shadadi"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Abdulrab.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	YEM_nae_m_al_abdul={
-		advisor={
-			slot = political_advisor
-			idea_token = YEM_nae_m_al_abdul
-			allowed  = {
-					original_tag  = YEM
-				}
-				traits  = {
-					silent_workhorse 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Nae'm al-Abdul"
+	YEM_adel_alqumeiri={
+		name="Adel Al-Qumeiri"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/YEM/generals/Adel_Alqumeiri.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_abdul_hakim_alsafwani={
+		name="Abdul Hakim Al-Safwani"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Al_Safwai.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_abdulrahman_alhalili={
+		name="Abdulrahman Al-Halili"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Al-Halili.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_mfarrih_bahibh={
+		name="Mfarrih Bahibh"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Mfarrih_Bahih.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_hussein_saleh_ziad={
+		name="Hussein Saleh Ziad"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Saleh_Ziad.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_adnan_alhammadi={
+		name="Adnan Al-Hammadi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Adnan.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_abdrabbo_ahmed_alkashibi={
+		name="Abdrabbo Ahmed Al-Kashibi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Kashibi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_faraj_albassani={
+		name="Faraj Al-Bassani"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Faraj_Al-Bassani.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_saif_alyafei={
+		name="Saif Al-Yafei"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Yafie.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_ali_mohsen_muthanna={
+		name="Ali Mohsen Muthanna"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Muthanna.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_ahmed_ali_alashwal={
+		name="Ahmed Ali al-Ashwal"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Ahmed_Ali.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_mohammed_nasir_aleatifi={
+		name="Mohammed Nasir Al-Eatifi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Nasir_Eatifi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_mohammed_ali_alnumeiri={
+		name="Mohammed Ali Al-Numeiri"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Numeiri.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_ahmed_hussein_dahan={
+		name="Ahmed Hussein Dahan"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Ahmed_Dahan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_nasir_alnuba={
+		name="Nasir Al-Nuba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Naisr.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_ahmed_ali_jaafar={
+		name="Ahmed Ali Jaafar"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Jaafar.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_askar_hamoud_dars={
+		name="Askar Hamoud Dars"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Ahmed_Askar.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_naji_alsurhi={
+		name="Naji Al-Surhi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Surhi.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_ahmed_jamara={
+		name="Ahmed Jamara"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Jamara.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_samir_alhaj={
+		name="Samir Al-Haj"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YEM/generals/Haj.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	YEM_abdullah_ali_alnakhaie={
+		name="Abdullah Ali Al-Nakhaie"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SAU_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Arabia_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
 }

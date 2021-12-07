@@ -1,0 +1,165 @@
+characters={
+	MAD_tantely_andrianarivo={
+		name="Tantely Andrianarivo"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Tantely_Andrianarivo.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	MAD_regis_givazo={
+		name="Regis Givazo"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ war_industrialist }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	MAD_joseph_benard={
+		name="Joseph Benard"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MAD_eusebe_ramanantsoa={
+		name="Eusebe Ramanantsoa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ enemy_of_britain financial_expert }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	MAD_toto_zozimar={
+		name="Toto Zozimar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ silent_workhorse retired_officer }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MAD_erick_tsaralaza={
+		name="Erick Tsaralaza"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ experienced_attorney retired_officer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	MAD_sebastien_gommend={
+		name="Sebastien Gommend"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ enemy_of_france }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	MAD_monja_beriziky={
+		name="Monja Beriziky"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	MAD_fidelis_ramanantsoa={
+		name="Fidelis Ramanantsoa"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	MAD_marcel_zubir={
+		name="Marcel Zubir"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_russia enemy_of_france }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	MAD_gabriel_tsiahoana={
+		name="Gabriel Tsiahoana"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ agricultural_expert friend_of_france }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	MAD_toto_rabetafika={
+		name="Toto Rabetafika"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+}

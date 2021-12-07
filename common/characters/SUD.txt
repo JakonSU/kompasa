@@ -1,427 +1,179 @@
 characters={
-	SUD_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = SUD_coi
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_omar_albashir={
+		name="Omar al-Bashir"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/SUD/Omar_al_Bashir.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_aa2={
-		advisor={
-			slot = high_command
-			idea_token = SUD_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_fatimah_abdel_mahmoud={
+		name="Fatimah Abdel Mahmoud"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_2"
+			civilian={
+				large="gfx/leaders/SUD/Fatimah_Abdel_Mahmoud.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = SUD_democratic_guy
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_jalal_aldigair={
+		name="Jalal al-Digair"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/SUD/Jalal_al_Digair.dds"
 			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = SUD_acd2
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_malik_agar={
+		name="Malik Agar"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_1"
+			civilian={
+				large="gfx/leaders/SUD/Malik_Agar.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_acr={
-		advisor={
-			slot = air_chief
-			idea_token = SUD_acr
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_hassan_alturabi={
+		name="Hassan Al-Turabi"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
+			civilian={
+				large="gfx/leaders/SUD/Hassan_Al_Turabi.dds"
 			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = SUD_fascist_guy
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_muhammad_mukhtar_alkhatib={
+		name="Muhammad Mukhtar Al-Khatib"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/SUD/Muhammad_M_Al_Khatib.dds"
 			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = SUD_stc
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_sadiq_almahdi={
+		name="Sadiq al-Mahdi"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+			civilian={
+				large="gfx/leaders/SUD/Sadiq_al_Mahdi.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_ncs={
-		advisor={
-			slot = high_command
-			idea_token = SUD_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_adil_abdel_aati={
+		name="Adil Abdel Aati"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
+			civilian={
+				large="gfx/leaders/SUD/Adil_Abdel_Aati.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	SUD_awt={
-		advisor={
-			slot = theorist
-			idea_token = SUD_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_mustafa_osman_obeid_salim={
+		name="Mustafa Osman Obeid Salim"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_african_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/SUD/generals/Mustafa_Salim.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	SUD_mt={
-		advisor={
-			slot = theorist
-			idea_token = SUD_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_nagmeldin_akol={
+		name="Nagmeldin Akol"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_6"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2016.1.1.12"
+			id=-1
 		}
 	}
-	SUD_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = SUD_communist_guy
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_minni_panyang={
+		name="Minni Panyang"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_france }
+			expire="2016.1.1.12"
+			id=-1
 		}
 	}
-	SUD_ai2={
-		advisor={
-			slot = high_command
-			idea_token = SUD_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_thon_bol={
+		name="Thon Bol"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2016.1.1.12"
+			id=-1
 		}
 	}
-	SUD_ar={
-		advisor={
-			slot = high_command
-			idea_token = SUD_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	SUD_osman_keir={
+		name="Osman Keir"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
 		}
-	}
-	SUD_acas={
-		advisor={
-			slot = high_command
-			idea_token = SUD_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
-		}
-	}
-	SUD_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = SUD_acgs
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	SUD_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = SUD_ncm
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
-			}
-		}
-	}
-	SUD_nt={
-		advisor={
-			slot = theorist
-			idea_token = SUD_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
-			}
-		}
-	}
-	SUD_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = SUD_pot
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
-			}
-		}
-	}
-	SUD_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = SUD_nccr
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	SUD_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = SUD_aco2
-			allowed  = {
-					original_tag  = SUD
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
-			}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ dealbroker }
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
 }

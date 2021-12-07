@@ -1,94 +1,322 @@
 characters={
-	INS_sukarno={
-		name=INS_sukarno
+	INS_abdurrahman_wahid={
+		name="Abdurrahman Wahid"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+				large="gfx/leaders/INS/Abdurrahman_Wahid.dds"
 			}
 		}
 		country_leader={
-			ideology=socialism
-			traits = {
-			}
-			expire="1965.1.1.1"
+			ideology=national_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	INS_a_t_van_starkenborgh_stachouwer={
-		name=INS_a_t_van_starkenborgh_stachouwer
+	INS_megawati_sukarnoputri={
+		name="Megawati Sukarnoputri"
 		portraits={
 			civilian={
-				large="GFX_portrait_indonesia_at_van_starkenborgh"
+				large="gfx/leaders/INS/Megawati_Sukarnoputri.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism 
-			traits = {
-			}
-			expire="1965.1.1.1"
+			ideology=progressive_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	INS_amir_sjarifuddin_harahap={
-		name=INS_amir_sjarifuddin_harahap
+	INS_prabowo_subianto_djojohadikusumo={
+		name="Prabowo Subianto Djojohadikusumo"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+				large="gfx/leaders/INS/Prabowo_Subianto.dds"
 			}
 		}
 		country_leader={
-			ideology=marxism
-			traits = {
-			}
-			expire="1965.1.1.1"
+			ideology=libertarian
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	INS_suharto={
-		name=INS_suharto
+	INS_wiranto={
+		name="Wiranto"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+				large="gfx/leaders/INS/Wiranto.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			traits = {
-			}
-			expire="1965.1.1.1"
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	INS_sutan_sjahrir={
-		name=INS_sutan_sjahrir
+	INS_akbar_tandjung={
+		name="Akbar Tandjung"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+				large="gfx/leaders/INS/Akbar_Tandjung.dds"
 			}
 		}
 		country_leader={
-			ideology=moderatism
-			traits = {
-			}
-			expire="1965.1.1.1"
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	INS_hein_ter_poorten={
-		name =HOL_hein_ter_poorten
+	INS_susilo_bambang_yudhoyono={
+		name="Susilo Bambang Yudhoyono"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/Susilo_B_Yudhoyono.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_nur_mahmudi_ismail={
+		name="Nur Mahmudi Ismail"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/NM_Ismail.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_malem_sambat_kaban={
+		name="Malem Sambat Kaban"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/Malem_S_Kaban.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_hr_hartono={
+		name="HR Hartono"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/HR_Hartono.dds"
+			}
+		}
+		country_leader={
+			ideology=rexist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_grace_natalie={
+		name="Grace Natalie"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/Grace_Natalie.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_budiman_sudjatmiko={
+		name="Budiman Sudjatmiko"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/Budiman_Sudjatmiko.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_the_indonesian_politiburo={
+		name="The Indonesian Politiburo"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/Indonesian_Politiburo.dds"
+			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_hamengkubuwono_x={
+		name="Hamengkubuwono X"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/Hamengkubuwono_X.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	INS_bambang_darmono={
+		name="Bambang Darmono"
 		portraits={
 			army={
-				large="GFX_portrait_hol_hein_ter_poorten"
-				small="GFX_idea_HOL_hein_ter_poorten"
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/generals/Bambang_Darmono.dds"
 			}
 		}
-		field_marshal={
-			traits={ logistics_wizard inspirational_leader }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=3
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_gatot_numantyo={
+		name="Gatot Numantyo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/generals/Gatot_Nurmantyo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_jenderal_mulyono={
+		name="Jenderal Mulyono"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/generals/Jenderal_Mulyono.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_moeldoko={
+		name="Moeldoko"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/generals/Moeldoko.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_muhammad_munir={
+		name="Muhammad Munir"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/generals/Muhammad_Munir.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_ade_supandi={
+		name="Ade Supandi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/admirals/Ade_Supandi.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_marsetio={
+		name="Marsetio"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/admirals/Marsetio.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	INS_soeparno={
+		name="Soeparno"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/admirals/Soeparno.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
 			legacy_id=-1
 		}
 	}

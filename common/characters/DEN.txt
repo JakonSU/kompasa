@@ -1,432 +1,918 @@
 characters={
-	DEN_thorvald_stauning={
-		name="Thorvald Stauning"
+	DEN_poul_nyrup_rasmussen={
+		name="Poul Nyrup Rasmussen"
 		portraits={
 			civilian={
-				large="gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning.dds"
+				large="gfx/leaders/DEN/Poul_Nyrup_Rasmussen.dds"
 			}
 		}
 		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	DEN_frits_clausen={
-		name="Frits Clausen"
+	DEN_holger_k._nielsen={
+		name="Holger K. Nielsen"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+				large="gfx/leaders/DEN/Holger_K_Nielsen.dds"
 			}
 		}
 		country_leader={
-			ideology=nazism
-			expire="1965.1.1.1"
+			ideology=progressive_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	DEN_aksel_larsen={
-		name="Aksel Larsen"
+	DEN_henrik_stamer_hedin={
+		name="Henrik Stamer Hedin"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+				large="gfx/leaders/DEN/Henrik_Stamer_Hedin.dds"
 			}
 		}
 		country_leader={
-			ideology=leninism
-			expire="1965.1.1.1"
+			ideology=leninist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	DEN_peter_rochegune_munch={
-		name="Peter Rochegune Munch"
+	DEN_anders_fogh_rasmussen={
+		name="Anders Fogh Rasmussen"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+				large="gfx/leaders/DEN/Anders_Fogh_Rasmussen.dds"
 			}
 		}
 		country_leader={
-			ideology=centrism
-			expire="1965.1.1.1"
+			ideology=libertarian
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	DEN_wilhelm_wain_prior={
-		name="Wilhelm Wain Prior"
+	DEN_bendt_bendtsen={
+		name="Bendt Bendtsen"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Bendt_Bendtsen.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_pia_kjaersgaard={
+		name="Pia Kjaersgaard"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Pia_Kjaersgaard.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_adam_wagner={
+		name="Adam Wagner"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Adam_Wagner.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_margrethe_ii={
+		name="Margrethe II"
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Margrethe.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	DEN_bjørn_ingemann_bisserup={
+		name="Bjørn Ingemann Bisserup"
 		portraits={
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Bjoern_Bisserup.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_peter_bartram={
+		name="Peter Bartram"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Peter_Bartram.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inspirational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_per_ludvigsen={
+		name="Per Ludvigsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Per_Ludvigsen.dds"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_hanschristian_mathiesen={
+		name="Hans-Christian Mathiesen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Hans-Christian_Mathiesen.dds"
+			}
+		}
+		field_marshal={
+			traits={ fast_planner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_flemming_lentfer={
+		name="Flemming Lentfer"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Fleming_Lentfer.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_flemming_mathiasen={
+		name="Flemming Mathiasen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Fleming_Mathiasen.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_henning_bæk={
+		name="Henning Bæk"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Henning_Baek.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jørgen_høll={
+		name="Jørgen Høll"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Joergen_Hoell.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_kim_jesper_jørgensen={
+		name="Kim Jesper Jørgensen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Kim_Joergensen.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando winter_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_finn_winkler={
+		name="Finn Winkler"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Finn_Winkler.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_max_alt_nielsen={
+		name="Max ALT Nielsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Max_Nielsen.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_christian_lippert={
+		name="Christian Lippert"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Christian_Lippert.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_lennie_fredskov_hansen={
+		name="Lennie Fredskov Hansen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Lennie_Fredskov.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jørn_e._rasmussen={
+		name="Jørn E. Rasmussen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Joern_Rasmussen.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_per_orluff_knudsen={
+		name="Per Orluff Knudsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Per_Knudsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_jens_ole_rossenjørgensen={
+		name="Jens Ole Rossen-Jørgensen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Jens_Joergensen.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_lasse_harkjær={
+		name="Lasse Harkjær"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Lasse_Harkjaer.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_søren_andersen={
+		name="Søren Andersen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Soeren_Andersen.dds"
 			}
 		}
 		corps_commander={
 			traits={ trickster }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 			legacy_id=-1
 		}
 	}
-	DEN_carl_hammerich={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = DEN_carl_hammerich
-			allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Carl Hammerich"
+	DEN_bjarne_højgaard_jensen={
+		name="Bjarne Højgaard Jensen"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Bjarne_Jensen.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_kaj_birksted={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = DEN_kaj_birksted
-			allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					air_air_combat_training_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Kaj Birksted"
+	DEN_annecathrine_ribnietzky={
+		name="Anne-Cathrine Ribnietzky"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_europe_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Anne-Cathrine_Ribnietzky.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_hans_a_rolsted={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = DEN_hans_a_rolsted
-			ledger = army
-				allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					army_artillery_3
-				}
-				cost = 200
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hans A. Rolsted"
+	DEN_lars_r._møller={
+		name="Lars R. Møller"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_europe_4"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Lars_Moeller.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_christian_frederik_von_schalburg={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = DEN_christian_frederik_von_schalburg
-			ledger = army
-				allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Christian Frederik von Schalburg"
+	DEN_per_hinrichsen={
+		name="Per Hinrichsen"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_europe_5"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Per_Hinrichsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_hans_lunding={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = DEN_hans_lunding
-			ledger = navy
-				allowed = {
-					original_tag = DEN
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hans Lunding"
+	DEN_jess_møller_nielsen={
+		name="Jess Møller Nielsen"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Jess_Nielsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_ebbe_gortz={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = DEN_ebbe_gortz
-			allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ebbe Gørtz"
+	DEN_henrik_holm={
+		name="Henrik Holm"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Henrik_Holm.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_paul_sommer={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = DEN_paul_sommer
-			allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					air_close_air_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Paul Sommer"
+	DEN_birger_mejlholm={
+		name="Birger Mejlholm"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_europe_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Birger_Mejlholm.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_hjalmar_rechnitzer={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = DEN_hjalmar_rechnitzer
-			ledger = navy
-				allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					navy_fleet_logistics_1
-				}
-				cost =  50
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hjalmar Rechnitzer"
+	DEN_christian_arildsen={
+		name="Christian Arildsen"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Christian_Arildsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_poul_sommer={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = DEN_poul_sommer
-			ledger = air
-				allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					air_air_combat_training_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Poul Sommer"
+	DEN_kåre_jakobsen={
+		name="Kåre Jakobsen"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Kare_Jakobsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_william_wain_prior={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = DEN_william_wain_prior
-			ledger = army
-				allowed = {
-					original_tag = DEN
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="William Wain Prior"
+	DEN_stig_Østergaard_nielsen={
+		name="Stig Østergaard Nielsen"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_europe_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Stig_Nielsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando winter_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_aage_vedel={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = DEN_aage_vedel
-			allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					navy_anti_submarine_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="A.H. Vedel"
+	DEN_jens_bach={
+		name="Jens Bach"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_europe_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Jens_Bach.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_wilhelm_prior={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = DEN_wilhelm_prior
-			allowed = {
-					original_tag = DEN
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Wilhelm W. Prior"
+	DEN_steen_kobberøhansen={
+		name="Steen Kobberø-Hansen"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_europe_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Steen_Hansen.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_ejnar_warum={
-		advisor={
-			slot = political_advisor
-			idea_token = DEN_ejnar_warum
-			allowed  = {
-					original_tag  = DEN
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ejnar Wærum"
+	DEN_frank_trojahn={
+		name="Frank Trojahn"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Frank_Trojahn.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_viggo_kampman={
-		advisor={
-			slot = political_advisor
-			idea_token = DEN_viggo_kampman
-			allowed  = {
-					original_tag  = DEN
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Viggo Kampmann"
+	DEN_aage_buur_jensen={
+		name="Aage Buur Jensen"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Aage_Jensen.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	DEN_knud_kristensen={
-		advisor={
-			slot = political_advisor
-			idea_token = DEN_knud_kristensen
-			allowed  = {
-					original_tag  = DEN
-				}
-				traits  = {
-					backroom_backstabber 
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Knud Kristensen"
+	DEN_finn_hansen={
+		name="Finn Hansen"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Finn_Hansen.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_peter_stamp={
+		name="Peter Stamp"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Peter_Stamp.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_carsten_fjordlarsen={
+		name="Carsten Fjord-Larsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Carsten_Fjord-Larsen.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_anders_friis={
+		name="Anders Friis"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Anders_Friis.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_torben_mikkelsen={
+		name="Torben Mikkelsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Torben_Mikkelsen.dds"
+			}
+		}
+		navy_leader={
+			traits={ fly_swatter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_henrik_ryberg={
+		name="Henrik Ryberg"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/DEN/Portrait_Henrik_Ryberg.dds"
+			}
+		}
+		navy_leader={
+			traits={ air_controller }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	DEN_julius_mylius={
+		name="Julius Mylius"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	DEN_herman_klauman={
+		name="Herman Klauman"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist4.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ enemy_of_britain }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	DEN_folke_folsach={
+		name="Folke Folsach"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ road_builder hawk }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	DEN_asmund_folsach={
+		name="Asmund Folsach"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ retired_officer captain_of_industry }
+			expire="2019.1.1.12"
+			id=-1
 		}
 	}
 }

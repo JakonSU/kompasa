@@ -1,0 +1,204 @@
+characters={
+	IMN_wojciech_woś={
+		name="Wojciech Woś"
+		portraits={
+			civilian={
+				large="gfx/leaders/IMN/wos.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	IMN_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IMN_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IMN_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	IMN_lucas_roberts={
+		name="Lucas Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ experienced_attorney reluctant_interventionist }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	IMN_john_evans={
+		name="John Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_germany }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	IMN_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ experienced_attorney }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	IMN_bob_smith={
+		name="Bob Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_lindy.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchist
+			traits={ compassionate_gentleman }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	IMN_johannes_walker={
+		name="Johannes Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_america enemy_of_america }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	IMN_alex_wilson={
+		name="Alex Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician10.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	IMN_jonas_taylor={
+		name="Jonas Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ quartermaster_general }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	IMN_marcus_doe={
+		name="Marcus Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_india }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	IMN_bob_white={
+		name="Bob White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ reluctant_interventionist }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	IMN_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

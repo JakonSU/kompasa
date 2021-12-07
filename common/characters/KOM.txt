@@ -1,17 +1,168 @@
-characters = {
-	# Not very many characters for the Komi Republic, because I am unable to find any more. Perhaps Komi just can't communicate...
-	KOM_pavel_murashev = {
-		name = "Pavel Murashev" 
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+characters={
+	KOM_islandczyk={
+		name="Islandczyk"
+		portraits={
+			civilian={
+				large="gfx/leaders/KOM/Ja.dds"
 			}
 		}
-		country_leader = {
-			ideology = stalinism
-			expire = "1950.1.1.1"
-			id = -1
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	KOM_yarashch_provodnikov={
+		name="Yarashch Provodnikov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ smooth_talking_charmer road_builder }
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	KOM_sanka_sobyanin={
+		name="Sanka Sobyanin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist4.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ captain_of_industry road_builder }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	KOM_mikipur_shestalov={
+		name="Mikipur Shestalov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist4.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	KOM_sergey_ob={
+		name="Sergey Ob"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician6.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ eager_collaborator }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	KOM_vashchkigi_ambal={
+		name="Vashchkigi Ambal"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_japan }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	KOM_payal_sobyanin={
+		name="Payal Sobyanin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			traits={ eager_collaborator friend_of_america }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	KOM_lyutya_shestalov={
+		name="Lyutya Shestalov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ friend_of_japan enemy_of_france }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	KOM_shcherki_vakhrusheva={
+		name="Shcherki Vakhrusheva"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_russia }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	KOM_tyomkigi_ob={
+		name="Tyomkigi Ob"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ friend_of_japan }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	KOM_mikul_kaysarov={
+		name="Mikul Kaysarov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician12.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_russia enemy_of_britain }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	KOM_vәlӑkshchi_provodnikov={
+		name="Vәlӑkshchi Provodnikov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=maoist
+			traits={ friend_of_japan }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
 }
-	

@@ -1,460 +1,163 @@
 characters={
-	ELS_maximiliano_hernández_martínez={
-		name="Maximiliano Hernández Martínez"
+	ELS_francisco_flores={
+		name="Francisco Flores"
 		portraits={
 			civilian={
-				large="GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
+				large="gfx/leaders/ELS/Francisco_Flores.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
+			ideology=centrist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ELS_victoriano_ubico={
-		name="Victoriano Ubico"
+	ELS_mauricio_funes={
+		name="Mauricio Funes"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				large="gfx/leaders/ELS/Mauricio_Funes.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism
-			expire="1942.1.1.12"
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ELS_benito_ubico={
-		name="Benito Ubico"
+	ELS_rodolfo_parker={
+		name="Rodolfo Parker"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_9.dds"
+				large="gfx/leaders/ELS/Rodolfo_Parker.dds"
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
-			expire="1954.1.1.12"
+			ideology=christian_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	ELS_bartolomé_vasconcelos={
-		name="Bartolomé Vasconcelos"
+	ELS_josé_maría_garrigó={
+		name="José María Garrigó"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_9.dds"
+				large="gfx/leaders/South America/politician_islamist1.dds"
 			}
 		}
 		country_leader={
-			ideology=oligarchism
-			expire="1951.1.1.12"
+			ideology=islamic_authoritarian
+			traits={ armaments_organizer famous_businessman }
+			expire="2019.1.1.12"
 			id=-1
 		}
 	}
-	ELS_hector_escobar_serrano={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ELS_hector_escobar_serrano
-			ledger = army
-				allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					army_armored_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hector Escobar Serraño"
+	ELS_andrés_arbenz={
+		name="Andrés Arbenz"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_5"
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ eager_collaborator experienced_attorney }
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
-	ELS_milton_andrade_cabrera={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ELS_milton_andrade_cabrera
-			ledger = air
-				allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					air_airborne_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Milton Andrade Cabrera"
+	ELS_josé_francisco_barahona={
+		name="José Francisco Barahona"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=autocrat
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-	ELS_humbert_aberle={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = ELS_humbert_aberle
-			allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					air_chief_night_operations_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Humbert Aberle"
+	ELS_basilio_peralta={
+		name="Basilio Peralta"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_3"
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
-	ELS_horacio_carnejo_ibanez={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = ELS_horacio_carnejo_ibanez
-			allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					navy_chief_commerce_raiding_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Horacio Carnejo Ibanéz"
+	ELS_juan_pablo_ferrera={
+		name="Juan Pablo Ferrera"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ fortification_engineer hawk }
+			expire="2005.1.1.12"
+			id=-1
 		}
 	}
-	ELS_osmin_aguirre_y_salinas={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = ELS_osmin_aguirre_y_salinas
-			allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Osmín Aguirre y Salinas"
+	ELS_arturo_figueroa={
+		name="Arturo Figueroa"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ friend_of_britain }
+			expire="2014.1.1.12"
+			id=-1
 		}
 	}
-	ELS_reinaldo_galindo_pohl={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ELS_reinaldo_galindo_pohl
-			ledger = navy
-				allowed = {
-					original_tag = ELS
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Reinaldo Galindo Pohl"
+	ELS_juan_figueroa={
+		name="Juan Figueroa"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2006.1.1.12"
+			id=-1
 		}
 	}
-	ELS_mauro_espinola_castro={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ELS_mauro_espinola_castro
-			ledger = army
-				allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					army_cavalry_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mauro Espínola Castro"
+	ELS_bernardo_martínez={
+		name="Bernardo Martínez"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_3"
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
 			}
+		}
+		country_leader={
+			ideology=green
+			traits={ armaments_organizer }
+			expire="2015.1.1.12"
+			id=-1
 		}
 	}
-	ELS_jose_angel_castillo={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ELS_jose_angel_castillo
-			ledger = air
-				allowed = {
-					original_tag = ELS
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="José Angél Castillo"
+	ELS_alejandro_chamorro={
+		name="Alejandro Chamorro"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
 			}
 		}
-	}
-	ELS_manuel_de_jesus_cordova={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = ELS_manuel_de_jesus_cordova
-			allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel de Jesús Cordova"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_4"
-			}
-		}
-	}
-	ELS_augustin_farabundo_marti={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ELS_augustin_farabundo_marti
-			ledger = army
-				allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					navy_amphibious_assault_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Augustín Farabundo Martí"
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_1"
-			}
-		}
-	}
-	ELS_manuel_jose_maria_lemus_lopez={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = ELS_manuel_jose_maria_lemus_lopez
-			ledger = army
-				allowed = {
-					original_tag = ELS
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel Jose Maria Lemus Lopez"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_2"
-			}
-		}
-	}
-	ELS_raul_rodolfi_sanchez={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = ELS_raul_rodolfi_sanchez
-			allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Raul Rodolfí Sanchez"
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_2"
-			}
-		}
-	}
-	ELS_ricardo_abrego_abrego={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = ELS_ricardo_abrego_abrego
-			allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					air_chief_reform_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ricardo Abrego Abrego"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_1"
-			}
-		}
-	}
-	ELS_humberto_costa={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = ELS_humberto_costa
-			ledger = air
-				allowed = {
-					original_tag = ELS
-				}
-				traits = {
-					air_air_superiority_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Humberto Costa"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_2"
-			}
-		}
-	}
-	ELS_oscar_a_bolanos={
-		advisor={
-			slot = political_advisor
-			idea_token = ELS_oscar_a_bolanos
-			allowed  = {
-					original_tag  = ELS
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Oscar A. Bolaños"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_2"
-			}
-		}
-	}
-	ELS_salvador_castaneda_castro={
-		advisor={
-			slot = political_advisor
-			idea_token = ELS_salvador_castaneda_castro
-			allowed  = {
-					original_tag  = ELS
-				}
-				traits  = {
-					armaments_organizer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Salvador Castañeda Castro"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
-			}
-		}
-	}
-	ELS_jose_maria_cuellar={
-		advisor={
-			slot = political_advisor
-			idea_token = ELS_jose_maria_cuellar
-			allowed  = {
-					original_tag  = ELS
-				}
-				traits  = {
-					quartermaster_general 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jose Maria Cuellar"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_3"
-			}
+		country_leader={
+			ideology=stalinist
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
 }

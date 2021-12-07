@@ -1,0 +1,165 @@
+characters={
+	BAS_lester_bird={
+		name="Lester Bird"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAS/Lester_Bird.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAS_baldwin_spencer={
+		name="Baldwin Spencer"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAS/Baldwin_Spencer.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	BAS_hasely_warner={
+		name="Hasely Warner"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ enemy_of_india friend_of_japan }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BAS_leroy_jones={
+		name="Leroy Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ hawk }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	BAS_marvin_marcelle={
+		name="Marvin Marcelle"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ ideological_crusader }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	BAS_rodill_boodhoo={
+		name="Rodill Boodhoo"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_america friend_of_britain }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	BAS_ulric_jones={
+		name="Ulric Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	BAS_carson_roberts={
+		name="Carson Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	BAS_ellis_gomes={
+		name="Ellis Gomes"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ editor }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	BAS_hasely_naipaul={
+		name="Hasely Naipaul"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	BAS_leroy_belgrave={
+		name="Leroy Belgrave"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ fortification_engineer enemy_of_china }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	BAS_marvin_mahabir={
+		name="Marvin Mahabir"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			traits={ friend_of_china }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+}

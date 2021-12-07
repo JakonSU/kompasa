@@ -1,431 +1,324 @@
 characters={
-	PAR_rafael_franco={
-		name="Rafael Franco"
+	PAR_luis_Ángel_gonzález_macchi={
+		name="Luis Ángel González Macchi"
 		portraits={
 			civilian={
-				large="GFX_Portrait_paraguay_rafael_franco"
+				large="gfx/leaders/PAR/Luis_Angel.dds"
 			}
 		}
 		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PAR_emilio_melgarejo={
-		name="Emilio Melgarejo"
+	PAR_fernando_lugo={
+		name="Fernando Lugo"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+				large="gfx/leaders/PAR/Fernando_Lugo.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism
-			traits={ silent_workhorse quartermaster_general }
-			expire="1950.1.1.12"
+			ideology=progressive_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PAR_francisco_daza={
-		name="Francisco Daza"
+	PAR_najeeb_amado={
+		name="Najeeb Amado"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				large="gfx/leaders/PAR/Najeeb_Amado.dds"
 			}
 		}
 		country_leader={
-			ideology=rexism
-			traits={ tenacious_negotiator }
-			expire="1942.1.1.12"
+			ideology=marxist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PAR_manuel_de_la_cruz={
-		name="Manuel de la Cruz"
+	PAR_braulio_piris_rojas={
+		name="Braulio Piris Rojas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Braulio_Piris_Rojas.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard organisational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_bernardino_soto_estigarribia={
+		name="Bernardino Soto Estigarribia"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Bernardino_Soto_Estigarribia.dds"
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_juan_josé_casaccia_furiasse={
+		name="Juan José Casaccia Furiasse"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Juan_Jose_Furiasse.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_eladio_gonzalez_aguilar={
+		name="Eladio Gonzalez Aguilar"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Eladio_Gonzalez_Aguilar.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_fidel_duranona={
+		name="Fidel Duranona"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Fidel_Duranona.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_josé_maria_duarte={
+		name="José Maria Duarte"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Jose_Maria_Duarte.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_hugo_milciades_scolari_pagliaro={
+		name="Hugo Milciades Scolari Pagliaro"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Hugo_Pagliaro.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_paulo_maria_gomez_benitez={
+		name="Paulo Maria Gomez Benitez"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/Portrait_Paulo_Maria_Gomez_Benitez.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_sebastián_cabrera={
+		name="Sebastián Cabrera"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_7.dds"
+				large="gfx/leaders/South America/politician_islamist2.dds"
 			}
 		}
 		country_leader={
-			ideology=moderatism
-			traits={ quartermaster_general armaments_organizer }
-			expire="1950.1.1.12"
+			ideology=islamic_republican
+			traits={ enemy_of_china }
+			expire="2010.1.1.12"
 			id=-1
 		}
 	}
-	PAR_higinio_morinigo={
-		name="Higinio Morinigo"
+	PAR_andrés_calvo={
+		name="Andrés Calvo"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+				large="gfx/leaders/South America/politician4.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			traits={  }
-			expire="1950.1.1.12"
+			ideology=fascist_ideology
+			traits={ enemy_of_russia friend_of_china }
+			expire="2012.1.1.12"
 			id=-1
 		}
 	}
-	PAR_manuel_t_aponte={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PAR_manuel_t_aponte
-			allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					army_chief_morale_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel T. Aponte"
+	PAR_francisco_siles={
+		name="Francisco Siles"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_germany friend_of_japan }
+			expire="2014.1.1.12"
+			id=-1
 		}
 	}
-	PAR_hector_velasquez={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = PAR_hector_velasquez
-			allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					air_chief_safety_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Héctor Velasquez"
+	PAR_ismael_gamarra={
+		name="Ismael Gamarra"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_2"
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
-	PAR_jesus_g_arraza={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = PAR_jesus_g_arraza
-			allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					navy_chief_naval_aviation_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jesus G. Arraza"
+	PAR_adolfo_gorostiaga={
+		name="Adolfo Gorostiaga"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_2"
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ retired_officer friend_of_china }
+			expire="2019.1.1.12"
+			id=-1
 		}
 	}
-	PAR_juan_stefanich={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = PAR_juan_stefanich
-			allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					navy_chief_commerce_raiding_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Juan Stefanich"
+	PAR_bartolomé_bulnes={
+		name="Bartolomé Bulnes"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_south_america_3"
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ silent_workhorse friend_of_japan }
+			expire="2005.1.1.12"
+			id=-1
 		}
 	}
-	PAR_juan_manuel_frutos={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PAR_juan_manuel_frutos
-			allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Juan Manuel Frutos"
+	PAR_aníbal_salaverry={
+		name="Aníbal Salaverry"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_2"
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_britain }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	PAR_isaias_baez_allende={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PAR_isaias_baez_allende
-			ledger = army
-				allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					army_concealment_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Isaias Baez Allende"
+	PAR_josé_miguel_de_velasco={
+		name="José Miguel de Velasco"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_4"
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2010.1.1.12"
+			id=-1
 		}
 	}
-	PAR_vicente_almonacid={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PAR_vicente_almonacid
-			ledger = air
-				allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					air_air_superiority_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Vicente Almonacid"
+	PAR_luis_de_vidal={
+		name="Luis de Vidal"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
 			}
 		}
-	}
-	PAR_alfred_stroessner_matiauda={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PAR_alfred_stroessner_matiauda
-			ledger = army
-				allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					army_armored_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Alfred Stroessner Matiauda"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_3"
-			}
-		}
-	}
-	PAR_amancio_pampliega={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PAR_amancio_pampliega
-			ledger = army
-				allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Amancio Pampliega"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_5"
-			}
-		}
-	}
-	PAR_hernan_rojas_baltassare={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = PAR_hernan_rojas_baltassare
-			allowed = {
-					original_tag = PAR
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hernan Rojas Baltassare"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_3"
-			}
-		}
-	}
-	PAR_higenio_morinigo_martinez={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PAR_higenio_morinigo_martinez
-			ledger = navy
-				allowed = {
-					original_tag = PAR
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Higenio Morinigo Martinez"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
-			}
-		}
-	}
-	PAR_juan_natalicio_gonzalez={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PAR_juan_natalicio_gonzalez
-			ledger = army
-				allowed = {
-					original_tag = PAR
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Juan Natalicio Gonzalez"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_3"
-			}
-		}
-	}
-	PAR_remigio_bastia_martin={
-		advisor={
-			slot = political_advisor
-			idea_token = PAR_remigio_bastia_martin
-			allowed  = {
-					original_tag  = PAR
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Remigio Bastia Martín"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_2"
-			}
-		}
-	}
-	PAR_francisco_esculies={
-		advisor={
-			slot = political_advisor
-			idea_token = PAR_francisco_esculies
-			allowed  = {
-					original_tag  = PAR
-				}
-				traits  = {
-					popular_figurehead 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Francisco Esculies"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_3"
-			}
-		}
-	}
-	PAR_riccardo_odriosola={
-		advisor={
-			slot = political_advisor
-			idea_token = PAR_riccardo_odriosola
-			allowed  = {
-					original_tag  = PAR
-				}
-				traits  = {
-					backroom_backstabber 
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Riccardo Odriosola"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
-			}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
 }

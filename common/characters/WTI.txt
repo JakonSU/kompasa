@@ -1,0 +1,207 @@
+characters={
+	WTI_vladislav_ardzinba={
+		name="Vladislav Ardzinba"
+		portraits={
+			civilian={
+				large="gfx/leaders/WTI/Vladislav_Ardzinba.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	WTI_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WTI_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	WTI_alex_doe={
+		name="Alex Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ appeaser }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	WTI_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ ideological_crusader }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	WTI_peter_wilson={
+		name="Peter Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician_fascist1.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ enemy_of_france enemy_of_india }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	WTI_john_taylor={
+		name="John Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ tenacious_negotiator }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	WTI_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ war_industrialist friend_of_russia }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	WTI_alexander_white={
+		name="Alexander White"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			traits={ friend_of_china friend_of_india }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	WTI_peter_williams={
+		name="Peter Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ national_integralist friend_of_india }
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	WTI_lucas_smith={
+		name="Lucas Smith"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician8.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_america experienced_attorney }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	WTI_bob_roberts={
+		name="Bob Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_china captain_of_industry }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	WTI_alex_evans={
+		name="Alex Evans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ famous_businessman }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	WTI_bob_brown={
+		name="Bob Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/politician5.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ financial_expert friend_of_america }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+}

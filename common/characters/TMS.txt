@@ -1,0 +1,166 @@
+characters={
+	TMS_saparmyrat_nyyazow={
+		name="Saparmyrat Nyyazow"
+		portraits={
+			civilian={
+				large="gfx/leaders/TMS/Saparmyrat_Nyyazow.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	TMS_Öwez_omarov={
+		name="Öwez Omarov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ fortification_engineer }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	TMS_süleyman_abdurakhmanov={
+		name="Süleyman Abdurakhmanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	TMS_kurban_ismailov={
+		name="Kurban Ismailov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_navy_2.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ ideological_crusader captain_of_industry }
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	TMS_murgen_rakhimov={
+		name="Murgen Rakhimov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2019.1.1.12"
+			id=-1
+		}
+	}
+	TMS_Öwez_kurbanov={
+		name="Öwez Kurbanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_8.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ appeaser enemy_of_germany }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	TMS_myratgeldy_sharipov={
+		name="Myratgeldy Sharipov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			traits={ armaments_organizer }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	TMS_rahat_aliev={
+		name="Rahat Aliev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			traits={ enemy_of_germany war_industrialist }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	TMS_myratgeldy_babaev={
+		name="Myratgeldy Babaev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ enemy_of_britain friend_of_russia }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	TMS_rahat_garayev={
+		name="Rahat Garayev"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2014.1.1.12"
+			id=-1
+		}
+	}
+	TMS_myratgeldy_niyazov={
+		name="Myratgeldy Niyazov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_germany hawk }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	TMS_rahat_sharipov={
+		name="Rahat Sharipov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ compassionate_gentleman }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+}

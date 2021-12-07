@@ -1,0 +1,285 @@
+characters={
+	GEO_eduard_shevardnadze={
+		name="Eduard Shevardnadze"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Eduard_Shevardnadze.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	GEO_yevgeny_dzhugashvili={
+		name="Yevgeny Dzhugashvili"
+		portraits={
+			civilian={
+				large="gfx/leaders/GEO/Yevgeny_Dzhugashvili.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2016.1.1.1"
+			id=-1
+		}
+	}
+	GEO_vladimer_chachibaia={
+		name="Vladimer Chachibaia"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GEO/generals/Vladimer_Chachigbaia.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_vakhtang_kapanadze={
+		name="Vakhtang Kapanadze"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GEO/generals/Vakhtang_Kapanadze.dds"
+			}
+		}
+		field_marshal={
+			traits={ inspirational_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_zaza_chkhaidze={
+		name="Zaza Chkhaidze"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GEO/generals/Zaza_Chkhaidze.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_shalva_jabakhidze={
+		name="Shalva Jabakhidze"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GEO/generals/Shalva_Jabakhidze.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_dimitri_kiknadze={
+		name="Dimitri Kiknadze"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GEO/generals/Dimitri_Kiknadze.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_nikoloz_janjgava={
+		name="Nikoloz Janjgava"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GEO/generals/Nikoloz_Janjgava.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GEO_silibistro_somkhishivili={
+		name="Silibistro Somkhishivili"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	GEO_noe_sivisive={
+		name="Noe Sivisive"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ enemy_of_germany road_builder }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	GEO_irakli_sharashidze={
+		name="Irakli Sharashidze"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ appeaser hawk }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	GEO_aleksandre_makharadze={
+		name="Aleksandre Makharadze"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_france national_integralist }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	GEO_mikheil_orbeli={
+		name="Mikheil Orbeli"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ friend_of_china }
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	GEO_iakob_kvinitadze={
+		name="Iakob Kvinitadze"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ retired_officer }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	GEO_datiko_kvaratskhelia={
+		name="Datiko Kvaratskhelia"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="2020.1.1.12"
+			id=-1
+		}
+	}
+	GEO_pavel_kavtaradze={
+		name="Pavel Kavtaradze"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ compassionate_gentleman silent_workhorse }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	GEO_kalenike_galogre={
+		name="Kalenike Galogre"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	GEO_avtandil_bagration={
+		name="Avtandil Bagration"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ ideological_crusader national_integralist }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+}

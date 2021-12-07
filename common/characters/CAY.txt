@@ -1,0 +1,161 @@
+characters={
+	CAY_nicolas_courbet={
+		name="Nicolas Courbet"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_islamist1.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ appeaser }
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	CAY_thibaut_duchêne={
+		name="Thibaut Duchêne"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	CAY_frédéric_péllissier={
+		name="Frédéric Péllissier"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			expire="2012.1.1.12"
+			id=-1
+		}
+	}
+	CAY_fernand_de_macmahon={
+		name="Fernand de MacMahon"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ war_industrialist }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_paul_de_saint_arnaud={
+		name="Paul de Saint Arnaud"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ friend_of_japan }
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_achille_murat={
+		name="Achille Murat"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=constitutionalist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_patrice_davout={
+		name="Patrice Davout"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_georges_lebouef={
+		name="Georges Lebouef"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_robert_bosquet={
+		name="Robert Bosquet"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_françois_duchêne={
+		name="François Duchêne"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_philippe_humbert={
+		name="Philippe Humbert"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician2.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+	CAY_henri_bugeaud={
+		name="Henri Bugeaud"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinist
+			expire="2013.1.1.12"
+			id=-1
+		}
+	}
+}

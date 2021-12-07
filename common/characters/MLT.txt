@@ -1,427 +1,160 @@
 characters={
-	MLT_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = MLT_aco2
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_edward_fenech_adami={
+		name="Edward Fenech Adami"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_4"
+			civilian={
+				large="gfx/leaders/MLT/Edward_Fenech_Adami.dds"
 			}
+		}
+		country_leader={
+			ideology=christian_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_nt={
-		advisor={
-			slot = theorist
-			idea_token = MLT_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_alfred_sant={
+		name="Alfred Sant"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_3"
+			civilian={
+				large="gfx/leaders/MLT/Alfred_Sant.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = MLT_communist_guy
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_henry_vassallo={
+		name="Henry Vassallo"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+			civilian={
+				large="gfx/leaders/MLT/Harry_Vassallo.dds"
 			}
+		}
+		country_leader={
+			ideology=green
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = MLT_pot
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_marlene_farrugia={
+		name="Marlene Farrugia"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
+			civilian={
+				large="gfx/leaders/MLT/Marlene_Farrugia.dds"
 			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_acas={
-		advisor={
-			slot = high_command
-			idea_token = MLT_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_josie_muscat={
+		name="Josie Muscat"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_2"
+			civilian={
+				large="gfx/leaders/MLT/Josie_Muscat.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_acr={
-		advisor={
-			slot = air_chief
-			idea_token = MLT_acr
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_norman_lowell={
+		name="Norman Lowell"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_3"
+			civilian={
+				large="gfx/leaders/MLT/Norman_Lowell.dds"
 			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = MLT_stc
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_victor_degiovanni={
+		name="Victor Degiovanni"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+			civilian={
+				large="gfx/leaders/MLT/Victor_Degiovanni.dds"
 			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_ai2={
-		advisor={
-			slot = high_command
-			idea_token = MLT_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_mohammed_elsadi={
+		name="Mohammed Elsadi"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_3"
+			civilian={
+				large="gfx/leaders/MLT/Mohammed_Elsadi.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	MLT_ncs={
-		advisor={
-			slot = high_command
-			idea_token = MLT_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_gwanni_gonzi={
+		name="Gwanni Gonzi"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_2"
+			civilian={
+				large="gfx/leaders/Europe/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_france enemy_of_india }
+			expire="2009.1.1.12"
+			id=-1
 		}
 	}
-	MLT_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = MLT_ncm
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_gwann_millar={
+		name="Gwann Millar"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_3"
+			civilian={
+				large="gfx/leaders/Europe/politician9.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="2019.1.1.12"
+			id=-1
 		}
 	}
-	MLT_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = MLT_acd2
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_nazzarenu_schembri={
+		name="Nazzarenu Schembri"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_1"
+			civilian={
+				large="gfx/leaders/Europe/politician11.dds"
 			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
-	MLT_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = MLT_democratic_guy
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	MLT_massimiljanu_abos={
+		name="Massimiljanu Abos"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
+			civilian={
+				large="gfx/leaders/Europe/politician_lindy.dds"
 			}
 		}
-	}
-	MLT_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = MLT_fascist_guy
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-	}
-	MLT_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = MLT_coi
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
-			}
-		}
-	}
-	MLT_ar={
-		advisor={
-			slot = high_command
-			idea_token = MLT_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_5"
-			}
-		}
-	}
-	MLT_aa2={
-		advisor={
-			slot = high_command
-			idea_token = MLT_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_2"
-			}
-		}
-	}
-	MLT_awt={
-		advisor={
-			slot = theorist
-			idea_token = MLT_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_2"
-			}
-		}
-	}
-	MLT_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = MLT_acgs
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_europe_3"
-			}
-		}
-	}
-	MLT_mt={
-		advisor={
-			slot = theorist
-			idea_token = MLT_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_europe_6"
-			}
-		}
-	}
-	MLT_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = MLT_nccr
-			allowed  = {
-					original_tag  = MLT
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_europe_2"
-			}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_russia }
+			expire="2006.1.1.12"
+			id=-1
 		}
 	}
 }

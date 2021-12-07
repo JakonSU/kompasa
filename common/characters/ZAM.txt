@@ -1,447 +1,180 @@
 characters={
-	ZAM_acas={
-		advisor={
-			slot = high_command
-			idea_token = ZAM_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_acas"
+	ZAM_frederick_chiluba={
+		name="Frederick Chiluba"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
+			civilian={
+				large="gfx/leaders/ZAM/Frederick_Chiluba.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	ZAM_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = ZAM_acgs
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_acgs"
+	ZAM_hakainde_hichilema={
+		name="Hakainde Hichilema"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
+			civilian={
+				large="gfx/leaders/ZAM/Hakainde_Hichilema.dds"
 			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	ZAM_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = ZAM_ncm
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_ncm"
+	ZAM_michael_sata={
+		name="Michael Sata"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+			civilian={
+				large="gfx/leaders/ZAM/Michael_Sata.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	ZAM_nt={
-		advisor={
-			slot = theorist
-			idea_token = ZAM_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_nt"
+	ZAM_elias_chipimo_jr.={
+		name="Elias Chipimo Jr."
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+			civilian={
+				large="gfx/leaders/ZAM/Elias_Chipimo.dds"
 			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	ZAM_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = ZAM_pot
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_pot"
+	ZAM_godfrey_miyanda={
+		name="Godfrey Miyanda"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/ZAM/Godfrey_Miyanda.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	ZAM_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = ZAM_nccr
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_nccr"
+	ZAM_nathan_mulenga={
+		name="Nathan Mulenga"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_african_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/ZAM/generals/Nathan_Mulenga.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	ZAM_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = ZAM_aco2
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_aco2"
+	ZAM_stanley_nkhata={
+		name="Stanley Nkhata"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-	ZAM_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = ZAM_coi
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_coi"
+	ZAM_harry_thomson={
+		name="Harry Thomson"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			traits={ friend_of_britain silent_workhorse }
+			expire="2011.1.1.12"
+			id=-1
 		}
 	}
-	ZAM_aa2={
-		advisor={
-			slot = high_command
-			idea_token = ZAM_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_aa2"
+	ZAM_nalumino_chibuye={
+		name="Nalumino Chibuye"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ compassionate_gentleman }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-	ZAM_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = ZAM_democratic_guy
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_democratic_guy"
+	ZAM_evelyn_james={
+		name="Evelyn James"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	ZAM_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = ZAM_acd2
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_acd2"
+	ZAM_lupando_lange={
+		name="Lupando Lange"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=libertarian
+			expire="2015.1.1.12"
+			id=-1
 		}
 	}
-	ZAM_acr={
-		advisor={
-			slot = air_chief
-			idea_token = ZAM_acr
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_acr"
+	ZAM_alick_mumba={
+		name="Alick Mumba"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="2005.1.1.12"
+			id=-1
 		}
 	}
-	ZAM_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = ZAM_fascist_guy
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_fascist_guy"
+	ZAM_hammerskjoeld_nkhata={
+		name="Hammerskjoeld Nkhata"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
 		}
-	}
-	ZAM_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = ZAM_stc
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_stc"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
-			}
-		}
-	}
-	ZAM_ncs={
-		advisor={
-			slot = high_command
-			idea_token = ZAM_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_ncs"
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	ZAM_awt={
-		advisor={
-			slot = theorist
-			idea_token = ZAM_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_awt"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
-		}
-	}
-	ZAM_mt={
-		advisor={
-			slot = theorist
-			idea_token = ZAM_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_mt"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_6"
-			}
-		}
-	}
-	ZAM_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = ZAM_communist_guy
-			allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_communist_guy"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
-			}
-		}
-	}
-	ZAM_ai2={
-		advisor={
-			slot = high_command
-			idea_token = ZAM_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_ai2"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
-			}
-		}
-	}
-	ZAM_ar={
-		advisor={
-			slot = high_command
-			idea_token = ZAM_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = ZAM
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_ar"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
-			}
+		country_leader={
+			ideology=leninist
+			traits={ retired_officer enemy_of_america }
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
 }

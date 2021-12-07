@@ -1,427 +1,166 @@
 characters={
-	GNA_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = GNA_nccr
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_lansana_conté={
+		name="Lansana Conté"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
+			civilian={
+				large="gfx/leaders/GNA/Lansana_Conte.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	GNA_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = GNA_aco2
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_faraban_traore={
+		name="Faraban Traore"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ friend_of_france eager_collaborator }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	GNA_ai2={
-		advisor={
-			slot = high_command
-			idea_token = GNA_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_moussa_tchidimbo={
+		name="Moussa Tchidimbo"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
+			civilian={
+				large="gfx/leaders/Africa/general3.dds"
 			}
+		}
+		country_leader={
+			ideology=national_socialist
+			traits={ national_integralist road_builder }
+			expire="2011.1.1.12"
+			id=-1
 		}
 	}
-	GNA_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = GNA_democratic_guy
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_manimou_marof={
+		name="Manimou Marof"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ economist armaments_organizer }
+			expire="2014.1.1.12"
+			id=-1
 		}
 	}
-	GNA_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = GNA_fascist_guy
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_samory_souare={
+		name="Samory Souare"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ enemy_of_britain }
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
-	GNA_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = GNA_ncm
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_ahmed_lejeunekaba={
+		name="Ahmed Lejeune-Kaba"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-	GNA_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = GNA_communist_guy
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_condetto_fofanah={
+		name="Condetto Fofanah"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ financial_expert enemy_of_america }
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
-	GNA_mt={
-		advisor={
-			slot = theorist
-			idea_token = GNA_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_bakary_fall={
+		name="Bakary Fall"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_6"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2009.1.1.12"
+			id=-1
 		}
 	}
-	GNA_ar={
-		advisor={
-			slot = high_command
-			idea_token = GNA_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_jeanmarie_drame={
+		name="Jean-Marie Drame"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ tenacious_negotiator friend_of_germany }
+			expire="2012.1.1.12"
+			id=-1
 		}
 	}
-	GNA_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = GNA_acd2
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_mamadou_camara={
+		name="Mamadou Camara"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ enemy_of_china }
+			expire="2015.1.1.12"
+			id=-1
 		}
 	}
-	GNA_acas={
-		advisor={
-			slot = high_command
-			idea_token = GNA_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_kabine_toure={
+		name="Kabine Toure"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-	GNA_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = GNA_pot
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	GNA_saifoulaye_bangoura={
+		name="Saifoulaye Bangoura"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
 		}
-	}
-	GNA_nt={
-		advisor={
-			slot = theorist
-			idea_token = GNA_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
-			}
-		}
-	}
-	GNA_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = GNA_stc
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
-			}
-		}
-	}
-	GNA_ncs={
-		advisor={
-			slot = high_command
-			idea_token = GNA_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	GNA_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = GNA_acgs
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	GNA_aa2={
-		advisor={
-			slot = high_command
-			idea_token = GNA_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_2"
-			}
-		}
-	}
-	GNA_acr={
-		advisor={
-			slot = air_chief
-			idea_token = GNA_acr
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	GNA_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = GNA_coi
-			allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
-			}
-		}
-	}
-	GNA_awt={
-		advisor={
-			slot = theorist
-			idea_token = GNA_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = GNA
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
+		country_leader={
+			ideology=leninist
+			traits={ ideological_crusader }
+			expire="2005.1.1.12"
+			id=-1
 		}
 	}
 }

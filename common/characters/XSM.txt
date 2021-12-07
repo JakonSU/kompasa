@@ -1,442 +1,168 @@
 characters={
-	XSM_ma_bufang={
-		name=XSM_ma_bufang
-		portraits={
-			civilian={
-				large="GFX_portrait_xsm_ma_bufang"
-			}
-			army={
-				large="GFX_portrait_xsm_ma_bufang"
-				small="GFX_idea_generic_army_asia_3"
-			}
-		}
-		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	XSM_ma_hongbin={
-		name=XSM_ma_hongbin
-		portraits={
-			army={ #Trust me these portraits match together
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-				small="GFX_idea_generic_army_asia_1"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = XSM_ma_hongbin
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				army_chief_defensive_2
-			}
-				cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-
-		corps_commander={
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-
-	XSM_mao_sun={
-		name=XSM_mao_sun
+	XSM_deng_shen={
+		name="Deng Shen"
 		portraits={
 			civilian={
 				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
 		country_leader={
-			ideology=socialism
-			traits={ national_integralist }
-			expire="1941.1.1.12"
+			ideology=islamic_authoritarian
+			expire="2009.1.1.12"
 			id=-1
 		}
 	}
-	XSM_hsia_sun={
-		name=XSM_hsia_sun
+	XSM_tan_zhao={
+		name="Tan Zhao"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
 			}
 		}
 		country_leader={
-			ideology=stalinism
-			traits={ smooth_talking_charmer armaments_organizer }
-			expire="1956.1.1.12"
+			ideology=national_socialist
+			traits={ friend_of_america road_builder }
+			expire="2012.1.1.12"
 			id=-1
 		}
 	}
-	XSM_hsia_jin={
-		name=XSM_hsia_jin
+	XSM_xie_shen={
+		name="Xie Shen"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/portrait_asia_generic_4.dds"
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 			}
 		}
 		country_leader={
-			ideology=rexism
-			traits={ economist silent_workhorse }
-			expire="1955.1.1.12"
+			ideology=autocrat
+			traits={ famous_businessman friend_of_britain }
+			expire="2016.1.1.12"
 			id=-1
 		}
 	}
-
-
-	### THEORISTS ###
-
-	# Claire Lee Chennault is in shared file
-
-	XSM_keng_shoushan={
-		name=XSM_keng_shoushan
+	XSM_mao_qiu={
+		name="Mao Qiu"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_4"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 			}
 		}
-		advisor={
-			cost = 100	
-			slot = theorist
-			idea_token = XSM_keng_shoushan
-			ledger = army
-			allowed = {
-				original_tag = XSM
-			}
-			
-			traits = {
-				military_theorist
-			}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-
-	XSM_ma_hongkui={
-		name=XSM_ma_hongkui
+	XSM_yang_ma={
+		name="Yang Ma"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_8.dds"
 			}
 		}
-		advisor={
-			cost = 100
-			slot = theorist
-			idea_token = XSM_ma_hongkui
-			ledger = air
-			allowed = {
-				original_tag = XSM
-			}
-			
-			traits = {
-				air_warfare_theorist
-			}
+		country_leader={
+			ideology=oligarchist
+			traits={ compassionate_gentleman appeaser }
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
-
-	
-	### ARMY CHIEFS ###
-
-	# Alexander von Falkenhausen in shared file
-
-	# Ma Hongbin is up there in this file as a Unit Leader too
-
-	XSM_ma_buqing={
-		name=XSM_ma_buqing
+	XSM_dong_jin={
+		name="Dong Jin"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_3" #Changed in NSB so that the other Army Chief can an advisor portrait matching his general portrait
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 			}
 		}
-		advisor={
-			slot = army_chief
-			idea_token = XSM_ma_buqing
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				army_chief_reform_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=constitutionalist
+			traits={ hawk fortification_engineer }
+			expire="2011.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### NAVY CHIEFS ###
-
-	XSM_lian_zenguang={
-		name=XSM_lian_zenguang
+	XSM_deng_sun={
+		name="Deng Sun"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
 			}
 		}
-		advisor={
-			slot = navy_chief
-			idea_token = XSM_lian_zenguang
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				navy_chief_maneuver_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ friend_of_japan war_industrialist }
+			expire="2015.1.1.12"
+			id=-1
 		}
 	}
-
-	XSM_keng_gui={
-		name=XSM_keng_gui
+	XSM_kong_dong={
+		name="Kong Dong"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_3"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 			}
 		}
-		advisor={		
-			slot = navy_chief
-			idea_token = XSM_keng_gui
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				navy_chief_decisive_battle_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=liberalist
+			traits={ friend_of_america enemy_of_america }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### AIR CHIEFS ###
-
-	# Claire Lee Chennault is in shared file
-
-	XSM_may_chongan={
-		name=XSM_may_chongan
+	XSM_ma_wu={
+		name="Ma Wu"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
 			}
 		}
-		advisor={		
-			slot = air_chief
-			idea_token = XSM_may_chongan
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				air_chief_reform_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ captain_of_industry enemy_of_russia }
+			expire="2006.1.1.12"
+			id=-1
 		}
 	}
-
-	XSM_chun_minsheng={
-		name=XSM_chun_minsheng
+	XSM_gao_wu={
+		name="Gao Wu"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
 			}
 		}
-		advisor={		
-			slot = air_chief
-			idea_token = XSM_chun_minsheng
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				air_chief_night_operations_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ friend_of_india friend_of_britain }
+			expire="2010.1.1.12"
+			id=-1
 		}
 	}
-
-
-	### MILITARY HIGH COMMAND ###
-
-	XSM_ma_donghai={
-		name=XSM_ma_donghai
+	XSM_yang_ting={
+		name="Yang Ting"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
 			}
 		}
-		advisor={
-			slot = high_command
-			idea_token = XSM_ma_donghai
-			ledger = air
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				air_close_air_support_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ enemy_of_russia enemy_of_britain }
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
-
-	XSM_wu_qi={
-		name=XSM_wu_qi
+	XSM_pan_lü={
+		name="Pan Lü"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_1"
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_1.dds"
 			}
 		}
-		advisor={	
-			slot = high_command
-			idea_token = XSM_wu_qi
-			ledger = army
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				army_cavalry_3
-			}
-			cost = 200
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	XSM_au_yongrui={
-		name=XSM_au_yongrui
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_2"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = XSM_au_yongrui
-			ledger = army
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				army_commando_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-	XSM_ho_tengfei={
-		name=XSM_ho_tengfei
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_asia_2"
-			}
-		}
-		advisor={
-			slot = high_command
-			idea_token = XSM_ho_tengfei
-			ledger = navy
-			allowed = {
-				original_tag = XSM
-			}
-			traits = {
-				navy_fleet_logistics_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-	}
-
-
-	### POLITICAL ADVISORS ###
-
-	# Dai Li in shared file
-	# T.V. Soong in shared file
-	# Deng Xiaoping in shared file
-	# Kang Sheng in shared file
-	# Luo Ruiqing in sahred file
-
-	XSM_fang_jing={
-		name=XSM_fang_jing
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_asia_generic_democracy.dds"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = XSM_fang_jing
-			allowed  = {
-				original_tag  = XSM
-			}
-			traits  = {
-				smooth_talking_charmer 
-			}
-		}
-	}
-
-	XSM_zi_shen={
-		name=XSM_zi_shen
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_2"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = XSM_zi_shen
-			allowed  = {
-				original_tag  = XSM
-			}
-			traits  = {
-				backroom_backstabber 
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-	}
-
-	XSM_li_shiqun={
-		name=XSM_li_shiqun
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_3"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = XSM_li_shiqun
-			allowed  = {
-				original_tag  = XSM
-			}
-			traits  = {
-				prince_of_terror 
-			}
+		country_leader={
+			ideology=maoist
+			traits={ dealbroker appeaser }
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
 }

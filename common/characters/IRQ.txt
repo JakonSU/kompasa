@@ -1,450 +1,577 @@
 characters={
-	IRQ_ghazi_i={
-		name="Ghazi I"
+	IRQ_saddam_hussein={
+		name="Saddam Hussein"
 		portraits={
 			civilian={
-				large="GFX_portrait_iraq_ghazi"
+				large="gfx/leaders/IRQ/Saddam_Hussein.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1965.1.1.1"
+			ideology=pannationalist
+			expire="2004.1.1.1"
 			id=-1
 		}
 	}
-	IRQ_rashid_ali_algaylani={
-		name="Rashid Ali al-Gaylani"
+	IRQ_raad_i={
+		name="Ra'ad I"
 		portraits={
 			civilian={
-				large="GFX_portrait_iraq_rashid_al_gaylani"
+				large="gfx/leaders/IRQ/Raad.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
+			ideology=absolute_monarchist
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	IRQ_yusuf_salman_yusuf={
-		name="Yusuf Salman Yusuf"
+	IRQ_muqtada_alsadr={
+		name="Muqtada al-Sadr"
 		portraits={
 			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+				large="gfx/leaders/IRQ/Muqtada_al_Sadr.dds"
 			}
 		}
 		country_leader={
-			ideology=leninism
-			expire="1965.1.1.1"
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	IRQ_abd_almalik_ibn_hisham={
-		name="Abd al-Malik ibn Hisham"
+	IRQ_ibrahim_aljaafari={
+		name="Ibrahim al-Jaafari"
 		portraits={
 			civilian={
-				large="gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+				large="gfx/leaders/IRQ/Ibrahim_al_Jaafari.dds"
 			}
 		}
 		country_leader={
-			ideology=conservatism
-			expire="1949.1.1.12"
+			ideology=right_wing_conservative
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	IRQ_faisal_ii={
-		name="Faisal II"
+	IRQ_adnan_pachachi={
+		name="Adnan Pachachi"
 		portraits={
 			civilian={
-				large="gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
+				large="gfx/leaders/IRQ/Adnan_Pachachi.dds"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			expire="1949.1.1.12"
+			ideology=libertarian
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	IRQ_taha_al_ahmani={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = IRQ_taha_al_ahmani
-			ledger = navy
-				allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					navy_naval_air_defense_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Taha al Ahmani"
+	IRQ_ahmed_chalabi={
+		name="Ahmed Chalabi"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_2"
+			civilian={
+				large="gfx/leaders/IRQ/Ahmed_Chalabi.dds"
 			}
+		}
+		country_leader={
+			ideology=centrist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_fahmi_said={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = IRQ_fahmi_said
-			ledger = air
-				allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					air_close_air_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fahmi Sa'id"
+	IRQ_naseer_alchaderchi={
+		name="Naseer al-Chaderchi"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
+			civilian={
+				large="Naseer_Chaderchi"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_ali_mahmud_al_shaykh={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = IRQ_ali_mahmud_al_shaykh
-			ledger = army
-				allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					navy_amphibious_assault_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Mahmud al Shaykh"
+	IRQ_ayad_allawi={
+		name="Ayad Allawi"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_1"
+			civilian={
+				large="gfx/leaders/IRQ/Ayad_Allawi.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_iskandar_al-shami={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = IRQ_iskandar_al-shami
-			ledger = navy
-				allowed = {
-					original_tag = IRQ
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Iskandar al-Shami"
+	IRQ_khalil_fazil={
+		name="Khalil Fazil"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_1"
+			civilian={
+				large="gfx/leaders/IRQ/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_abdullah_al-tell={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = IRQ_abdullah_al-tell
-			allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					air_chief_reform_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Abdullah al-Tell"
+	IRQ_hamid_majid_mousa={
+		name="Hamid Majid Mousa"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_arab_3"
+			civilian={
+				large="gfx/leaders/IRQ/Hamid_Majid_Mousa.dds"
 			}
+		}
+		country_leader={
+			ideology=marxist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_mustafa_al_quidsi={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = IRQ_mustafa_al_quidsi
-			ledger = army
-				allowed = {
-					original_tag = IRQ
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Mustafa al-Qudsi"
+	IRQ_mohammad_baqir_alhakim={
+		name="Mohammad Baqir al-Hakim"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_arab_2"
+			civilian={
+				large="gfx/leaders/IRQ/Mohammad_Baqir_al_Hakim.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_hamdi_al_pachachi={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = IRQ_hamdi_al_pachachi
-			allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Hamdi al Pachachi"
+	IRQ_yonadam_kanna={
+		name="Yonadam Kanna"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_arab_1"
+			civilian={
+				large="gfx/leaders/IRQ/Yonadam_Kanna.dds"
 			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	IRQ_fawsi_al_kaukji={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = IRQ_fawsi_al_kaukji
-			allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fawsi al Kaukji"
+	IRQ_izzat_ibrahim_aldouri={
+		name="Izzat Ibrahim al-Douri"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Izzat_Ibrahim_al-Douri.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard logistics_wizard }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_khaled_al_dalabeeh={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = IRQ_khaled_al_dalabeeh
-			allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					air_chief_ground_support_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Khaled al Dalabeeh"
+	IRQ_othman_al_ghanimi={
+		name="Othman Al Ghanimi"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Othman_Al_Ghanimi.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard thorough_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_jamil_al_midfai={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = IRQ_jamil_al_midfai
-			allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					navy_chief_reform_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Jamil al Midfai"
+	IRQ_babaker_zebari={
+		name="Babaker Zebari"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Babaker_Zebari.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_ali_ben_jawad={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = IRQ_ali_ben_jawad
-			ledger = air
-				allowed = {
-					original_tag = IRQ
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali ben Jawad"
+	IRQ_qassi_jassem_nazal={
+		name="Qassi Jassem Nazal"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Qassi_Jassem_Nazal.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_bakr_sidqi={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = IRQ_bakr_sidqi
-			ledger = army
-				allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					army_entrenchment_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Bakr Sidqi"
+	IRQ_abud_qanbar={
+		name="Abud Qanbar"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Abud_Qanbar.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_abdullah={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = IRQ_abdullah
-			allowed = {
-					original_tag = IRQ
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Abdullah"
+	IRQ_ali_hassan_almajid={
+		name="Ali Hassan al-Majid"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_al-Majid.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster trait_engineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_amir_al_illah={
-		advisor={
-			slot = political_advisor
-			idea_token = IRQ_amir_al_illah
-			allowed  = {
-					original_tag  = IRQ
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Amir al Illah"
+	IRQ_mutaa_al_khazraji={
+		name="Mutaa Al Khazraji"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Mutaa_Al_Khazraji.dds"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_ali_abn_hussein={
-		advisor={
-			slot = political_advisor
-			idea_token = IRQ_ali_abn_hussein
-			allowed  = {
-					original_tag  = IRQ
-				}
-				traits  = {
-					backroom_backstabber 
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ali Abn Hussein"
+	IRQ_ahmed_hashim={
+		name="Ahmed Hashim"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ahmad_Hashim.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader desert_fox }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	IRQ_nuri_as_said={
-		advisor={
-			slot = political_advisor
-			idea_token = IRQ_nuri_as_said
-			allowed  = {
-					original_tag  = IRQ
-				}
-				traits  = {
-					armaments_organizer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Nuri as Said"
+	IRQ_othman_ali_farhood={
+		name="Othman Ali Farhood"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_arab_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Othman_Ali_Farhood.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_hamid_al_maliki={
+		name="Hamid Al Maliki"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Hamid_Al_Maliki.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_abdel_wahal_al_saadi={
+		name="Abdel Wahal Al Saadi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Abdel_Wahab_Al_Saadi.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_qassim_atta={
+		name="Qassim Atta"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Qassim_Atta.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader desert_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_ghaidan_majid={
+		name="Ali Ghaidan Majid"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_Ghaidan_Majid.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_fadhil_jalil_al_barwari={
+		name="Fadhil Jalil Al Barwari"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Fadhil_Jalil_Al_Barwari.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_nassir_al_hiti={
+		name="Nassir Al Hiti"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Nassir_Al_Hiti.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_najm_abdullah_alsudani={
+		name="Najm Abdullah al-Sudani"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Najm_Abdullah_al-Sudani.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_sultan_hashim={
+		name="Sultan Hashim"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Sultan_Hashim.dds"
+			}
+		}
+		corps_commander={
+			traits={ fortress_buster }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_sabah_al_fatlawi={
+		name="Sabah Al Fatlawi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Sabah_Al_Fatlawi.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_talib_shaghati={
+		name="Talib Shaghati"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Talib_Shaghati.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_saad_maan={
+		name="Saad Maan"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Saad_Maan.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	IRQ_ali_hussain_ali={
+		name="Ali Hussain Ali"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRQ/Portrait_Ali_Hussain_Ali.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
 }

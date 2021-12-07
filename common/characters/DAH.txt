@@ -1,427 +1,168 @@
 characters={
-	DAH_stc={
-		advisor={
-			slot = political_advisor
-			idea_token = DAH_stc
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					smooth_talking_charmer 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_mathieu_kerekou={
+		name="Mathieu Kerekou"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
+			civilian={
+				large="gfx/leaders/DAH/Mathieu_Kerekou.dds"
 			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	DAH_aco2={
-		advisor={
-			slot = army_chief
-			idea_token = DAH_aco2
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_sourou_koussihouede={
+		name="Sourou Koussihouede"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ friend_of_russia }
+			expire="2011.1.1.12"
+			id=-1
 		}
 	}
-	DAH_aa2={
-		advisor={
-			slot = high_command
-			idea_token = DAH_aa2
-			ledger  = army 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					army_armored_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_tometin_edjekpan={
+		name="Tometin Edjekpan"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2006.1.1.12"
+			id=-1
 		}
 	}
-	DAH_ncs={
-		advisor={
-			slot = high_command
-			idea_token = DAH_ncs
-			ledger  = navy 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					navy_capital_ship_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_sourou_kouandete={
+		name="Sourou Kouandete"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=national_democrat
+			traits={ enemy_of_russia silent_workhorse }
+			expire="2017.1.1.12"
+			id=-1
 		}
 	}
-	DAH_nt={
-		advisor={
-			slot = theorist
-			idea_token = DAH_nt
-			ledger  = navy 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					naval_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_sourou_dossouyavo={
+		name="Sourou Dossou-Yavo"
 		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ national_integralist }
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
-	DAH_acas={
-		advisor={
-			slot = high_command
-			idea_token = DAH_acas
-			ledger  = air 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					air_close_air_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_basile_kotchoni={
+		name="Basile Kotchoni"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ editor }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	DAH_acd2={
-		advisor={
-			slot = army_chief
-			idea_token = DAH_acd2
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					army_chief_defensive_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_benoit_dossou={
+		name="Benoit Dossou"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			traits={ retired_officer enemy_of_america }
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-	DAH_democratic_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = DAH_democratic_guy
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					democratic_reformer 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = democratic 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_benoit_adenon={
+		name="Benoit Adenon"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ ideological_crusader smooth_talking_charmer }
+			expire="2015.1.1.12"
+			id=-1
 		}
 	}
-	DAH_mt={
-		advisor={
-			slot = theorist
-			idea_token = DAH_mt
-			ledger  = army 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					military_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_anicet_dohou={
+		name="Anicet Dohou"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_6"
+			civilian={
+				large="gfx/leaders/Africa/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ friend_of_india }
+			expire="2011.1.1.12"
+			id=-1
 		}
 	}
-	DAH_ai2={
-		advisor={
-			slot = high_command
-			idea_token = DAH_ai2
-			ledger  = army 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_leonard_alley={
+		name="Leonard Alley"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
+		}
+		country_leader={
+			ideology=progressive_ideology
+			traits={ fortification_engineer reluctant_interventionist }
+			expire="2006.1.1.12"
+			id=-1
 		}
 	}
-	DAH_coi={
-		advisor={
-			slot = political_advisor
-			idea_token = DAH_coi
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					captain_of_industry 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_jeanmarie_boni={
+		name="Jean-Marie Boni"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_1"
+			civilian={
+				large="gfx/leaders/Africa/politician2.dds"
 			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ friend_of_britain enemy_of_russia }
+			expire="2018.1.1.12"
+			id=-1
 		}
 	}
-	DAH_acr={
-		advisor={
-			slot = air_chief
-			idea_token = DAH_acr
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					air_chief_reform_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
+	DAH_jeanmarie_holo={
+		name="Jean-Marie Holo"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
+			civilian={
+				large="gfx/leaders/Africa/politician1.dds"
 			}
 		}
-	}
-	DAH_pot={
-		advisor={
-			slot = political_advisor
-			idea_token = DAH_pot
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					prince_of_terror 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
-			}
-		}
-	}
-	DAH_awt={
-		advisor={
-			slot = theorist
-			idea_token = DAH_awt
-			ledger  = air 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					air_warfare_theorist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_2"
-			}
-		}
-	}
-	DAH_communist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = DAH_communist_guy
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					communist_revolutionary 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = communism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_3"
-			}
-		}
-	}
-	DAH_ncm={
-		advisor={
-			slot = navy_chief
-			idea_token = DAH_ncm
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_3"
-			}
-		}
-	}
-	DAH_acgs={
-		advisor={
-			slot = air_chief
-			idea_token = DAH_acgs
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					air_chief_ground_support_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_air_african_3"
-			}
-		}
-	}
-	DAH_nccr={
-		advisor={
-			slot = navy_chief
-			idea_token = DAH_nccr
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					navy_chief_commerce_raiding_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_navy_african_2"
-			}
-		}
-	}
-	DAH_fascist_guy={
-		advisor={
-			slot = political_advisor
-			idea_token = DAH_fascist_guy
-			allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					fascist_demagogue 
-				}
-				do_effect  = {
-					not  = {
-						has_government  = fascism 
-					}
-				}
-				ai_will_do  = {
-					factor  = 0.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_african_2"
-			}
-		}
-	}
-	DAH_ar={
-		advisor={
-			slot = high_command
-			idea_token = DAH_ar
-			ledger  = army 
-				allowed  = {
-					original_tag  = DAH
-				}
-				traits  = {
-					army_regrouping_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_5"
-			}
+		country_leader={
+			ideology=leninist
+			traits={ agricultural_expert }
+			expire="2013.1.1.12"
+			id=-1
 		}
 	}
 }

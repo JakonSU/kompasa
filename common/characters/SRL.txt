@@ -1,0 +1,165 @@
+characters={
+	SRL_chandrika_kumaratunga={
+		name="Chandrika Kumaratunga"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRL/Chandrika_Kumaratunga.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	SRL_rajin_jayewardene={
+		name="Rajin Jayewardene"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	SRL_avilop_jayasinghe={
+		name="Avilop Jayasinghe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_ideology
+			expire="2018.1.1.12"
+			id=-1
+		}
+	}
+	SRL_amith_priyantha={
+		name="Amith Priyantha"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+			}
+		}
+		country_leader={
+			ideology=autocrat
+			traits={ friend_of_germany enemy_of_china }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	SRL_vikhed_jagath={
+		name="Vikhed Jagath"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ dealbroker enemy_of_china }
+			expire="2017.1.1.12"
+			id=-1
+		}
+	}
+	SRL_supurush_perea={
+		name="Supurush Perea"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=counter_progressive_democrat
+			traits={ compassionate_gentleman }
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	SRL_dimbh_sirisena={
+		name="Dimbh Sirisena"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=right_wing_conservative
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SRL_davith_niroshan={
+		name="Davith Niroshan"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	SRL_aneech_gunaratne={
+		name="Aneech Gunaratne"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			traits={ dealbroker armaments_organizer }
+			expire="2016.1.1.12"
+			id=-1
+		}
+	}
+	SRL_tharindu_mendis={
+		name="Tharindu Mendis"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ compassionate_gentleman }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	SRL_kulinak_samarasinghe={
+		name="Kulinak Samarasinghe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			traits={ editor }
+			expire="2015.1.1.12"
+			id=-1
+		}
+	}
+	SRL_dishan_dinuk={
+		name="Dishan Dinuk"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_communism_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ friend_of_germany }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+}

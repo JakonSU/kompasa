@@ -1,571 +1,417 @@
 characters={
-	PRU_Óscar_benavides={
-		name="Óscar Benavides"
+	PRU_alberto_fujimori={
+		name="Alberto Fujimori"
 		portraits={
 			civilian={
-				large="GFX_Portrait_peru_oscar_benavides"
+				large="gfx/leaders/PRU/Alberto_Fujimori.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
+			ideology=counter_progressive_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PRU_sebastián_lynch={
-		name="Sebastián Lynch"
+	PRU_valentín_paniagua={
+		name="Valentín Paniagua"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_7.dds"
+				large="gfx/leaders/PRU/Valentin_Paniagua.dds"
 			}
 		}
 		country_leader={
-			ideology=socialism
-			traits={ economist silent_workhorse }
-			expire="1943.1.1.12"
+			ideology=national_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PRU_hilarión_lynch={
-		name="Hilarión Lynch"
+	PRU_alejandro_toledo={
+		name="Alejandro Toledo"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				large="gfx/leaders/PRU/Alejandro_Toledo.dds"
 			}
 		}
 		country_leader={
-			ideology=stalinism
-			traits={ ideological_crusader }
-			expire="1943.1.1.12"
+			ideology=libertarian
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PRU_santiago_ruíztagle={
-		name="Santiago Ruíz-Tagle"
+	PRU_alan_garcia={
+		name="Alan Garcia"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/portrait_south_america_generic_8.dds"
+				large="gfx/leaders/PRU/Alan_Garcia.dds"
 			}
 		}
 		country_leader={
-			ideology=moderatism
-			traits={ armaments_organizer }
-			expire="1944.1.1.12"
+			ideology=christian_democrat
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PRU_manuel_prado_ugarteche={
-		name="Manuel Prado Ugarteche"
+	PRU_ollanta_humala={
+		name="Ollanta Humala"
 		portraits={
 			civilian={
-				large="gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+				large="gfx/leaders/PRU/Ollanta_Humala.dds"
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
-			expire="1965.1.1.1"
+			ideology=democratic_socialist_ideology
+			expire="1.1.1.1"
 			id=-1
 		}
 	}
-	PRU_rafael_escardo={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PRU_rafael_escardo
-			ledger = army
-				allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_infantry_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Rafael Escardo"
+	PRU_martín_mayta={
+		name="Martín Mayta"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_2"
+			civilian={
+				large="gfx/leaders/PRU/Martin_Matya.dds"
 			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	PRU_alberto_lopez_flores={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PRU_alberto_lopez_flores
-			ledger = air
-				allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					air_airborne_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Alberto Lopez Flores"
+	PRU_abimael_guzman={
+		name="Abimael Guzman"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_1"
+			civilian={
+				large="gfx/leaders/PRU/Abimael_Guzman.dds"
 			}
+		}
+		country_leader={
+			ideology=maoist
+			expire="1.1.1.1"
+			id=-1
 		}
 	}
-	PRU_oscar_gilardi={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PRU_oscar_gilardi
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_chief_drill_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Oscar Gilardi"
+	PRU_victor_carrera={
+		name="Victor Carrera"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_5"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Victoria_Carrera.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_felipe_tudela={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = PRU_felipe_tudela
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					navy_chief_commerce_raiding_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Felipe Tudela"
+	PRU_cesar_salcedo={
+		name="Cesar Salcedo"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Cesar_Salcedo.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_eduardo_cantabria_gomez={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = PRU_eduardo_cantabria_gomez
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					air_chief_reform_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eduardo Cantabria Gomez"
+	PRU_leonel_cabrera_pino={
+		name="Leonel Cabrera Pino"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Leonel_Cabrera_Pino.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard thorough_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_ernesto_scroth={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PRU_ernesto_scroth
-			ledger = navy
-				allowed = {
-					original_tag = PRU
-				}
-				
-				traits = {
-					naval_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Ernesto Scroth"
+	PRU_cesar_augusto_astudillo_salcedo={
+		name="Cesar Augusto Astudillo Salcedo"
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Cesar_Augusto_Astudillo_Salcedo.dds"
+			}
+		}
+		corps_commander={
+			traits={ panzer_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_luis_ramirez_ortiz={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PRU_luis_ramirez_ortiz
-			ledger = army
-				allowed = {
-					original_tag = PRU
-				}
-				
-				traits = {
-					military_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Luis Ramírez Ortiz"
+	PRU_dante_antonio_arevalo_abate={
+		name="Dante Antonio Arevalo Abate"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Dante_Antonio_Arevalo_Abate.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_oscar_benavides_larrea={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PRU_oscar_benavides_larrea
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_chief_defensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Oscar Benavides Larrea"
+	PRU_javier_ramirez_guillen={
+		name="Javier Ramirez Guillen"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Javier_Ramirez_Guillen.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_manuel_odria_amoretti={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PRU_manuel_odria_amoretti
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_chief_organizational_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Manuel Odria Amoretti"
+	PRU_julio_valdez_pomareda={
+		name="Julio Valdez Pomareda"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Julio_Valdez_Pomareda.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_luis_navarrete={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PRU_luis_navarrete
-			ledger = air
-				allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					navy_carrier_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Luis Navarreté"
+	PRU_augusto_javier_villarroel_rossi={
+		name="Augusto Javier Villarroel Rossi"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Augusto_Javier_Villarroel_Rossi.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_paul_de_beaudiez={
-		advisor={
-			
-			
-			slot = air_chief
-			idea_token = PRU_paul_de_beaudiez
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					air_chief_safety_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Paul de Beaudiez"
+	PRU_luis_ramos_hume={
+		name="Luis Ramos Hume"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Luis_Ramos_Hume.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_alberto_roque_saldias={
-		advisor={
-			
-			
-			slot = navy_chief
-			idea_token = PRU_alberto_roque_saldias
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					navy_chief_decisive_battle_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Alberto Roque Saldías"
+	PRU_victor_abraham_najar_carrera={
+		name="Victor Abraham Najar Carrera"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_south_america_2"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/generals/Victor_Abraham_Najar_Carrera.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_vladimiro_lopez_trigoso={
-		advisor={
-			
-			
-			slot = army_chief
-			idea_token = PRU_vladimiro_lopez_trigoso
-			allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_chief_offensive_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Vladimiro Lopéz Trigoso"
+	PRU_carlos_tijeda={
+		name="Carlos Tijeda"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_3"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/admirals/Carlos_Tijeda.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_eloy_g_ureta={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PRU_eloy_g_ureta
-			ledger = army
-				allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_logistics_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eloy G. Ureta"
+	PRU_luis_paredes_lora={
+		name="Luis Paredes Lora"
 		portraits={
 			army={
-				small="GFX_idea_generic_army_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/admirals/Luis_Paredes_Lora.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_fernando_m_quesada_blanco={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PRU_fernando_m_quesada_blanco
-			ledger = air
-				allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					air_strategic_bombing_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Fernando M. Quesada Blanco"
+	PRU_victor_emanuel_pomar_calderon={
+		name="Victor Emanuel Pomar Calderon"
 		portraits={
 			army={
-				small="GFX_idea_generic_air_south_america_1"
+				small=""
 			}
+			army={
+				large="gfx/leaders/PRU/admirals/Victor_Emanuel_Pomar_Calderon.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	PRU_eduardo_montero_rojas={
-		advisor={
-			
-			
-			slot = high_command
-			idea_token = PRU_eduardo_montero_rojas
-			ledger = army
-				allowed = {
-					original_tag = PRU
-				}
-				traits = {
-					army_armored_2
-				}
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Eduardo Montero Rojas"
+	PRU_pablo_de_vidal={
+		name="Pablo de Vidal"
 		portraits={
-			army={
-				small="GFX_idea_generic_army_south_america_4"
+			civilian={
+				large="gfx/leaders/South America/politician_islamist1.dds"
 			}
+		}
+		country_leader={
+			ideology=islamic_authoritarian
+			traits={ economist ideological_crusader }
+			expire="2008.1.1.12"
+			id=-1
 		}
 	}
-	PRU_romulo_frias={
-		advisor={
-			cost = 100
-			
-			slot = theorist
-			idea_token = PRU_romulo_frias
-			ledger = air
-				allowed = {
-					original_tag = PRU
-				}
-				
-				traits = {
-					air_warfare_theorist
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Romulo Frias"
+	PRU_enrique_toro={
+		name="Enrique Toro"
 		portraits={
-			army={
-				small="GFX_idea_generic_air_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician3.dds"
 			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			traits={ friend_of_germany }
+			expire="2020.1.1.12"
+			id=-1
 		}
 	}
-	PRU_oscar_miro_quesada={
-		advisor={
-			slot = political_advisor
-			idea_token = PRU_oscar_miro_quesada
-			allowed  = {
-					original_tag  = PRU
-				}
-				traits  = {
-					silent_workhorse 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Oscar Miro Quesada"
+	PRU_emiliano_calvo={
+		name="Emiliano Calvo"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_2"
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
 			}
+		}
+		country_leader={
+			ideology=centrist
+			traits={ hawk }
+			expire="2016.1.1.12"
+			id=-1
 		}
 	}
-	PRU_jose_bustamante_y_rivero={
-		advisor={
-			slot = political_advisor
-			idea_token = PRU_jose_bustamante_y_rivero
-			allowed  = {
-					original_tag  = PRU
-				}
-				traits  = {
-					compassionate_gentleman 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="José Bustamante y Rivero"
+	PRU_felipe_calvo={
+		name="Felipe Calvo"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_3"
+			civilian={
+				large="gfx/leaders/South America/politician4.dds"
 			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2011.1.1.12"
+			id=-1
 		}
 	}
-	PRU_armando_reveredo_iglesias={
-		advisor={
-			slot = political_advisor
-			idea_token = PRU_armando_reveredo_iglesias
-			allowed  = {
-					original_tag  = PRU
-				}
-				traits  = {
-					war_industrialist 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Armando Reveredo Iglesias"
+	PRU_pedro_campero={
+		name="Pedro Campero"
 		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
+			civilian={
+				large="gfx/leaders/South America/politician1.dds"
 			}
 		}
-	}
-	PRU_reynaldo_vinatea={
-		advisor={
-			slot = political_advisor
-			idea_token = PRU_reynaldo_vinatea
-			allowed  = {
-					original_tag  = PRU
-				}
-				traits  = {
-					ideological_crusader 
-				}
-		}
-# TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Reynaldo Vinatea"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_south_america_1"
-			}
+		country_leader={
+			ideology=green
+			traits={ friend_of_america }
+			expire="2007.1.1.12"
+			id=-1
 		}
 	}
 }

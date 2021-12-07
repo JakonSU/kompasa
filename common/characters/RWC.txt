@@ -1,0 +1,202 @@
+characters={
+	RWC_szachy={
+		name="Szachy"
+		portraits={
+			civilian={
+				large="gfx/leaders/RWC/image.dds"
+			}
+		}
+		country_leader={
+			ideology=fiscal_conservative
+			expire="1.1.1.1"
+			id=-1
+		}
+	}
+	RWC_vladimir_arshba={
+		name="Vladimir Arshba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general1.dds"
+			}
+		}
+		field_marshal={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RWC_sultan_sosnaliev={
+		name="Sultan Sosnaliev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Europe/general2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	RWC_jim_roberts={
+		name="Jim Roberts"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_republican
+			traits={ fortification_engineer }
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	RWC_peter_walker={
+		name="Peter Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=national_socialist
+			expire="2005.1.1.12"
+			id=-1
+		}
+	}
+	RWC_lucas_williams={
+		name="Lucas Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=proto_fascist
+			traits={ national_integralist enemy_of_france }
+			expire="2006.1.1.12"
+			id=-1
+		}
+	}
+	RWC_peter_jones={
+		name="Peter Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchist
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	RWC_john_white={
+		name="John White"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchist
+			traits={ retired_officer }
+			expire="2007.1.1.12"
+			id=-1
+		}
+	}
+	RWC_bob_walker={
+		name="Bob Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=market_liberal_ideology
+			traits={ hawk enemy_of_russia }
+			expire="2008.1.1.12"
+			id=-1
+		}
+	}
+	RWC_marcus_williams={
+		name="Marcus Williams"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalist
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	RWC_johannes_doe={
+		name="Johannes Doe"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_ideology
+			expire="2009.1.1.12"
+			id=-1
+		}
+	}
+	RWC_marcus_walker={
+		name="Marcus Walker"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=green
+			traits={ enemy_of_russia }
+			expire="2010.1.1.12"
+			id=-1
+		}
+	}
+	RWC_marcus_wilson={
+		name="Marcus Wilson"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialist_ideology
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+	RWC_peter_taylor={
+		name="Peter Taylor"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=leninist
+			traits={ editor }
+			expire="2011.1.1.12"
+			id=-1
+		}
+	}
+}
