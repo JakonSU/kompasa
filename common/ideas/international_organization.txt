@@ -1,6 +1,32 @@
 ideas = {
 	country = {
 	
+		###		United Nations		###
+		idea_united_nations_security_council_member = {
+			picture = united_nations_gold
+		
+			allowed = { always = no }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.15
+			}
+			
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		idea_united_nations_NP_security_council_member = {
+			picture = united_nations_green
+		
+			allowed = { always = no }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}
+		
 		###		African Union		###
 		african_union_member = {
 			picture = AU_member
@@ -131,6 +157,19 @@ ideas = {
 				industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				recruitable_population = -0.1
+			}
+		}
+		
+		###		Visegrad		###
+		visegrad_group_member = {
+			picture = visegrad
+		
+			allowed = { always = no }
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 0.05
+				justify_war_goal_time = 0.05
 			}
 		}
 		

@@ -314,6 +314,105 @@ news_event = {
 	}
 }
 
+#We have been assigned a UNSC seat!
+news_event = {
+	id = news.51
+	title = news.51.t
+	desc = news.51.d
+	picture = GFX_news_event_united_nations
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		add_timed_idea = {
+			idea = idea_united_nations_NP_security_council_member
+			days = 730
+		}
+	}
+	
+	option = {
+		name = news.51.o1
+		effect_tooltip = {
+			add_timed_idea = {
+				idea = idea_united_nations_NP_security_council_member
+				days = 730
+			}
+		}
+	}
+}
+
+#We have a year of UNSC left
+news_event = {
+	id = news.52
+	title = news.52.t
+	desc = news.52.d
+	picture = GFX_news_event_united_nations
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		add_timed_idea = {
+			idea = idea_united_nations_NP_security_council_member
+			days = 365
+		}
+	}
+	
+	option = {
+		name = news.52.o1
+		effect_tooltip = {
+			add_timed_idea = {
+				idea = idea_united_nations_NP_security_council_member
+				days = 365
+			}
+		}
+	}
+}
+
+#New UNSC members
+news_event = {
+	id = news.53
+	title = news.53.t
+	desc = news.53.d
+	picture = GFX_news_event_united_nations
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = news.53.o1
+		trigger = {
+			has_idea = idea_united_nations_security_council_member
+		}
+	}
+	option = {
+		name = news.53.o2
+		trigger = {
+			NOT = { has_idea = idea_united_nations_security_council_member }
+			has_idea = idea_united_nations_NP_security_council_member
+		}
+	}
+	option = {
+		name = news.53.o3
+		trigger = {
+			NOT = { has_idea = idea_united_nations_security_council_member }
+			NOT = { has_idea = idea_united_nations_NP_security_council_member }
+			NOT = { has_idea = partially_recognized_state }
+			NOT = { has_idea = idea_focus_generic_jihad }
+		}
+	}
+	option = {
+		name = news.53.o4
+		trigger = {
+			NOT = { has_idea = idea_united_nations_security_council_member }
+			NOT = { has_idea = idea_united_nations_NP_security_council_member }
+			OR = {
+				has_idea = partially_recognized_state
+				has_idea = idea_focus_generic_jihad
+			}
+		}
+	}
+}
+
 #The dissolution of the European Union
 news_event = {
 	id = news.54
