@@ -2,7 +2,7 @@ state={
 	id=883
 	name="Jeju"
 	history = {
-	owner = JAP
+	owner = KOR
 	add_core_of = JAP
 	add_core_of = KOR
 	buildings = { infrastructure = 1 }
