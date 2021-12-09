@@ -1,37 +1,57 @@
-﻿capital = 796
-
-oob = "WTI_2000"
+﻿capital = 113
+recruit_character = WTI_vladislav_ardzinba
+recruit_character = WTI_vladimir_arshba
+recruit_character = WTI_sultan_sosnaliev
+recruit_character = WTI_alex_doe
+recruit_character = WTI_bob_walker
+recruit_character = WTI_peter_wilson
+recruit_character = WTI_john_taylor
+recruit_character = WTI_jim_roberts
+recruit_character = WTI_alexander_white
+recruit_character = WTI_peter_williams
+recruit_character = WTI_lucas_smith
+recruit_character = WTI_bob_roberts
+recruit_character = WTI_alex_evans
+recruit_character = WTI_bob_brown
+oob = "UAN_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "WTI_2000_naval_mtg"
+		set_naval_oob = "UAN_2000_naval_mtg"
 	else = {
-		set_naval_oob = "WTI_2000_naval_legacy"
+		set_naval_oob = "UAN_2000_naval_legacy"
 	}
 }
 
-set_research_slots = 2
-set_convoys = 25
+set_research_slots = 4
+set_convoys = 1000
 set_stability = 0.45
 
-set_country_flag = country_language_russian
-set_country_flag = country_behavior_dispersed
-set_country_flag = country_behavior_indolent
+set_country_flag = country_language_english
 
 set_technology = {
 	## Infantry ##
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
 	motorised_infantry = 1
+	infantry_rifle_upgrade = 1
 	support_weapons = 1
+	support_weapons2 = 1
+	night_vision = 1
 	body_armor = 1
 	camouflage = 1
+	marines = 1
+	tech_mountaineers = 1
+	paratroopers = 1
 	
 	## Support Companies ##
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
 	tech_field_hospital = 1
+	tech_logistics_company = 1
 	tech_military_police = 1
+	tech_signal_company = 1
+	tech_maintenance_company = 1
 	
 	## Armor ##
 	main_battle_tank1 = 1
@@ -39,31 +59,44 @@ set_technology = {
 	main_battle_tank3 = 1
 	light_tank1 = 1
 	mechanised_infantry1 = 1
+	mechanised_infantry2 = 1
 	light_mechanized_infantry1 = 1
 	
 	## Artillery ##
 	gw_artillery = 1
+	interwar_antitank = 1
 	interwar_antiair = 1
+	rocket_artillery = 1
+	motorized_rocket_unit = 1
 	
 	## Air ##
 	CAS1 = 1
 	CAS2 = 1
+	cv_CAS1 = 1
+	cv_CAS2 = 1
 	fighter1 = 1
 	fighter2 = 1
 	fighter3 = 1
+	cv_fighter1 = 1
+	cv_fighter2 = 1
 	naval_bomber1 = 1
 	naval_bomber2 = 1
+	naval_bomber3 = 1
+	cv_naval_bomber1 = 1
+	cv_naval_bomber2 = 1
 	strategic_bomber1 = 1
 	strategic_bomber2 = 1
 	tactical_bomber1 = 1
+	scout_plane1 = 1
 	
 	## Engineering ##
-	#eng_low
+	electronic_mechanical_engineering = 1
+	radio = 1
 	
 	## Industry ##
-	#ind_low
-	
-	## Doctrines ##
+	basic_machine_tools = 1
+	fuel_silos = 1
+	fuel_refining = 1
 	
 }
 
@@ -71,6 +104,19 @@ if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
 		early_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		improved_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_carrier = 1
+		basic_carrier = 1
+		early_submarine = 1
+		basic_submarine = 1
 		transport = 1
 	}
 }
@@ -78,83 +124,116 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		improved_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		improved_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		escort_ship_hull_carrier = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		smoke_generator = 1
+		sonar = 1
 		basic_depth_charges = 1
+		improved_airplane_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
 		basic_torpedo = 1
 		basic_battery = 1
 		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_secondary_battery = 1
+		basic_nuclear_reactors = 1
 		mtg_transport = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
 	}
+
 }
 
-add_ideas = {
-	population_growth_stagnation
-	extensive_conscription
-}
-
-set_politics = {	
-	ruling_party = social_democrat
-	last_election = "1999.10.3"
-	election_frequency = 48
+set_politics = {
+	ruling_party = market_liberal
+	last_election = "1997.5.1"
+	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-    social_democrat = 67
-    conservative = 23
-    reactionary = 6
-    nationalist = 2
-    progressive = 2
+    social_democrat = 31
+	market_liberal = 47.6
+	social_liberal = 16.2
+	reactionary = 3.2
+	democratic_socialist = 0.7
+	progressive = 0.8
+	market_liberal = 0.2
+	fascist = 0.1
+	nationalist = 0.1
+	communist = 0.1
 }
-
-give_military_access = SOV
-
-create_country_leader = {
-	name = "Vladislav Ardzinba"
-	picture = "Vladislav_Ardzinba.dds"
-	ideology = social_democrat_ideology
-}
-
-create_field_marshal = {
-	name = "Vladimir Arshba"
-	picture = "generals/Vladimir_Arshba.dds"
-	skill = 1
-}
-
-create_corps_commander = {	#passed away November 26, 2008
-	name = "Sultan Sosnaliev"
-	picture = "generals/Sultan_Sosnaliyev.dds"
-	skill = 1
-}
-
-2008.1.1 = {
-	create_field_marshal = {
-		name = "Anatoly Khrulyov"
-		picture = "generals/Anatoly_Khrulyov.dds"
-		skill = 1
-	}
-}
-
-2015.1.1 = {
+	
+2016.6.1 = {
 	set_politics = {
-		ruling_party = social_democrat
-		last_election = "2014.8.24"
-		election_frequency = 48
+		ruling_party = conservative
 		elections_allowed = yes
+		election_frequency = 60
+		last_election = "2015.5.7"
 	}
-
     set_popularities = {
-        social_democrat = 49
-        conservative = 35
-        reactionary = 9
-        communist = 4
-        nationalist = 1
-        social_liberal = 1
-        progressive = 1
-    }
+		social_democrat = 35.7
+		conservative = 35.4
+		reactionary = 15.1
+		social_liberal = 7.9
+		progressive = 4.4
+		democratic_socialist = 0.9
+		market_liberal = 0.2
+		nationalist = 0.2
+		communist = 0.1
+		fascist = 0.1
+	}
+	create_country_leader = {
+		name = "David MacDonald"
+		picture = "david_macdonald.dds"
+		ideology = national_socialist
+	}
 	
 	create_country_leader = {
-		name = "Raul Khajimba"
-		picture = "Raul_Khajimba.dds"
+		name = "Adam Walker"
+		picture = "adam_walker.dds"
+		ideology = proto_fascist
+	}
+	
+	create_country_leader = {
+		name = "Nigel Farage"
+		picture = "Nigel_Farage.dds"
+		ideology = counter_progressive_democrat
+	}
+	
+	create_country_leader = {
+		name = "David Cameron"
+		picture = "David_Cameron.dds"
+		ideology = fiscal_conservative
+	}
+	
+	create_country_leader = {
+		name = "Adam Brown"
+		picture = "Adam_Brown.dds"
+		ideology = libertarian
+	}
+	
+	create_country_leader = {
+		name = "Tim Farron"
+		picture = "Tim_Farron.dds"
+		ideology = centrist
+	}
+	
+	create_country_leader = {
+		name = "Jeremy Corbyn"
+		picture = "Jeremy_Corbyn.dds"
 		ideology = social_democrat_ideology
 	}
 }
@@ -167,9 +246,9 @@ if = {
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
-	
+	## Corvettes ##
 	create_equipment_variant = { #Corvette 1
-		name = "Project 1204 Shmel"
+		name = "Hunt class"
 		type = ship_hull_light_1
 		parent_version = 0
 		modules = {
@@ -181,6 +260,101 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_torpedo_1
 			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = no
+	}
+	create_equipment_variant = { #Corvette 2
+		name = "Sandown class"
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = no
+	}
+	## Frigates ##
+	create_equipment_variant = { #Frigate 2
+		name = "Type 23 Frigate"
+		type = ship_hull_cruiser_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_light_medium_battery_2
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_light_medium_battery_1
+		}
+		obsolete = no
+	}
+	## Destroyers ##
+	create_equipment_variant = { #Destroyer 1
+		name = "Type 42 Destroyer"
+		type = ship_hull_cruiser_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+		obsolete = no
+	}
+	## Carriers ##
+	create_equipment_variant = { #Carrier 2
+		name = "Invincible class"
+		type = ship_hull_carrier_1
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_engine_slot = carrier_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			front_1_custom_slot = empty
+		}
+		obsolete = no
+	}
+	## Submarines ##
+	create_equipment_variant = { #Diesel Sub 1A
+		name = "Trafalgar class"
+		type = ship_hull_submarine_1
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = { #Nuclear Sub 2A
+		name = "Trident Ballistic Missile Submarine"
+		type = ship_hull_submarine_2
+		parent_version = 0
+		modules = {
+			fixed_ship_radar_slot = ship_radar_1
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_n1
+			rear_1_custom_slot = ship_torpedo_sub_2
 		}
 		obsolete = no
 	}

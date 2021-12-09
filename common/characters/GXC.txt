@@ -41,10 +41,10 @@ characters={
 		}
 	}
 	GXC_kong_ye={
-		name="Kong Ye"
+		name="Antushi Kalarushing"
 		portraits={
 			civilian={
-				large="gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+				large="gfx/leaders/GXC/kala.dds"
 			}
 		}
 		country_leader={

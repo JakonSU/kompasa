@@ -3,7 +3,7 @@ characters={
 		name="Allah"
 		portraits={
 			civilian={
-				large="gfx/leaders/ELP/Vladislav_Ardzinba.dds"
+				large="gfx/leaders/ELP/1.dds"
 			}
 		}
 		country_leader={

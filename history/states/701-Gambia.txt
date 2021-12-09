@@ -3,7 +3,8 @@ state={
 	name="STATE_701"
 
 	history={
-		owner = GAM
+		owner = NGR
+		add_core_of = NGR
 		add_core_of = GAM
 		victory_points = {
 			4989 1 

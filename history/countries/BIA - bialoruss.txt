@@ -1,4 +1,4 @@
-﻿capital = 796
+﻿capital = 206
 recruit_character = BIA_johannes_brown
 recruit_character = BIA_alexander_smith
 recruit_character = BIA_lucas_white

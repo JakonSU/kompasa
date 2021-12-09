@@ -21,7 +21,7 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = ENG
+		add_core_of = UAN
 		add_core_of = WTI
 		add_core_of = NIR
 	}

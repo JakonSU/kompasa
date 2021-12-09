@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = MLI
+		owner = NGR
+		add_core_of = NGR
 		add_core_of = MLI
 		victory_points = {
 			4927 1

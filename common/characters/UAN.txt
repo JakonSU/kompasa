@@ -65,10 +65,10 @@ characters={
 		}
 	}
 	UAN_jim_evans={
-		name="Jim Evans"
+		name="Borys Adolfson"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/politician7.dds"
+				large="gfx/leaders/UAN/1.dds"
 			}
 		}
 		country_leader={
@@ -79,10 +79,10 @@ characters={
 		}
 	}
 	UAN_alexander_taylor={
-		name="Alexander Taylor"
+		name="Borys Sociatison"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/politician_fascist2.dds"
+				large="gfx/leaders/UAN/2.dds"
 			}
 		}
 		country_leader={

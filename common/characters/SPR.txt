@@ -3,7 +3,7 @@ characters={
 		name="Chujbert Chujnicki"
 		portraits={
 			civilian={
-				large="gfx/leaders/SPR/Juan_Carlos.dds"
+				large="gfx/leaders/SPR/1.dds"
 			}
 		}
 		country_leader={

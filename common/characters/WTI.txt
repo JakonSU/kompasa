@@ -135,10 +135,10 @@ characters={
 		}
 	}
 	WTI_peter_williams={
-		name="Peter Williams"
+		name="Sheamus O'shenasigh"
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/politician1.dds"
+				large="gfx/leaders/WTI/grub.dds"
 			}
 		}
 		country_leader={

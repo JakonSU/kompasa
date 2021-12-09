@@ -1,5 +1,18 @@
-﻿capital = 796
-
+﻿capital = 808
+recruit_character = HNZ_vladislav_ardzinba
+recruit_character = HNZ_vladimir_arshba
+recruit_character = HNZ_sultan_sosnaliev
+recruit_character = HNZ_peter_walker
+recruit_character = HNZ_john_evans
+recruit_character = HNZ_alexander_taylor
+recruit_character = HNZ_jim_doe
+recruit_character = HNZ_jim_white
+recruit_character = HNZ_bob_wilson
+recruit_character = HNZ_jonas_taylor
+recruit_character = HNZ_marcus_doe
+recruit_character = HNZ_johannes_walker
+recruit_character = HNZ_alex_brown
+recruit_character = HNZ_johannes_jones
 oob = "HNZ_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -9,7 +22,7 @@ if = {
 	}
 }
 
-set_research_slots = 2
+set_research_slots = 3
 set_convoys = 25
 set_stability = 0.45
 
@@ -105,35 +118,6 @@ set_popularities = {
     nationalist = 2
     progressive = 2
 }
-
-give_military_access = SOV
-
-create_country_leader = {
-	name = "Vladislav Ardzinba"
-	picture = "Vladislav_Ardzinba.dds"
-	ideology = social_democrat_ideology
-}
-
-create_field_marshal = {
-	name = "Vladimir Arshba"
-	picture = "generals/Vladimir_Arshba.dds"
-	skill = 1
-}
-
-create_corps_commander = {	#passed away November 26, 2008
-	name = "Sultan Sosnaliev"
-	picture = "generals/Sultan_Sosnaliyev.dds"
-	skill = 1
-}
-
-2008.1.1 = {
-	create_field_marshal = {
-		name = "Anatoly Khrulyov"
-		picture = "generals/Anatoly_Khrulyov.dds"
-		skill = 1
-	}
-}
-
 2015.1.1 = {
 	set_politics = {
 		ruling_party = social_democrat
@@ -151,12 +135,7 @@ create_corps_commander = {	#passed away November 26, 2008
         social_liberal = 1
         progressive = 1
     }
-	
-	create_country_leader = {
-		name = "Raul Khajimba"
-		picture = "Raul_Khajimba.dds"
-		ideology = social_democrat_ideology
-	}
+
 }
 
 ### VARIANTS ###

@@ -1,4 +1,4 @@
-﻿capital = 796
+﻿capital = 762
 
 oob = "RZS_2000"
 if = {

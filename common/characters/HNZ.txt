@@ -1,9 +1,9 @@
 characters={
 	HNZ_vladislav_ardzinba={
-		name="Vladislav Ardzinba"
+		name="Mārtiņš Staķis"
 		portraits={
 			civilian={
-				large="gfx/leaders/HNZ/Vladislav_Ardzinba.dds"
+				large="gfx/leaders/HNZ/han.dds"
 			}
 		}
 		country_leader={

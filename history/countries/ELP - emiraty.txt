@@ -1,5 +1,18 @@
 ﻿capital = 796
-
+recruit_character = ELP_allah
+recruit_character = ELP_vladimir_arshba
+recruit_character = ELP_sultan_sosnaliev
+recruit_character = ELP_jim_wilson
+recruit_character = ELP_alexander_taylor
+recruit_character = ELP_peter_roberts
+recruit_character = ELP_lucas_walker
+recruit_character = ELP_bob_williams
+recruit_character = ELP_alex_jones
+recruit_character = ELP_johannes_white
+recruit_character = ELP_johannes_walker
+recruit_character = ELP_bob_brown
+recruit_character = ELP_jonas_doe
+recruit_character = ELP_lucas_roberts
 oob = "ELP_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -90,6 +103,8 @@ add_ideas = {
 	population_growth_stagnation
 	extensive_conscription
 }
+puppet = ALG
+puppet =MOR
 
 set_politics = {	
 	ruling_party = islamist
@@ -104,34 +119,6 @@ set_popularities = {
     reactionary = 6
     nationalist = 2
     progressive = 2
-}
-
-give_military_access = SOV
-
-create_country_leader = {
-	name = "Allah"
-	picture = "Vladislav_Ardzinba.dds"
-	ideology = islamic_authoritarian
-}
-
-create_field_marshal = {
-	name = "Vladimir Arshba"
-	picture = "generals/Vladimir_Arshba.dds"
-	skill = 1
-}
-
-create_corps_commander = {	#passed away November 26, 2008
-	name = "Sultan Sosnaliev"
-	picture = "generals/Sultan_Sosnaliyev.dds"
-	skill = 1
-}
-
-2008.1.1 = {
-	create_field_marshal = {
-		name = "Anatoly Khrulyov"
-		picture = "generals/Anatoly_Khrulyov.dds"
-		skill = 1
-	}
 }
 
 2015.1.1 = {

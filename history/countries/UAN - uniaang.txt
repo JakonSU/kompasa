@@ -1,5 +1,18 @@
-﻿capital = 796
-
+﻿capital = 126
+recruit_character = UAN_borys_johnson
+recruit_character = UAN_vladimir_arshba
+recruit_character = UAN_sultan_sosnaliev
+recruit_character = UAN_marcus_white
+recruit_character = UAN_jim_evans
+recruit_character = UAN_alexander_taylor
+recruit_character = UAN_lucas_doe
+recruit_character = UAN_peter_evans
+recruit_character = UAN_john_williams
+recruit_character = UAN_peter_jones
+recruit_character = UAN_marcus_roberts
+recruit_character = UAN_johannes_walker
+recruit_character = UAN_marcus_williams
+recruit_character = UAN_jonas_jones
 oob = "UAN_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -9,7 +22,7 @@ if = {
 	}
 }
 
-set_research_slots = 2
+set_research_slots = 3
 set_convoys = 25
 set_stability = 0.45
 
@@ -91,58 +104,16 @@ add_ideas = {
 	extensive_conscription
 }
 
-set_politics = {	
-	ruling_party = conservative
-	last_election = "1999.10.3"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-set_popularities = {
-    social_democrat = 23
-    conservative =67
-    reactionary = 6
-    nationalist = 2
-    progressive = 2
-}
-
-create_country_leader = {
-	name = "Borys Johnson"
-	picture = "3500.dds"
-	ideology = fiscal_conservative
-}
-
-create_field_marshal = {
-	name = "Vladimir Arshba"
-	picture = "generals/Vladimir_Arshba.dds"
-	skill = 1
-}
-
-create_corps_commander = {	#passed away November 26, 2008
-	name = "Sultan Sosnaliev"
-	picture = "generals/Sultan_Sosnaliyev.dds"
-	skill = 1
-}
-
-2008.1.1 = {
-	create_field_marshal = {
-		name = "Anatoly Khrulyov"
-		picture = "generals/Anatoly_Khrulyov.dds"
-		skill = 1
-	}
-}
-
-2015.1.1 = {
-	set_politics = {
-		ruling_party = social_democrat
-		last_election = "2014.8.24"
+set_politics = {
+		ruling_party = conservative
+		last_election = "1998.8.24"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
     set_popularities = {
-        social_democrat = 49
-        conservative = 35
+        social_democrat = 35
+        conservative = 49
         reactionary = 9
         communist = 4
         nationalist = 1
@@ -150,11 +121,6 @@ create_corps_commander = {	#passed away November 26, 2008
         progressive = 1
     }
 	
-	create_country_leader = {
-		name = "Raul Khajimba"
-		picture = "Raul_Khajimba.dds"
-		ideology = social_democrat_ideology
-	}
 }
 
 ### VARIANTS ###
