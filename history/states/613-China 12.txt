@@ -22,10 +22,7 @@ state={
 		victory_points = {
 			10076 3 
 		}
-		2938.10.25 = {
-			controller = JAP
-
-		}
+		
 
 	}
 

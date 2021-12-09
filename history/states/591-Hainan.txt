@@ -23,16 +23,6 @@ state={
 
 		}
 
-		2938.10.25 = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
-				}
-				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
-			}
-			controller = JAP
-		}
 	}
 
 	provinces={
