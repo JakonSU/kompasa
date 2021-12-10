@@ -21,7 +21,7 @@ recruit_character = SPR_josé_allendesalazar
 recruit_character = SPR_Álvaro_caballero
 recruit_character = SPR_ignacio_de_irujo
 recruit_character = SPR_gaspar_asensio
-oob = "SPR_2000"
+oob = "generic_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SPR_2000_naval_mtg"

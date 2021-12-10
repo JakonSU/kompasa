@@ -1,6 +1,6 @@
 ﻿capital = 361
 
-oob = "USA_2000"
+oob = "generic_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "USA_2000_naval_mtg"

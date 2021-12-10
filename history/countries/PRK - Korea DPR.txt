@@ -1,6 +1,6 @@
 ﻿capital = 948
 
-oob = "PRK_2000"
+oob = "generic_2000"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "PRK_2000_naval_mtg"

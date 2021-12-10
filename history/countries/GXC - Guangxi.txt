@@ -11,7 +11,7 @@ recruit_character = GXC_huang_peng
 recruit_character = GXC_liu_tian
 recruit_character = GXC_zhang_ting
 recruit_character = GXC_kwong_lü
-oob = "BIA_2000"
+oob = "generic_2000"
 
 
 set_research_slots = 3

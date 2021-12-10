@@ -1,6 +1,6 @@
 ﻿capital = 271
 
-oob = "ETH_2000"
+oob = "generic_2000"
 
 set_research_slots = 3
 set_convoys = 10

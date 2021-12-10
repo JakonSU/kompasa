@@ -1,4 +1,4 @@
-﻿capital = 796
+﻿capital = 797
 
 oob = "ELP_2000"
 if = {
