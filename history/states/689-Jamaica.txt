@@ -7,7 +7,8 @@ state={
 
 	history={
 		add_core_of = JAM
-		owner = JAM
+		owner = HON
+		add_core_of = HON
 		victory_points = {
 			12304 1 
 		}

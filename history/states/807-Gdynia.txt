@@ -4,7 +4,7 @@ state={
 	name="STATE_807"
 
 	history={
-		owner = HNZ
+		owner = BIA
 		victory_points = {
 			9263 5 
 		}
@@ -25,12 +25,9 @@ state={
 
 		}
 		add_core_of = HNZ
-		add_core_of = KSH
-		1938.3.12 = {
-			add_claim_by = WKL
-
-		}
-
+		add_core_of = KSH	
+		add_core_of = BIA
+		
 	}
 
 	provinces={

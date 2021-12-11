@@ -2,7 +2,7 @@ state={
 	id=923
 	name="Shan"
 	history = {
-	owner = RAJ
+	owner = BRM
 	add_core_of = BRM
 	buildings = {infrastructure = 1}
 	

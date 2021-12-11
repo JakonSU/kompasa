@@ -2,7 +2,8 @@ state={
 	id=876
 	name="Campeche"
 	history = {
-	owner = MEX
+	owner = HON
+		add_core_of = HON
 	add_core_of = MEX
 	buildings = { infrastructure = 1 
 				4904 = {

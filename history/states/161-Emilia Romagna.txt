@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = ELP
+		add_core_of = ITA
 		victory_points = {
 			6606 3 
 		}

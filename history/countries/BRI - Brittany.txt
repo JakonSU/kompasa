@@ -1,5 +1,16 @@
 ﻿capital = 14
-
+recruit_character = BRI_winoc_kemener
+recruit_character = BRI_roparzh_guégan
+recruit_character = BRI_morvan_gallou
+recruit_character = BRI_neven_berthou
+recruit_character = BRI_menguy_ropars
+recruit_character = BRI_meriadoc_hamon
+recruit_character = BRI_winoc_prigent
+recruit_character = BRI_ronec_menez
+recruit_character = BRI_morvan_abgrall
+recruit_character = BRI_neven_goff
+recruit_character = BRI_neven_heussaff
+recruit_character = BRI_lito_moigne
 oob = "generic_2000"
 
 set_research_slots = 3
@@ -75,7 +86,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = social_democrat
+	ruling_party = communist
 	last_election = "1997.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -84,9 +95,12 @@ set_politics = {
 set_popularities = {
     nationalist = 7
     reactionary = 3
-    conservative = 25
-    social_democrat = 35
+    conservative = 10
+    social_democrat = 15
     progressive = 10
-    democratic_socialist = 5
-    communist = 15
+    democratic_socialist = 10
+    communist = 45
 }
+give_military_access = UAN
+}
+

@@ -4,6 +4,7 @@ state={
 	history {
 	owner = WKL
 	add_core_of = WKL
+		add_core_of = SWI
 	buildings = {
 			infrastructure = 1
 			}

@@ -11,6 +11,7 @@ state={
 			11598 1 
 		}
 		owner = ELP
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
