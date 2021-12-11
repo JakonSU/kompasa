@@ -1,7 +1,7 @@
 state={
 	id=692
 	name="STATE_692"
-	manpower=76485
+	manpower=764850
 	state_category = small_island
 
 	history={
@@ -9,13 +9,17 @@ state={
 		add_core_of = BRI
 		owner = BRI
 		buildings = {
-			infrastructure = 2
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 5
+			anti_air_building = 2
+			air_base = 5
 			11350 = {
-				naval_base = 1
+				naval_base = 4
 			}
 		}
 		victory_points = {
-			11350 1
+			11350 10
 		}
 	}
 	
@@ -23,5 +27,6 @@ state={
 		379 11106 11350 13009 
 	}
 
-	local_supplies=4.0 
+	local_supplies=4.0 	
+	buildings_max_level_factor=7.000
 }
